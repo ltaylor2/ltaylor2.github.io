@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link href="style.css" type="text/css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
 
@@ -19,5 +20,27 @@
 		<a class="menu-item" href="manakins.html">Manakins</a>
 	</div>
 
+	<div id="eBird-data">
+	</div>
+
+	<script type="text/javascript">
+		$.get("./Media/MyEBirdData.csv", function(data) {
+				var dataString = new String(data);
+				var table = "<table><tbody>";
+				var rows = dataString.split("\n");
+				for (var r=0; r<rows.length; r++) {
+					table += "<tr>";
+					var columns = rows[r].split(",");
+					for (var c=0; c<columns.length; c++) {
+						table += "<td>";
+						table += columns[c];
+						table += "</td>";
+					}
+					table += "</tr>";
+				}
+				table += "</tbody></table>";
+				$("#eBird-data").append(table);
+		});
+	</script>
 </body>
 </html>
