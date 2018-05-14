@@ -138,8 +138,13 @@ td.date {
 
 #cv-full {
 	padding: 2.5%;
+	margin: 0%;
 	padding-bottom: 0%;
-	margin-bottom: 0%;
+}
+
+#eBird-data {
+	padding: 2.5%;
+	padding-left: 15%;
 }
 
 
