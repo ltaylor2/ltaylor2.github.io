@@ -1,0 +1,145 @@
+@font-face {
+	font-family: "Gill Sans";
+	src: url(./Fonts/GillSansMTPro-Book.otf);
+}
+@font-face {
+	font-family: "Gill Sans";
+	src: url(./Fonts/GillSansMTPro-Bold.otf);
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Gill Sans";
+	src: url(./Fonts/GillSansMTPro-BookItalic.otf);
+	font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, td {
+	font-family: "Gill Sans";
+}
+
+table {
+	table-layout: fixed;
+}
+a:link {
+	color: #0C77AE;
+	text-decoration: none;
+}
+a:visited {
+	color: #6C0CAE;
+	text-decoration: none;
+}
+
+a.menu-item {
+	font-size: 150%;
+	padding-top: 1.5%;
+	padding-right: 1.5%;
+	padding-left: 1.5%;
+	padding-bottom: 0.75%;
+	text-align: center;
+	color: black;
+	border: 1px solid black;
+}
+
+a.menu-item:hover {
+	background: coral;
+}
+
+a.current {
+	background: gray;
+}
+
+td.date {
+	text-align: right;
+	vertical-align: top;
+	padding-left:2%;
+	font-size: 100%;
+	width: 20%;
+}
+
+.spaceUnder>td {
+	padding-bottom: 1%;
+}
+
+.citation {
+	text-indent: -2em;
+	padding-left: 2em;
+}
+
+.cv-header {
+	font-family: "Gill Sans";
+	font-weight: bold;
+	font-size: 150%;
+	text-align: left;
+	width: 100%;
+    padding: 1.5%;
+    padding-bottom: 0.75%;
+    background: lightgray;
+    border: none;
+}
+
+.cv-header:hover {
+	background: coral;
+}
+
+.cv-content {
+	font-family: "Gill Sans";
+	font-size: 120%;
+	max-height: 0px;
+	overflow: hidden;
+	padding-left: 5%;
+	padding-right: 0%;
+	transition: max-height 0.2s ease-out;
+}
+
+.cv-content:active {
+	overflow: visible;
+}
+
+.cv-content>table {
+	width: 100%
+}
+
+.info-header {
+	font-style: italic;
+	font-size: 85%;
+}
+
+.info {
+	font-size: 85%;
+}
+
+.info-header>td, .info>td {
+	padding-left: 5%;
+	column-span: 1.1;
+}
+
+#title {
+	text-align: center;
+	font-size: 500%;
+	text-transform: uppercase;
+	margin: 0px;
+	padding-top: 2%;
+}
+
+#title-bar {
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+#subtitle {
+	text-align: center;
+	margin: .1%;
+}
+
+#menu-bar {
+	text-align: center;
+	padding: 0.5%;
+}
+
+#cv-full {
+	padding: 2.5%;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+}
+
+
