@@ -67,14 +67,14 @@ td.date {
 
 .cv-header {
 	font-family: "Gill Sans";
+	font-size: 120%;
 	font-weight: bold;
-	font-size: 150%;
 	text-align: left;
 	width: 100%;
     padding: 1.5%;
     padding-bottom: 0.75%;
-    background: lightgray;
     border: none;
+    background: none;
 }
 
 .cv-header:hover {
