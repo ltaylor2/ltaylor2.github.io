@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6, p, a, td {
 table {
 	table-layout: fixed;
 }
+
 a:link {
 	color: #0C77AE;
 	text-decoration: none;
@@ -56,6 +57,19 @@ td.date {
 	width: 20%;
 }
 
+button.species {
+	font-family: "Gill Sans";
+	text-align: left;
+	width: 100%;
+	padding-top: 1.5%;
+    border: 1px solid black;
+    background: none;
+}
+
+button.species:active {
+	background: gray;
+}
+
 .spaceUnder>td {
 	padding-bottom: 1%;
 }
@@ -67,7 +81,7 @@ td.date {
 
 .cv-header {
 	font-family: "Gill Sans";
-	font-size: 120%;
+	font-size: 140%;
 	font-weight: bold;
 	text-align: left;
 	width: 100%;
@@ -143,8 +157,14 @@ td.date {
 }
 
 #eBird-data {
+	width: 50%;
 	padding: 2.5%;
-	padding-left: 15%;
+	margin: 1%;
 }
 
-
+#bird-map {
+	position: fixed;
+	right: 5%;
+	bottom: 10%;
+	width: 40%;
+}
