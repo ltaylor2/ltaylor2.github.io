@@ -66,7 +66,7 @@ $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Medi
 	for (var i = 0; i < speciesButtons.length; i++) {
 	  speciesButtons[i].addEventListener("click", function() {
 	    this.classList.toggle("active");
-	  	map.removeLayer(heatMapLayer);
+	  	map.removeLayer(heatMapLayer)
 	  	var common = this.innerText;
 	  	var latlons = locations[common];
   		var heatData = new ol.source.Vector();
@@ -94,8 +94,7 @@ $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Medi
 	  	});
 
 	  	map.addLayer(heatMapLayer);
-	  	console.log(centerCoord);
 	  	map.getView().centerOn(centerCoord, [1,1], [0,0]);
-	  });
+	});
 	}
 });

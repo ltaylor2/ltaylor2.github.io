@@ -160,7 +160,7 @@ button.species {
 
 #bird-map {
 	position: fixed;
-	right: 5%;
-	bottom: 10%;
-	width: 40%;
+	width: 100%;
+	bottom: 0%;
+	padding: 0%;
 }
