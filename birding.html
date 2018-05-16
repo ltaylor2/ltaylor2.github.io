@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="./ol.css" type="text/css" rel="stylesheet">
-	<link href="./style.css" type="text/css" rel="stylesheet">
+	<meta charset="utf-8"/>
+
+	<link href="css/ol.css" type="text/css" rel="stylesheet">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="./ol.js" type="text/javascript"></script>
+	<script src="js/ol.js" type="text/javascript"></script>
 </head>
-<body>
+
+<body class="page">
 	<div id="header">
 	</div>
 	<script type="text/javascript">
-		$("#header").load("https://ltaylor2.github.io/index.html #header");
-	
-		var links = document.getElementsByClassName("menu-item");
-		for (var l = 0; l < links.length; l++) {
-			links[l].classList.remove("menu-item-active");
-		}
+		$("#header").load("https://ltaylor2.github.io/index.html #header",
+			function() {
+				var links = document.getElementsByClassName("menu-item");
+				for (var l = 0; l < links.length; l++) {
+					links[l].classList.remove("menu-item-active");
+				}
 
-		var activeLinkName = "birding-link";
-		var activeLink = document.getElementById(activeLinkName);
-		activeLink.classList.add("menu-item-active");
+				var activeLinkName = "birding-link";
+				var activeLink = document.getElementById(activeLinkName);
+				activeLink.classList.add("menu-item-active");
+		});
+	</script>
 
 	</script>
 
@@ -30,7 +35,7 @@
 	<div id="bird-map" class="map">
 	</div>
 
-	<script src="birding_list.js" type="text/javascript"></script>
-	<script src="birding_map.js" type="text/javascript"></script>
+	<script src="js/birding_list.js" type="text/javascript"></script>
+	<script src="js/birding_map.js" type="text/javascript"></script>
 </body>
 </html>
