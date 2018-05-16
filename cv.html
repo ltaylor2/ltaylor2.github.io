@@ -9,6 +9,15 @@
 	</div>
 	<script type="text/javascript">
 		$("#header").load("https://ltaylor2.github.io/index.html #header");
+	
+		var links = document.getElementsByClassName("menu-item");
+		for (var l = 0; l < links.length; l++) {
+			links[l].classList.remove("menu-item-active");
+		}
+
+		var activeLinkName = "cv-link";
+		var activeLink = document.getElementById(activeLinkName);
+		activeLink.classList.add("menu-item-active");
 	</script>
 
 	<div id="cv-full">

@@ -7,20 +7,22 @@
 	<script src="./ol.js" type="text/javascript"></script>
 </head>
 <body>
+	<div id="header">
+	</div>
+	<script type="text/javascript">
+		$("#header").load("https://ltaylor2.github.io/index.html #header");
+	
+		var links = document.getElementsByClassName("menu-item");
+		for (var l = 0; l < links.length; l++) {
+			links[l].classList.remove("menu-item-active");
+		}
 
-	<div id="title-bar">
-		<h1 id="title">Liam U. Taylor</h1>
-		<h3 id="subtitle">Ph.D. Student<br>
-						  Ecology and Evolutionary Biology</h3>
-	</div>
-	<div id="menu-bar">
-		<a class="menu-item" href="index.html">About</a>
-		<a class="menu-item" href="cv.html">CV</a>
-		<a class="menu-item" href="git.html">Git</a>
-		<a class="menu-item current" href="birding.html">Birds</a>
-		<a class="menu-item" href="rwl.html">Read/Watch/Listen</a>
-		<a class="menu-item" href="manakins.html">Manakins</a>
-	</div>
+		var activeLinkName = "birding-link";
+		var activeLink = document.getElementById(activeLinkName);
+		activeLink.classList.add("menu-item-active");
+
+	</script>
+
 
 	<div id="eBird-data">
 	</div>

@@ -9,13 +9,24 @@
 		<ul id="title-bar">
 			<li id="title">Liam U. Taylor</li>
 			<li id="subtitle">Ph.D. Student<br>Ecology and Evolution</li>
-			<li><a class="menu-item" href="index.html">About</a></li>
-			<li><a class="menu-item" href="cv.html">CV</a></li>
-			<li><a class="menu-item" href="birding.html">Birds</a></li>
-			<li><a class="menu-item" href="rwl.html">Read/Watch/Listen</a></li>
-			<li><a class="menu-item" href="git.html">Git</a></li>
-			<li><a class="menu-item" href="manakins.html">Manakins</a></li>
-		</ul>
+			<li><a class="menu-item" id="about-link" href="index.html">About</a></li>
+			<li><a class="menu-item" id="cv-link" href="cv.html">CV</a></li>
+			<li><a class="menu-item" id="birding-link" href="birding.html">Birds</a></li>
+			<li><a class="menu-item" id="rwl-link" href="rwl.html">Read/Watch/Listen</a></li>
+			<li><a class="menu-item" id="git-link" href="git.html">Git</a></li>
+			<li><a class="menu-item" id="href-link" href="manakins.html">Manakins</a></li>
+		</ul>`
 	</div>
+
+	<script type="text/javascript">
+		var links = document.getElementsByClassName("menu-item");
+		for (var l = 0; l < links.length; l++) {
+			links[l].classList.remove("menu-item-active");
+		}
+
+		var activeLinkName = "about-link";
+		var activeLink = document.getElementById(activeLinkName);
+		activeLink.classList.add("menu-item-active");
+	</script>
 </body>
 </html>
