@@ -51,17 +51,14 @@ $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Medi
 		}
 	}
 
-	var table = "<table><tbody>";
+	var list = "<ul id=\"bird-list\">";
 	for (var key in species) {
-		table += "<tr>";
-		table += "<td><button class=\"species\">" + key + "</button></td>";
-		table += "<td><em>" + species[key] + "</em></td>";
-		table += "<td>" + counts[key] + "</td>";
-		table += "</td>";
+		list += "<li><button class=\"species\">" + key + "</button></li>";
 	}
-	table += "</tbody></table>";
+	list += "</ul>";
 
-	$("#eBird-data").append(table);
+	$("#eBird-data").append(list);
+
 	var speciesButtons = document.getElementsByClassName("species");
 	for (var i = 0; i < speciesButtons.length; i++) {
 	  speciesButtons[i].addEventListener("click", function() {
@@ -71,14 +68,14 @@ $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Medi
 	  	var latlons = locations[common];
   		var heatData = new ol.source.Vector();
 
-  		var centerCoord = []
+  		var centerCoord = ol.proj.fromLonLat([-76.3, 38]);
 	  	for (var l = 0; l < latlons.length; l++) {
-	  		var lon = parseFloat(latlons[l][0]);
-	  		var lat = parseFloat(latlons[l][1]);
+	  		var lat = parseFloat(latlons[l][0]);
+	  		var lon = parseFloat(latlons[l][1]);
 	  		if (isNaN(lon) || isNaN(lat)) { continue; }
 	  		
 	  		console.log([lon, lat]);
-	  		var coord = ol.proj.fromLonLat([lat, lon]);
+	  		var coord = ol.proj.fromLonLat([lon, lat]);
 	  		centerCoord = coord;
 	  		var point = new ol.geom.Point(coord);
 	  		var pointFeature = new ol.Feature({

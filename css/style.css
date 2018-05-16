@@ -1,15 +1,15 @@
 @font-face {
 	font-family: "Gill Sans";
-	src: url(./Fonts/GillSansMTPro-Book.otf);
+	src: url(Fonts/GillSansMTPro-Book.otf);
 }
 @font-face {
 	font-family: "Gill Sans";
-	src: url(./Fonts/GillSansMTPro-Bold.otf);
+	src: url(Fonts/GillSansMTPro-Bold.otf);
 	font-weight: bold;
 }
 @font-face {
 	font-family: "Gill Sans";
-	src: url(./Fonts/GillSansMTPro-BookItalic.otf);
+	src: url(Fonts/GillSansMTPro-BookItalic.otf);
 	font-style: italic;
 }
 
@@ -24,22 +24,29 @@ table {
 td.date {
 	text-align: right;
 	vertical-align: top;
-	padding-left:2%;
-	font-size: 100%;
+	font-size: 15px;
 	width: 20%;
 }
 
 button.species {
 	font-family: "Gill Sans";
-	text-align: left;
-	width: 100%;
-	padding-top: 1.5%;
+	margin-left: .5%;
+	margin-right: .5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	text-align: center;
 	border: 1px solid black;
 	background: none;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.page {
+	padding-top: 100px;
 }
 
 .spaceUnder>td {
-	padding-bottom: 1%;
+	padding-bottom: 10px;
 }
 
 .citation {
@@ -47,20 +54,16 @@ button.species {
 	padding-left: 2em;
 }
 
-.page {
-	margin: 0;
-}
-
 .cv-header {
 	font-family: "Gill Sans";
-	font-size: 140%;
+	font-size: 20px;
 	font-weight: bold;
 	text-align: left;
 	width: 100%;
-    padding: 1.5%;
-    padding-bottom: 0.75%;
+    padding-top: 12px;
+    padding-bottom: 4px;
     border: none;
-    background: none;
+    background: white;
 }
 
 .cv-header:hover {
@@ -69,11 +72,13 @@ button.species {
 
 .cv-content {
 	font-family: "Gill Sans";
-	font-size: 120%;
+	font-size: 18px;
 	max-height: 0px;
 	overflow: hidden;
-	padding-left: 5%;
-	padding-right: 0%;
+	padding-left: 36px;
+	padding-right: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
 	transition: max-height 0.2s ease-out;
 }
 
@@ -81,17 +86,13 @@ button.species {
 	overflow: visible;
 }
 
-.cv-content>table {
-	width: 100%
-}
-
 .info-header {
 	font-style: italic;
-	font-size: 85%;
+	font-size: 15px;
 }
 
 .info {
-	font-size: 85%;
+	font-size: 15px;
 }
 
 .info-header>td, .info>td {
@@ -103,14 +104,16 @@ button.species {
 	float: left;
 	font-family: "Gill Sans";
 	font-weight: bold;
-	font-size: 100%;
-	color: white;
+	font-size: 18px;
 	display: inline-block;
-	margin-top: 2%;
-	margin-bottom: 1%;
-	margin-left: 1%;
-	padding: 1%;
-	padding-top: 1.5%;
+	color: black;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+	padding-top: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 6px;
 	overflow: hidden;
 	text-decoration: none;
 }
@@ -119,48 +122,58 @@ button.species {
 	background-color: gray;
 }
 
+.menu-item:clicked {
+	color: white;
+}
+
 #cv-full {
-	padding: 2.5%;
-	margin: 0%;
-	padding-bottom: 0%;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: 1px black solid;
 }
-
-#eBird-data {
-	width: 50%;
-	padding: 2.5%;
-	margin: 1%;
-}
-
-#bird-map {
-	width: 100%;
-	bottom: 0%;
-	padding: 0%;
-}
-
 
 #title-bar {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#header {
 	position: fixed;
 	width: 100%;
 	top: 0;
 	left: 0;
 	margin: 0;
-	padding-left: 0.25%;
-	overflow: hidden;
-	background-color: black;
-	list-style-type: none;
+	padding-left: 20px;
+	color: black;
 }
 
-#title {
-	float: left;
-	font-family: "Gill Sans";
-	font-weight: bold;
-	font-size: 150%;
-	color: white;
-	padding-top: 3%;
-	padding-bottom: 2%;
-	padding-left: 1%;
-	padding-right: 1%;
+#header::after {
+	content:"";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 	margin: 0;
+	background-image: url("./../Media/TRES Flock.JPG");
+	background-size: 75%;
+	opacity: 0.2;
+	z-index: -1;
+}
+
+
+#title {
+	font-family: "Gill Sans";
+	float: left;
+	font-weight: bold;
+	font-size: 24px;
+	padding-top: 24px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 4px;
+	margin: 0px;
 	overflow: hidden;
 }
 
@@ -168,12 +181,31 @@ button.species {
 	font-family: "Gill Sans";
 	float: left;
 	font-weight: bold;
-	font-size: 60%;
-	color: white;
-	padding-top: 3%;
-	padding-bottom: 2%;
-	padding-left: 0.3%;
-	padding-right: 1%;
+	font-size: 12px;
+	padding-top: 22px;
+	padding-bottom: 12px;
+	padding-left: 3px;
+	padding-right: 32px;
 	margin: 0px;
 	overflow: hidden;
+}
+
+#eBird-data {
+	width: 80%;
+	border: 1px black solid;
+	margin-bottom: 450px
+}
+
+#bird-list {
+	width: 100%;
+	list-style-type: none;
+}
+
+#bird-map {
+	position: fixed;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+	height: 400px;
+	bottom: 30px;
 }
