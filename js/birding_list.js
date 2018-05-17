@@ -74,7 +74,6 @@ $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Medi
 	  		var lon = parseFloat(latlons[l][1]);
 	  		if (isNaN(lon) || isNaN(lat)) { continue; }
 	  		
-	  		console.log([lon, lat]);
 	  		var coord = ol.proj.fromLonLat([lon, lat]);
 	  		centerCoord = coord;
 	  		var point = new ol.geom.Point(coord);
