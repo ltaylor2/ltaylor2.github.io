@@ -26,6 +26,7 @@
 	</script>
 	<div class="page">
 		<div id="cv-full">
+			<h1 style="text-align: center">Curriculum Vitae</h1>
 			<button class="cv-header"><strong>Education</strong></button>
 			<div class="cv-content">
 				<table>
@@ -270,14 +271,14 @@
 				</table>
 			</div>
 
-			<button class="cv-header"><strong>Grants and Awards</strong></button>
+			<button class="cv-header" id="last"><strong>Grants and Awards</strong></button>
 			<div class="cv-content">
 				<table>
 				<tbody>
 					<tr>
 						<td><em>Research Fellowships and Grants</em></td>
 					</tr>
-					<tr>
+					<tr class="spaceUnder">
 						<td>Graduate Research Fellowship, National Science Foundation (NSF GRFP)</td>
 						<td class="date">2018</td>
 					</tr>
@@ -351,13 +352,15 @@
 		var acc = document.getElementsByClassName("cv-header");
 		for (var i = 0; i < acc.length; i++) {
 		  acc[i].addEventListener("click", function() {
-		    this.classList.toggle("active");
+		  	this.classList.toggle("active");
+		  	this.classList.add("cv-header-active");
 		    var panel = this.nextElementSibling;
 		    if (panel.style.maxHeight){
-		      panel.style.maxHeight = null;
+		    	this.classList.remove("cv-header-active");
+		    	panel.style.maxHeight = null;
 		    } else {
-		      panel.style.maxHeight = panel.scrollHeight + "px";
-		    } 
+		      	panel.style.maxHeight = panel.scrollHeight + "px";
+		    }
 		  });
 		}
 	</script>
