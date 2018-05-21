@@ -105,15 +105,46 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 
 				speciesList.classList.add("species-list");
 
-				speciesList.innerHTML += "<ul>";
-
 				for (c in familySpecies[family]) {
 					common = familySpecies[family][c];
-					sp = document.createElement("li");
-					sp.innerText = common;
-					speciesList.append(sp);
+					spButton = document.createElement("button");
+					spButton.classList.add("species");
+					spButton.innerText = common;
+					spButton.addEventListener("click", function() {
+						this.classList.toggle("active");
+					  	map.removeLayer(heatMapLayer);
+					  	var common = this.innerText;
+					  	var latlons = locations[common];
+				  		var heatData = new ol.source.Vector();
+				  		var centerCoord = ol.proj.fromLonLat([-76.3, 38]);
+					  	for (var l = 0; l < latlons.length; l++) {
+					  		var lat = parseFloat(latlons[l][0]);
+					  		var lon = parseFloat(latlons[l][1]);
+					  		if (isNaN(lon) || isNaN(lat)) { continue; }
+					  		
+					  		var coord = ol.proj.fromLonLat([lon, lat]);
+					  		centerCoord = coord;
+
+					  		var point = ol.geom.Point(coord);
+					  		var pointFeature = ol.Feature({
+					  			geometry: point,
+					  			weight: 1,
+					  		});
+					  		heatData.addFeature(pointFeature);
+					  	}
+
+					  	var heatMapLayer = ol.layer.Heatmap({
+					  		source: heatData,
+					  		opacity: 0.5,
+					  	});
+
+					  	map.addLayer(heatMapLayer);
+					  	map.getView().centerOn(centerCoord, [1,1], [0,0]);
+					});
+
+					speciesList.append(spButton);
 				}
-				speciesList.innerHTML += "</ul>";
+
 			} else {
 				familyHeader.classList.add("family-header-none");
 			}
@@ -130,46 +161,3 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 })
 })
 });
-
-	// var list = "<ul id=\"bird-list\">";
-	// for (var key in species) {
-	// 	list += "<li><button class=\"species\">" + key + "</button></li>";
-	// }
-	// list += "</ul>";
-
-	// $("#eBird-data").append(list);
-
-	// var speciesButtons = document.getElementsByClassName("species");
-	// for (var i = 0; i < speciesButtons.length; i++) {
-	//   speciesButtons[i].addEventListener("click", function() {
-	//     this.classList.toggle("active");
-	//   	map.removeLayer(heatMapLayer)
-	//   	var common = this.innerText;
-	//   	var latlons = locations[common];
- //  		var heatData = new ol.source.Vector();
-
- //  		var centerCoord = ol.proj.fromLonLat([-76.3, 38]);
-	//   	for (var l = 0; l < latlons.length; l++) {
-	//   		var lat = parseFloat(latlons[l][0]);
-	//   		var lon = parseFloat(latlons[l][1]);
-	//   		if (isNaN(lon) || isNaN(lat)) { continue; }
-	  		
-	//   		var coord = ol.proj.fromLonLat([lon, lat]);
-	//   		centerCoord = coord;
-	//   		var point = new ol.geom.Point(coord);
-	//   		var pointFeature = new ol.Feature({
-	//   			geometry: point,
-	//   			weight: 1,
-	//   		});
-	//   		heatData.addFeature(pointFeature);
-	//   	}
-
-	//   	heatMapLayer = new ol.layer.Heatmap({
-	//   		source: heatData,
-	//   		opacity: 0.5,
-	//   	});
-
-	//   	map.addLayer(heatMapLayer);
-	//   	map.getView().centerOn(centerCoord, [1,1], [0,0]);
-	// });
-	// }
