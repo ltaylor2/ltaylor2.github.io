@@ -111,11 +111,12 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 					spButton.classList.add("species");
 					spButton.innerText = common;
 					spButton.addEventListener("click", function() {
-						this.classList.toggle("active");
-					  	map.removeLayer(heatMapLayer);
+					    this.classList.toggle("active");
+					  	map.removeLayer(heatMapLayer)
 					  	var common = this.innerText;
 					  	var latlons = locations[common];
 				  		var heatData = new ol.source.Vector();
+
 				  		var centerCoord = ol.proj.fromLonLat([-76.3, 38]);
 					  	for (var l = 0; l < latlons.length; l++) {
 					  		var lat = parseFloat(latlons[l][0]);
@@ -124,16 +125,15 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 					  		
 					  		var coord = ol.proj.fromLonLat([lon, lat]);
 					  		centerCoord = coord;
-
-					  		var point = ol.geom.Point(coord);
-					  		var pointFeature = ol.Feature({
+					  		var point = new ol.geom.Point(coord);
+					  		var pointFeature = new ol.Feature({
 					  			geometry: point,
 					  			weight: 1,
 					  		});
 					  		heatData.addFeature(pointFeature);
 					  	}
 
-					  	var heatMapLayer = ol.layer.Heatmap({
+					  	heatMapLayer = new ol.layer.Heatmap({
 					  		source: heatData,
 					  		opacity: 0.5,
 					  	});
