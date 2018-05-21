@@ -1,4 +1,4 @@
-$.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/MyEBirdData.csv", function(data) {
+$.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/MyEBirdData.csv", function(data) {
 	var birdArray_raw = new Array();
 	var rows = data.split("\n");
 	for (var r=1; r<rows.length; r++) {
