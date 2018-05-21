@@ -202,13 +202,29 @@ button.species {
 	background: lightgray;
 }
 
+.family-header-none {
+	font-family: "Gill Sans";
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	width: 100%;
+	max-width: 1500px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 1em;
+    border: none;
+    background: none;
+    color: lightgray;
+}
+
 .species-list {
 	max-height: 0px;
 	overflow: hidden;
-	padding-right: 0;
-	padding-bottom: 0;
-	margin-bottom: 0;
-	transition: max-height 0.1s ease-out;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2em;
+	transition: max-height 0.2s ease-out;
+	list-style-type: none;
 }
  
  .species-list:active {

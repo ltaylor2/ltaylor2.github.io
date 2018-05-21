@@ -1,5 +1,6 @@
 $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/MyEBirdData.csv", function(data_obs) {
-$.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/eBird_orderfamily.csv", function(data_of) {
+$.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/order_families.json", function(orderFamilies) {
+$.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/species_families.json", function(speciesFamilies) {
 	var rows = data_obs.split("\n");
 	
 	var colNames = {"id":0, 
@@ -27,6 +28,7 @@ $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Medi
 	var species = {};
 	var counts = {};
 	var locations = {};
+	var familySpecies = {};
 	for (var r=1; r<rows.length; r++) {
 		row = rows[r].split(",");
 		var common = row[colNames["common"]];
@@ -41,6 +43,11 @@ $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Medi
 			counts[common] = count;
 			locations[common] = [];
 			locations[common].push(location);
+			var family = speciesFamilies[common];
+			if (!(family in familySpecies)) {
+				familySpecies[family] = [];
+			}
+			familySpecies[family].push(common);
 
 		} else {
 			counts[common] += count;
@@ -48,37 +55,78 @@ $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Medi
 		}
 	}
 
+	var orderList = document.createElement("div");
+	orderList.id = "order-list";
 
-	birdList = "<div class=\"order-list\">";
 	for (order in orderFamilies) {
-		birdList += "<button class=\"order-header\">" + order + "</button>";
-		birdList += "<div class=\"family-list\">";
-		for (family in orderFamilies[order]) {
-			birdList += "<button class=\"family-header\">" + orderFamilies[order][family] + "</button>";
+		var orderHeader = document.createElement("button");
+		orderHeader.classList.add("order-header");
+		orderHeader.innerText = order;
 
+		orderHeader.addEventListener("click", function() {
+		  	this.classList.toggle("active");
+		  	this.classList.add("order-header-active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.maxHeight){
+		    	this.classList.remove("order-header-active");
+		    	panel.style.maxHeight = null;
+		    } else {
+		      	panel.style.maxHeight = panel.scrollHeight + "px";
+		    }
+		});
 
+		var familyList = document.createElement("div");
+		familyList.classList.add("family-list");
+
+		for (f in orderFamilies[order]) {
+			family = orderFamilies[order][f];
+
+			familyHeader = document.createElement("button");
+			familyHeader.innerText = family;
+			speciesList = document.createElement("div");
+
+			if (familySpecies[family]) {
+				familyHeader.classList.add("family-header");
+
+				familyHeader.addEventListener("click", function() {
+				  	this.classList.toggle("active");
+				  	this.classList.add("family-header-active");
+				    var panel = this.nextElementSibling;
+				    var overPanel = this.parentElement;
+				    if (panel.style.maxHeight){
+				    	this.classList.remove("family-header-active");
+				    	overPanel.style.maxHeight = (parseInt(overPanel.style.maxHeight, 10) - parseInt(panel.style.maxHeight, 10)) + "px";
+				    	panel.style.maxHeight = null;
+				    } else {
+				    	overPanel.style.maxHeight = parseInt(overPanel.style.maxHeight, 10) + panel.scrollHeight + "px";
+				      	panel.style.maxHeight = panel.scrollHeight + "px";
+				    }
+				});
+
+				speciesList.classList.add("species-list");
+
+				speciesList.innerHTML += "<ul>";
+
+				for (c in familySpecies[family]) {
+					common = familySpecies[family][c];
+					sp = document.createElement("li");
+					sp.innerText = common;
+					speciesList.append(sp);
+				}
+				speciesList.innerHTML += "</ul>";
+			} else {
+				familyHeader.classList.add("family-header-none");
+			}
+
+			familyList.append(familyHeader);
+			familyList.append(speciesList);
 		}
-		birdList += "</div>";
+
+		orderList.append(orderHeader);
+		orderList.append(familyList);
 	}
 
-	birdList += "</div>";
-
-	$("#eBird-data").append(birdList);
-
-	var acc = document.getElementsByClassName("order-header");
-	for (var i = 0; i < acc.length; i++) {
-	  acc[i].addEventListener("click", function() {
-	  	this.classList.toggle("active");
-	  	this.classList.add("order-header-active");
-	    var panel = this.nextElementSibling;
-	    if (panel.style.maxHeight){
-	    	this.classList.remove("order-header-active");
-	    	panel.style.maxHeight = null;
-	    } else {
-	      	panel.style.maxHeight = panel.scrollHeight + "px";
-	    }
-	  });
-	}
+	$("#eBird-data").append(orderList);
 })
 })
 });
