@@ -55,8 +55,38 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 		}
 	}
 
+	var spButtonsByFamily = {};
+
+	var overlayBackButton = document.createElement("button");
+	overlayBackButton.id = "overlay-back";
+	overlayBackButton.innerText = "<--"
+	overlayBackButton.addEventListener("click", function() {
+		var overlay = this.parentElement;
+		overlay.style.zIndex = "-1";
+
+		var map = document.getElementById("bird-map");
+		map.style.visibility = "hidden";
+		map.style.zIndex = "-1";
+
+		var photoBox = document.getElementById("bird-photoBox");
+		photoBox.style.visibility = "hidden";
+		photoBox.style.zIndex = "-1";
+		$(photoBox).empty();
+
+		$(overlay).empty();
+
+	  	var backgroundList = document.getElementById("order-list");
+		backgroundList.style.visibility = "visible";
+	});
+
 	var orderList = document.createElement("div");
 	orderList.id = "order-list";
+
+	var imagesBySpecies = {};
+	var photoBox = getComputedStyle(document.getElementById("bird-photoBox"));
+
+	var maxImgWidth = photoBox.width;
+	var maxImgHeight = photoBox.height;
 
 	for (order in orderFamilies) {
 		var orderHeader = document.createElement("button");
@@ -76,35 +106,40 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 
 			if (familySpecies[family]) {
 
-				noSightings = false;
-				familyHeader.classList.add("family-header");
+				spButtonsByFamily[family] = [];
 
-				familyHeader.addEventListener("click", function() {
-				  	this.classList.toggle("active");
-				  	this.classList.add("family-header-active");
-				    var panel = this.nextElementSibling;
-				    var overPanel = this.parentElement;
-				    if (panel.style.maxHeight){
-				    	this.classList.remove("family-header-active");
-				    	overPanel.style.maxHeight = (parseInt(overPanel.style.maxHeight, 10) - parseInt(panel.style.maxHeight, 10)) + "px";
-				    	panel.style.maxHeight = null;
-				    } else {
-				    	overPanel.style.maxHeight = parseInt(overPanel.style.maxHeight, 10) + panel.scrollHeight + "px";
-				      	panel.style.maxHeight = panel.scrollHeight + "px";
-				    }
-				});
-
-				speciesList.classList.add("species-list");
-
+				// prep button dictionary for overlays
 				for (c in familySpecies[family]) {
 					common = familySpecies[family][c];
 					spButton = document.createElement("button");
 					spButton.classList.add("species");
 					spButton.innerText = common;
+
+			  		var imgPath = "Media/Bird_Photos/" + common + ".jpg";
+			  		var imgLink = document.createElement("A");
+			  		imgLink.href = imgPath;
+			  		imgLink.target = "_blank";
+
+					// test for image
+					var spImg = document.createElement("img");
+					spImg.onerror = function() { 
+							this.alt = "No Image";
+							this.style.display = "none";
+							this.parentElement.href="none";
+					};
+
+					spImg.alt = common + " photo by LT";
+			  		spImg.src = imgPath;
+			  		spImg.style.maxWidth = maxImgWidth;
+			  		spImg.style.maxHeight = maxImgHeight;
+			  		spImg.classList.add("bird-img");
+
+			  		imgLink.append(spImg);
+			  		imagesBySpecies[common] = imgLink;;
+
 					spButton.addEventListener("click", function() {
-					    this.classList.toggle("active");
-					  	map.removeLayer(heatMapLayer)
-					  	var common = this.innerText;
+						var common = this.innerText;
+					  	map.removeLayer(heatMapLayer);
 					  	var latlons = locations[common];
 				  		var heatData = new ol.source.Vector();
 
@@ -131,21 +166,59 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 
 					  	map.addLayer(heatMapLayer);
 					  	map.getView().centerOn(centerCoord, [1,1], [0,0]);
+
+  					  	var photoBox = document.getElementById("bird-photoBox");
+					  	$(photoBox).empty();
+
+					  	var spImg = imagesBySpecies[common];
+  					  	photoBox.append(spImg);
 					});
 
-					speciesList.append(spButton);
+					spButtonsByFamily[family].push(spButton);
 				}
 
+				noSightings = false;
+				familyHeader.classList.add("family-header");
+
+				familyHeader.addEventListener("click", function() {
+					family = this.innerText;
+				  	this.classList.toggle("active");
+				  	var overlay = document.getElementById("species-overlay");
+				  	var guide = getComputedStyle(overlay.parentElement);
+
+				  	overlay.append(overlayBackButton);
+				  	var speciesList = document.createElement("ul");
+				  	speciesList.classList.add("species-list");
+				  	for (b in spButtonsByFamily[family]) {
+				  		sp = document.createElement("li");
+				  		sp.append(spButtonsByFamily[family][b]);
+				  		speciesList.append(sp);
+				  	}
+
+				  	overlay.append(speciesList);
+				  	overlay.style.zIndex = "2";
+				  	overlay.style.width = guide.width;
+				  	overlay.style.height = "100%";
+
+				  	var map = document.getElementById("bird-map");
+				  	map.style.zIndex = "2";
+				  	map.style.visibility = "visible";
+
+				  	var photoBox = document.getElementById("bird-photoBox");
+				  	photoBox.style.zIndex = "2";
+				  	photoBox.style.visibility = "visible";
+
+				  	var backgroundList = document.getElementById("order-list");
+				  	backgroundList.style.visibility = "hidden";
+				});
 			} 
 			else {
 				familyHeader.classList.add("family-header-none");
 			}
 
 			familyList.append(familyHeader);
-			familyList.append(speciesList);
 		}
 
-		console.log(order + noSightings);
 		if (noSightings) {
 			orderHeader.classList.add("order-header-none");
 		}
@@ -161,6 +234,10 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 			      	panel.style.maxHeight = panel.scrollHeight + "px";
 			    }
 			});
+		}
+
+		if (order == "Passeriformes") {
+			orderHeader.id = "last";
 		}
 		orderList.append(orderHeader);
 		orderList.append(familyList);
