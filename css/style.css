@@ -35,8 +35,6 @@ button.species {
 	padding: 0;
 	border: 1px solid black;
 	background: none;
-	overflow: hidden;
-	display: inline-block;
 }
 
 .page {
@@ -156,6 +154,27 @@ button.species {
 	background: lightgray;
 }
 
+.order-header-none {
+	font-family: "Gill Sans";
+	font-size: 10px;
+	font-weight: bold;
+	text-align: left;
+	width: 100%;
+	max-width: 1500px;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    border: none;
+    border-top: 2px solid black;
+    border-bottom: none;
+    color: lightgray;
+    background: white;
+}
+
+.order-header-none:hover {
+	color: gray;
+	background: lightgray;
+}
+
 .family-list {
 	max-height: 0px;
 	overflow: hidden;
@@ -177,7 +196,7 @@ button.species {
 	max-width: 1500px;
     padding-top: 4px;
     padding-bottom: 4px;
-    padding-left: 1em;
+    padding-left: 30px;
     border: none;
     color: black;
     background: white;
@@ -207,10 +226,14 @@ button.species {
 	max-width: 1500px;
     padding-top: 4px;
     padding-bottom: 4px;
-    padding-left: 1em;
+    padding-left: 30px;
     border: none;
     background: none;
     color: lightgray;
+}
+.family-header-none:hover {
+    color: gray;
+    background: lightgray;
 }
 
 .species-list {
@@ -219,7 +242,6 @@ button.species {
 	padding: 0;
 	margin: 0;
 	transition: max-height 0.2s ease-out;
-	list-style-type: none;
 }
  
  .species-list:active {
@@ -270,15 +292,17 @@ button.species {
 	overflow: hidden;
 	background-color: black;
 	border: 8px solid lightgray;
+	z-index: 2;
 }
 
 #header {
 	position: fixed;
 	width: 100%;
-	height: 60px;
 	top: 0;
 	left: 0;
 	color: white;
+	z-index: 1;
+	background: white;
 }
 
 #title {
@@ -321,6 +345,10 @@ button.species {
 	margin-right: 10%;
 	margin-left: 55%;
 	bottom: 30px;
+}
+
+#species-overlay {
+	z-index: 2;
 }
 
 #papers {

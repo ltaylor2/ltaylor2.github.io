@@ -63,21 +63,10 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 		orderHeader.classList.add("order-header");
 		orderHeader.innerText = order;
 
-		orderHeader.addEventListener("click", function() {
-		  	this.classList.toggle("active");
-		  	this.classList.add("order-header-active");
-		    var panel = this.nextElementSibling;
-		    if (panel.style.maxHeight){
-		    	this.classList.remove("order-header-active");
-		    	panel.style.maxHeight = null;
-		    } else {
-		      	panel.style.maxHeight = panel.scrollHeight + "px";
-		    }
-		});
-
 		var familyList = document.createElement("div");
 		familyList.classList.add("family-list");
 
+		var noSightings = true;
 		for (f in orderFamilies[order]) {
 			family = orderFamilies[order][f];
 
@@ -86,6 +75,8 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 			speciesList = document.createElement("div");
 
 			if (familySpecies[family]) {
+
+				noSightings = false;
 				familyHeader.classList.add("family-header");
 
 				familyHeader.addEventListener("click", function() {
@@ -145,7 +136,8 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 					speciesList.append(spButton);
 				}
 
-			} else {
+			} 
+			else {
 				familyHeader.classList.add("family-header-none");
 			}
 
@@ -153,6 +145,23 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 			familyList.append(speciesList);
 		}
 
+		console.log(order + noSightings);
+		if (noSightings) {
+			orderHeader.classList.add("order-header-none");
+		}
+		else {
+			orderHeader.addEventListener("click", function() {
+			  	this.classList.toggle("active");
+			  	this.classList.add("order-header-active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight){
+			    	this.classList.remove("order-header-active");
+			    	panel.style.maxHeight = null;
+			    } else {
+			      	panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			});
+		}
 		orderList.append(orderHeader);
 		orderList.append(familyList);
 	}
