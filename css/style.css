@@ -63,6 +63,11 @@ td.date {
 	color: white;
 }
 
+.comment {
+	color: darkgreen;
+	font-weight: bold;
+}
+
 .citation {
 	text-indent: -2em;
 	padding-left: 2em;
@@ -297,7 +302,6 @@ td.date {
 	padding-right: 12px;
 	overflow: hidden;
 	background-color: black;
-	border: 8px solid lightgray;
 	z-index: 3;
 }
 
@@ -307,8 +311,10 @@ td.date {
 	top: 0;
 	left: 0;
 	color: white;
+	border-top: 8px solid lightgray;
+	border-bottom: 8px solid lightgray;
 	z-index: 3;
-	background: white;
+	background: black;
 }
 
 #title {
@@ -398,11 +404,10 @@ td.date {
 	position: fixed;
 	font-size: 20px;
 	text-align: center;
-	top: 425px;
+	top: 420px;
 	width: 450px;
 	padding: 0;
 	margin: 0;
-	padding-top: 12px;
 	margin-left: 320px;
 	display: inline;
 	visibility: hidden;
@@ -423,7 +428,7 @@ td.date {
 
 #bird-photoBox {
 	position: fixed;
-	top: 500px;
+	top: 480px;
 	width: 450px;
 	height: 350px;
 	margin-left: 320px;

@@ -26,6 +26,12 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 					"spComments":19, 
 					"clComments":20};
 
+	var totalOrders = Object.keys(orderFamilies).length;
+	var totalFamilies = 0;
+
+	var orderCounter = 0;
+	var familyCounter = 0;
+
 	var species = {};
 	var counts = {};
 	var locations = {};
@@ -84,6 +90,9 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 	  	var backgroundList = document.getElementById("order-list");
 		backgroundList.style.display = "block";
 		document.documentElement.scrollTop = sessionStorage.scrollLogger;
+
+		var aboutInfo = document.getElementById("bird-about");
+		aboutInfo.style.display = "block";
 	});
 
 	var orderList = document.createElement("div");
@@ -105,6 +114,7 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 
 		var noSightings = true;
 		for (f in orderFamilies[order]) {
+			totalFamilies += 1;
 			family = orderFamilies[order][f];
 
 			familyHeader = document.createElement("button");
@@ -112,7 +122,7 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 			speciesList = document.createElement("div");
 
 			if (familySpecies[family]) {
-
+				familyCounter += 1;
 				spButtonsByFamily[family] = [];
 
 				// prep button dictionary for overlays
@@ -245,6 +255,9 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 
 				  	var backgroundList = document.getElementById("order-list");
 				  	backgroundList.style.display = "none";
+
+		  			var aboutInfo = document.getElementById("bird-about");
+					aboutInfo.style.display = "none";
 				});
 			} 
 			else {
@@ -258,6 +271,7 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 			orderHeader.classList.add("order-header-none");
 		}
 		else {
+			orderCounter += 1;
 			orderHeader.addEventListener("click", function() {
 			  	this.classList.toggle("active");
 			  	this.classList.add("order-header-active");
@@ -279,6 +293,10 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 	}
 
 	$("#eBird-data").append(orderList);
+
+	var stats = document.createElement("p");
+	stats.innerText = Object.keys(species).length + " species in " + orderCounter + "/" +totalOrders + " orders and " + familyCounter + "/" + totalFamilies + " families";
+	$("#bird-about").prepend(stats);
 })
 })
 });
