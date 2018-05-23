@@ -1,6 +1,7 @@
 $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/MyEBirdData.csv", function(data_obs) {
 $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/order_families.json", function(orderFamilies) {
 $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/species_families.json", function(speciesFamilies) {
+	
 	var rows = data_obs.split("\n");
 	
 	var colNames = {"id":0, 
@@ -68,6 +69,11 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 		map.style.visibility = "hidden";
 		map.style.zIndex = "-1";
 
+	  	var label = document.getElementById("species-labelBox");
+	  	label.style.visibility = "hidden";
+	  	label.style.zIndex = "-1";
+	  	$(label).empty();
+
 		var photoBox = document.getElementById("bird-photoBox");
 		photoBox.style.visibility = "hidden";
 		photoBox.style.zIndex = "-1";
@@ -76,7 +82,8 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 		$(overlay).empty();
 
 	  	var backgroundList = document.getElementById("order-list");
-		backgroundList.style.visibility = "visible";
+		backgroundList.style.display = "block";
+		document.documentElement.scrollTop = sessionStorage.scrollLogger;
 	});
 
 	var orderList = document.createElement("div");
@@ -111,6 +118,7 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 				// prep button dictionary for overlays
 				for (c in familySpecies[family]) {
 					common = familySpecies[family][c];
+
 					spButton = document.createElement("button");
 					spButton.classList.add("species");
 					spButton.id = common;
@@ -121,13 +129,13 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 			  		imgLink.href = imgPath;
 			  		imgLink.target = "_blank";
 
-					// test for image
+			  		// promisify this with http requests once images are loaded
 					var spImg = document.createElement("img");
 			  		
 					spImg.onerror = function() { 
-							this.alt = "No Image";
-							this.style.display = "none";
-							this.parentElement.href="none";
+						this.alt = "No Image";
+						this.style.display = "none";
+						this.parentElement.href="none";
 					};
 
 					spImg.alt = common;
@@ -169,6 +177,20 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 					  	map.addLayer(heatMapLayer);
 					  	map.getView().centerOn(centerCoord, [1,1], [0,0]);
 
+					  	var label = document.getElementById("species-labelBox");
+					  	$(label).empty();
+
+  					  	spLabelCommon = document.createElement("p");
+  					  	spLabelCommon.innerText = common;
+  					  	spLabelCommon.id = "species-label-common";
+
+  					  	spLabelScientific = document.createElement("p");
+  					  	spLabelScientific.innerText = species[common];
+  					  	spLabelScientific.id = "species-label-scientific";
+
+  					  	label.append(spLabelCommon);
+  					  	label.append(spLabelScientific);
+
   					  	var photoBox = document.getElementById("bird-photoBox");
 					  	$(photoBox).empty();
 
@@ -183,12 +205,21 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 				familyHeader.classList.add("family-header");
 
 				familyHeader.addEventListener("click", function() {
+					sessionStorage.scrollLogger = document.documentElement.scrollTop;
+					document.documentElement.scrollTop = 0;
+
 					family = this.innerText;
 				  	this.classList.toggle("active");
 				  	var overlay = document.getElementById("species-overlay");
 				  	var guide = getComputedStyle(overlay.parentElement);
 
 				  	overlay.append(overlayBackButton);
+
+				  	var familyLabel = document.createElement("p");
+				  	familyLabel.id = "family-label";
+				  	familyLabel.innerText = family.split("(")[1].split(")")[0];
+				  	overlay.append(familyLabel);
+
 				  	var speciesList = document.createElement("ul");
 				  	speciesList.classList.add("species-list");
 				  	for (b in spButtonsByFamily[family]) {
@@ -198,20 +229,23 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 				  	}
 
 				  	overlay.append(speciesList);
-				  	overlay.style.zIndex = "2";
 				  	overlay.style.width = guide.width;
-				  	overlay.style.height = "100%";
+				  	overlay.style.zIndex = "2";
 
 				  	var map = document.getElementById("bird-map");
-				  	map.style.zIndex = "2";
 				  	map.style.visibility = "visible";
+				  	map.style.zIndex = "2";
+
+				  	var label = document.getElementById("species-labelBox");
+				  	label.style.visibility = "visible";
+				  	label.style.zIndex = "2";
 
 				  	var photoBox = document.getElementById("bird-photoBox");
-				  	photoBox.style.zIndex = "2";
 				  	photoBox.style.visibility = "visible";
+				  	photoBox.style.zIndex = "2";
 
 				  	var backgroundList = document.getElementById("order-list");
-				  	backgroundList.style.visibility = "hidden";
+				  	backgroundList.style.display = "none";
 				});
 			} 
 			else {

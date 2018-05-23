@@ -256,7 +256,6 @@ td.date {
 .species {
 	font-family: "Gill Sans";
 	font-size: 15px;
-	font-weight: bold;
 	background: white;
 	padding: .75em;
 	padding-bottom: .25em;
@@ -359,6 +358,8 @@ td.date {
 }
 
 #overlay-back {
+	display: block;
+	position: absolute;
 	font-family: "Gill Sans";
 	font-weight: bold;
 	font-size: 15px;
@@ -368,19 +369,56 @@ td.date {
 	border: 2px solid black;
 }
 
-#overlay-back:hover #overlay-back:focus {
+#overlay-back:hover, #overlay-back:focus {
 	background: coral;
+}
+
+#family-label {
+	display: block;
+	font-family: "Gill Sans";
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 60px;
+	pargin-bottom: 30px;
+	padding-left: 10px;
 }
 
 #bird-map {
 	position: fixed;
 	width: 450px;
 	height: 250px;
-	margin-left: 300px;
+	margin-left: 320px;
 	border: 5px solid black;
 	display: inline;
 	visibility: hidden;
 	z-index: -1;
+}
+
+#species-labelBox {
+	position: fixed;
+	font-size: 20px;
+	text-align: center;
+	top: 425px;
+	width: 450px;
+	padding: 0;
+	margin: 0;
+	padding-top: 12px;
+	margin-left: 320px;
+	display: inline;
+	visibility: hidden;
+	z-index: -1;
+}
+
+#species-label-common {
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+#species-label-scientific {
+	font-style: italic;
+	margin: 0;
+	padding: 0;
 }
 
 #bird-photoBox {
@@ -388,7 +426,7 @@ td.date {
 	top: 500px;
 	width: 450px;
 	height: 350px;
-	margin-left: 300px;
+	margin-left: 320px;
 	border: none;
 	display: inline;
 	visibility: hidden;
