@@ -244,6 +244,7 @@ td.date {
     background: none;
     color: lightgray;
 }
+
 .family-header-none:hover, .family-header-none:focus {
     color: gray;
     background: lightgray;
@@ -251,6 +252,7 @@ td.date {
 
 .species-list {
 	list-style-type: none;
+	padding-left: 0;
 }
  
 .species {
@@ -352,7 +354,6 @@ td.date {
 
 #species-overlay {
 	position: absolute;
-	width: 40%;
 	background: white;
 	z-index: -1;
 }
@@ -380,7 +381,6 @@ td.date {
 	font-size: 20px;
 	margin-top: 60px;
 	pargin-bottom: 30px;
-	padding-left: 10px;
 }
 
 #bird-map {

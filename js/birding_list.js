@@ -124,7 +124,7 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 					spButton.id = common;
 					spButton.innerText = common;
 
-			  		var imgPath = "Media/Bird_Photos/" + common + ".jpg";
+			  		var imgPath = "Media/Smaller_Bird_Photos/" + common + ".jpg";
 			  		var imgLink = document.createElement("A");
 			  		imgLink.href = imgPath;
 			  		imgLink.target = "_blank";
@@ -229,7 +229,6 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 				  	}
 
 				  	overlay.append(speciesList);
-				  	overlay.style.width = guide.width;
 				  	overlay.style.zIndex = "2";
 
 				  	var map = document.getElementById("bird-map");
