@@ -59,7 +59,7 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 
 	var overlayBackButton = document.createElement("button");
 	overlayBackButton.id = "overlay-back";
-	overlayBackButton.innerText = "<--"
+	overlayBackButton.innerText = "< Back"
 	overlayBackButton.addEventListener("click", function() {
 		var overlay = this.parentElement;
 		overlay.style.zIndex = "-1";
@@ -113,6 +113,7 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 					common = familySpecies[family][c];
 					spButton = document.createElement("button");
 					spButton.classList.add("species");
+					spButton.id = common;
 					spButton.innerText = common;
 
 			  		var imgPath = "Media/Bird_Photos/" + common + ".jpg";
@@ -122,20 +123,21 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 
 					// test for image
 					var spImg = document.createElement("img");
+			  		
 					spImg.onerror = function() { 
 							this.alt = "No Image";
 							this.style.display = "none";
 							this.parentElement.href="none";
 					};
 
-					spImg.alt = common + " photo by LT";
+					spImg.alt = common;
 			  		spImg.src = imgPath;
 			  		spImg.style.maxWidth = maxImgWidth;
 			  		spImg.style.maxHeight = maxImgHeight;
 			  		spImg.classList.add("bird-img");
 
 			  		imgLink.append(spImg);
-			  		imagesBySpecies[common] = imgLink;;
+			  		imagesBySpecies[common] = imgLink;
 
 					spButton.addEventListener("click", function() {
 						var common = this.innerText;

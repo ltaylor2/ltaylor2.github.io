@@ -84,7 +84,7 @@ td.date {
     background: white;
 }
 
-.cv-header:hover {
+.cv-header:hover, .cv-header:focus {
 	color: black;
 	background: lightgray;
 }
@@ -99,7 +99,7 @@ td.date {
 	border-bottom: 2px solid black;
 }
 
-.cv-header-active:hover {
+.cv-header-active:hover, .cv-header-active:focus {
 	color: black;
 	background: lightgray;
 }
@@ -144,8 +144,8 @@ td.date {
 	text-align: left;
 	width: 100%;
 	max-width: 1500px;
-    padding-top: 12px;
-    padding-bottom: 4px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     border: none;
     border-top: 2px solid black;
     border-bottom: none;
@@ -153,7 +153,7 @@ td.date {
     background: white;
 }
 
-.order-header:hover {
+.order-header:hover, .order-header:focus {
 	color: black;
 	background: lightgray;
 }
@@ -167,7 +167,7 @@ td.date {
 	color: white;
 }
 
-.order-header-active:hover {
+.order-header-active:hover, .order-header-active:focus {
 	color: black;
 	background: lightgray;
 }
@@ -179,8 +179,8 @@ td.date {
 	text-align: left;
 	width: 100%;
 	max-width: 1500px;
-    padding-top: 12px;
-    padding-bottom: 4px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     border: none;
     border-top: 2px solid black;
     border-bottom: none;
@@ -188,7 +188,7 @@ td.date {
     background: white;
 }
 
-.order-header-none:hover {
+.order-header-none:hover, .order-header-none:focus {
 	color: gray;
 	background: lightgray;
 }
@@ -212,15 +212,15 @@ td.date {
 	text-align: left;
 	width: 100%;
 	max-width: 1500px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     padding-left: 30px;
     border: none;
     color: black;
     background: white;
 }
 
-.family-header:hover {
+.family-header:hover, .family-header:focus {
 	color: black;
 	background: lightgray;
 }
@@ -237,38 +237,46 @@ td.date {
 	text-align: left;
 	width: 100%;
 	max-width: 1500px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     padding-left: 30px;
     border: none;
     background: none;
     color: lightgray;
 }
-.family-header-none:hover {
+.family-header-none:hover, .family-header-none:focus {
     color: gray;
     background: lightgray;
 }
 
 .species-list {
-	list-style-type: inline-block;
-	list-style: none;
+	list-style-type: none;
 }
  
 .species {
 	font-family: "Gill Sans";
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	border: 1px solid black;
-	background: none;
+	font-size: 15px;
+	font-weight: bold;
+	background: white;
+	padding: .75em;
+	padding-bottom: .25em;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 2px solid black;
 }
 
-.no-img {
-	background: lightgreen;
+.species:hover, .species:focus {
+	background: gray;
+	color: white;
+}
+
+.has-img {
+	background: green;
 }
 
 .bird-img {
 	display: block;
+	border: 5px solid black;
 	margin: auto;
 }
 
@@ -343,12 +351,25 @@ td.date {
 	border-bottom: 2px solid black;
 }
 
-
 #species-overlay {
-	position: fixed;
+	position: absolute;
 	width: 40%;
 	background: white;
 	z-index: -1;
+}
+
+#overlay-back {
+	font-family: "Gill Sans";
+	font-weight: bold;
+	font-size: 15px;
+	background: white;
+	padding: .5em;
+	padding-bottom: .1em;
+	border: 2px solid black;
+}
+
+#overlay-back:hover #overlay-back:focus {
+	background: coral;
 }
 
 #bird-map {
