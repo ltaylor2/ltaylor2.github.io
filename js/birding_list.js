@@ -1,10 +1,36 @@
-$.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/MyEBirdData.csv", function(data_obs) {
-$.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/order_families.json", function(orderFamilies) {
-$.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/species_families.json", function(speciesFamilies) {
+var pendingMessage = document.createElement("p");
+pendingMessage.id = "pending-message";
+pendingMessage.innerText = "loading checklist and images...";
+$("#eBird-data").prepend(pendingMessage);
+
+var prom_Obs = $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/MyEBirdData.csv", function(obsData) {
+		return new Promise(function(resolve) {
+			resolve(obsData);
+		});
+});
+
+var prom_Orders = $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/order_families.json", function(familiesByOrder) {
+		return new Promise(function(resolve) {
+			resolve(familiesByOrder);
+		});
+});
+
+var prom_Families = $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/species_families.json", function(speciesByFamily) {
+		return new Promise(function(resolve) {
+			resolve(speciesByFamily);
+		});
+});
+
+Promise.all([prom_Obs, prom_Orders, prom_Families]).then(function(values) 
+{
+	obsData = values[0];
+	familiesByOrder = values[1];
+	speciesByFamily = values[2];
+
+	// formatting eBird CSV observation data into array
+	let rows = obsData.split("\n");
 	
-	var rows = data_obs.split("\n");
-	
-	var colNames = {"id":0, 
+	let colNames = {"id":0, 
 					"common":1, 
 					"scientific":2,
 					"order":3, 
@@ -26,35 +52,31 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 					"spComments":19, 
 					"clComments":20};
 
-	var totalOrders = Object.keys(orderFamilies).length;
-	var totalFamilies = 0;
-
-	var orderCounter = 0;
-	var familyCounter = 0;
-
-	var species = {};
+	var scientificByCommon = {};
 	var counts = {};
 	var locations = {};
-	var familySpecies = {};
-	for (var r=1; r<rows.length; r++) {
+	var families = {};
+
+	// extract species from eBird CSV
+	for (let r=1; r<rows.length; r++) {
 		row = rows[r].split(",");
-		var common = row[colNames["common"]];
-		var scientific = row[colNames["scientific"]];
-		var count = row[colNames["count"]];
-		var location = [row[colNames["latitude"]], row[colNames["longitude"]]]
+		let common = row[colNames["common"]];
+		let scientific = row[colNames["scientific"]];
+		let count = row[colNames["count"]];
+		let location = [row[colNames["latitude"]], row[colNames["longitude"]]]
 		if (count == "X") { count = 1; }
 		else { count = parseInt(count); }
 
-		if (!(common in species)) {
-			species[common] = scientific;
+		if (!(common in scientificByCommon)) {
+			scientificByCommon[common] = scientific;
 			counts[common] = count;
 			locations[common] = [];
 			locations[common].push(location);
-			var family = speciesFamilies[common];
-			if (!(family in familySpecies)) {
-				familySpecies[family] = [];
+			let family = speciesByFamily[common];
+			if (!(family in families)) {
+				families[family] = [];
 			}
-			familySpecies[family].push(common);
+			families[family].push(common);
 
 		} else {
 			counts[common] += count;
@@ -62,241 +84,289 @@ $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/
 		}
 	}
 
+	// build the species lists by family, 
+	// waiting for images to query within the function
+	// and waiting for complete resolve before adding orderList
+
+	var prom_spButtons = makeSpeciesButtons(families, locations, scientificByCommon);
+
+	var overlayBackButton = makeOverlayBack();
+
+
+	prom_spButtons.then(function(spButtonsByFamily) {
+		var orderList = document.createElement("div");
+		orderList.id = "order-list";
+
+		for (order in familiesByOrder) {
+			let {familyList, noSightings} = makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, overlayBackButton);
+			let orderHeader = makeOrderHeader(order, noSightings);
+			orderList.append(orderHeader, familyList);
+		}
+		
+		$("#pending-message").remove();
+		$("#eBird-data").append(orderList);
+	});
+});
+
+
+function makeSpeciesButtons(families, locations, scientificByCommon) 
+{
+	var photoBox = document.getElementById("bird-photoBox");
+	var guide = getComputedStyle(photoBox)
+	var maxWidth = guide.width;
+	var maxHeight = guide.height;
+
 	var spButtonsByFamily = {};
 
+	for (family in families) {
+		spButtonsByFamily[family] = [];
+
+		for (c in families[family]) {
+			common = families[family][c];
+			let prom_spImg = promSpImage(common, family, maxWidth, maxHeight);
+
+			let spButton = prom_spImg.then(function(values) {
+				let imgLink = values[0];
+				let common = values[1];
+				let family = values[2];
+				let spB = makeSpButton(common, locations[common], scientificByCommon[common], imgLink);
+				spB.classList.add("has-img");
+				spButtonsByFamily[family].push(spB);
+			},
+			function(values) {
+				let imgLink = values[0];
+				let common = values[1];
+				let family = values[2];
+				let spB = makeSpButton(common, locations[common], scientificByCommon[common], imgLink);
+				spButtonsByFamily[family].push(spB);
+			});
+
+		}
+	}
+
+	return new Promise(function(resolve) {
+		resolve(spButtonsByFamily);
+	});
+}
+
+
+function makeSpButton(common, latlons, scientific, imgLink) 
+{
+	var spButton = document.createElement("button");
+	spButton.classList.add("species");
+	spButton.id = common;
+	spButton.innerText = common;
+	spButton.addEventListener("click", function() {
+		let common = this.innerText;
+	  	map.removeLayer(heatMapLayer);
+		let heatData = new ol.source.Vector();
+
+		let centerCoord = ol.proj.fromLonLat([-76.3, 38]);
+	  	for (var l = 0; l < latlons.length; l++) {
+	  		var lat = parseFloat(latlons[l][0]);
+	  		var lon = parseFloat(latlons[l][1]);
+	  		if (isNaN(lon) || isNaN(lat)) { continue; }
+	  		
+	  		var coord = ol.proj.fromLonLat([lon, lat]);
+	  		centerCoord = coord;
+	  		var point = new ol.geom.Point(coord);
+	  		var pointFeature = new ol.Feature({
+	  			geometry: point,
+	  			weight: 1,
+	  		});
+	  		heatData.addFeature(pointFeature);
+	  	}
+
+	  	heatMapLayer = new ol.layer.Heatmap({
+	  		source: heatData,
+	  		opacity: 0.5,
+	  	});
+
+	  	map.addLayer(heatMapLayer);
+	  	map.getView().centerOn(centerCoord, [1,1], [0,0]);
+
+	  	let label = document.getElementById("species-labelBox");
+	  	$(label).empty();
+
+	  	spLabelCommon = document.createElement("p");
+	  	spLabelCommon.innerText = common;
+	  	spLabelCommon.id = "species-label-common";
+
+	  	spLabelScientific = document.createElement("p");
+	  	spLabelScientific.innerText = scientific;
+	  	spLabelScientific.id = "species-label-scientific";
+
+	  	label.append(spLabelCommon);
+	  	label.append(spLabelScientific);
+
+	  	let photoBox = document.getElementById("bird-photoBox");
+	  	$(photoBox).empty();
+
+	  	if (imgLink) {
+		  	photoBox.append(imgLink);
+	  	}
+	});
+
+	return spButton;
+}
+
+function promSpImage(common, family, maxWidth, maxHeight) 
+{
+	var retPromise = new Promise(function(resolve, reject) {
+		// var imgPath = "https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/Smaller_Bird_Photos/" +common + ".jpg"
+
+		var imgPath = "./Media/Smaller_Bird_Photos/" + common + ".jpg";
+		var imgLink = document.createElement("A");
+		imgLink.href = imgPath;
+		imgLink.target = "_blank";
+
+		var spImg = document.createElement("img");
+		spImg.classList.add("bird-img");
+		
+		spImg.onerror = function() { 
+			reject([null, common, family]);
+		};
+
+		spImg.onload = function() {
+			imgLink.append(spImg);
+			resolve([imgLink, common, family]);
+		};
+
+		spImg.alt = common;
+		spImg.src = imgPath;
+		spImg.style.maxWidth = maxWidth;
+		spImg.style.maxHeight = maxHeight;
+	});
+
+	return retPromise;
+}
+
+function makeOrderHeader(order, noSightings) 
+{
+	var orderHeader = document.createElement("button");
+	orderHeader.innerText = order;
+
+	orderHeader.addEventListener("click", function() {
+	  	this.classList.toggle("active");
+	  	this.classList.add("order-header-active");
+	    var panel = this.nextElementSibling;
+	    if (panel.style.maxHeight){
+	    	this.classList.remove("order-header-active");
+	    	panel.style.maxHeight = null;
+	    } else {
+	      	panel.style.maxHeight = panel.scrollHeight + "px";
+	    }
+	});
+
+	if (noSightings) {
+		orderHeader.classList.add("order-header-none");
+	} else {
+		orderHeader.classList.add("order-header");
+	}
+
+	return orderHeader;
+}
+
+function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, overlayBackButton)
+{
+	var fL = document.createElement("div");
+	fL.classList.add("family-list");
+
+	var noS = true;
+
+	for (f in familiesByOrder[order]) {
+		let family = familiesByOrder[order][f];
+		familyHeader = document.createElement("button");
+		familyHeader.innerText = family;
+
+		if (families[family]) {
+			noS = false;
+			familyHeader.classList.add("family-header");
+			familyHeader.addEventListener("click", function() {
+				sessionStorage.scrollLogger = document.documentElement.scrollTop;
+				document.documentElement.scrollTop = 0;
+
+				family = this.innerText;
+			  	this.classList.toggle("active");
+			  	var overlay = document.getElementById("species-overlay");
+			  	var guide = getComputedStyle(overlay.parentElement);
+
+			  	overlay.append(overlayBackButton);
+
+			  	var familyLabel = document.createElement("p");
+			  	familyLabel.id = "family-label";
+			  	familyLabel.innerText = family.split("(")[1].split(")")[0];
+			  	overlay.append(familyLabel);
+
+			  	var speciesList = document.createElement("ul");
+			  	speciesList.classList.add("species-list");
+			  	for (b in spButtonsByFamily[family]) {
+			  		sp = document.createElement("li");
+			  		sp.append(spButtonsByFamily[family][b]);
+			  		speciesList.append(sp);
+			  	}
+
+			  	overlay.append(speciesList);
+			  	overlay.style.zIndex = "2";
+
+			  	var map = document.getElementById("bird-map");
+			  	map.style.visibility = "visible";
+			  	map.style.zIndex = "2";
+
+			  	var label = document.getElementById("species-labelBox");
+			  	label.style.visibility = "visible";
+			  	label.style.zIndex = "2";
+
+			  	var photoBox = document.getElementById("bird-photoBox");
+			  	photoBox.style.visibility = "visible";
+			  	photoBox.style.zIndex = "2";
+
+			  	var backgroundList = document.getElementById("order-list");
+			  	backgroundList.style.display = "none";
+
+	  			var aboutInfo = document.getElementById("bird-about");
+				aboutInfo.style.display = "none";
+			});
+		} else {
+			familyHeader.classList.add("family-header-none");
+		}
+		fL.append(familyHeader);
+	}
+	// TODO need to return noSightings value in array?
+	return {familyList: fL, noSightings: noS};
+}
+
+function makeOverlayBack() {
 	var overlayBackButton = document.createElement("button");
 	overlayBackButton.id = "overlay-back";
 	overlayBackButton.innerText = "< Back"
 	overlayBackButton.addEventListener("click", function() {
-		var overlay = this.parentElement;
+		let overlay = this.parentElement;
 		overlay.style.zIndex = "-1";
 
-		var map = document.getElementById("bird-map");
+		let map = document.getElementById("bird-map");
 		map.style.visibility = "hidden";
 		map.style.zIndex = "-1";
 
-	  	var label = document.getElementById("species-labelBox");
+	  	let label = document.getElementById("species-labelBox");
 	  	label.style.visibility = "hidden";
 	  	label.style.zIndex = "-1";
 	  	$(label).empty();
 
-		var photoBox = document.getElementById("bird-photoBox");
+		let photoBox = document.getElementById("bird-photoBox");
 		photoBox.style.visibility = "hidden";
 		photoBox.style.zIndex = "-1";
 		$(photoBox).empty();
 
 		$(overlay).empty();
 
-	  	var backgroundList = document.getElementById("order-list");
+	  	let backgroundList = document.getElementById("order-list");
 		backgroundList.style.display = "block";
 		document.documentElement.scrollTop = sessionStorage.scrollLogger;
 
-		var aboutInfo = document.getElementById("bird-about");
+		let aboutInfo = document.getElementById("bird-about");
 		aboutInfo.style.display = "block";
 	});
 
-	var orderList = document.createElement("div");
-	orderList.id = "order-list";
-
-	var imagesBySpecies = {};
-	var photoBox = getComputedStyle(document.getElementById("bird-photoBox"));
-
-	var maxImgWidth = photoBox.width;
-	var maxImgHeight = photoBox.height;
-
-	for (order in orderFamilies) {
-		var orderHeader = document.createElement("button");
-		orderHeader.classList.add("order-header");
-		orderHeader.innerText = order;
-
-		var familyList = document.createElement("div");
-		familyList.classList.add("family-list");
-
-		var noSightings = true;
-		for (f in orderFamilies[order]) {
-			totalFamilies += 1;
-			family = orderFamilies[order][f];
-
-			familyHeader = document.createElement("button");
-			familyHeader.innerText = family;
-			speciesList = document.createElement("div");
-
-			if (familySpecies[family]) {
-				familyCounter += 1;
-				spButtonsByFamily[family] = [];
-
-				// prep button dictionary for overlays
-				for (c in familySpecies[family]) {
-					common = familySpecies[family][c];
-
-					spButton = document.createElement("button");
-					spButton.classList.add("species");
-					spButton.id = common;
-					spButton.innerText = common;
-
-			  		var imgPath = "Media/Smaller_Bird_Photos/" + common + ".jpg";
-			  		var imgLink = document.createElement("A");
-			  		imgLink.href = imgPath;
-			  		imgLink.target = "_blank";
-
-			  		// promisify this with http requests once images are loaded
-					var spImg = document.createElement("img");
-			  		
-					spImg.onerror = function() { 
-						this.alt = "No Image";
-						this.style.display = "none";
-						this.parentElement.href="none";
-					};
-
-					spImg.alt = common;
-			  		spImg.src = imgPath;
-			  		spImg.style.maxWidth = maxImgWidth;
-			  		spImg.style.maxHeight = maxImgHeight;
-			  		spImg.classList.add("bird-img");
-
-			  		imgLink.append(spImg);
-			  		imagesBySpecies[common] = imgLink;
-
-					spButton.addEventListener("click", function() {
-						var common = this.innerText;
-					  	map.removeLayer(heatMapLayer);
-					  	var latlons = locations[common];
-				  		var heatData = new ol.source.Vector();
-
-				  		var centerCoord = ol.proj.fromLonLat([-76.3, 38]);
-					  	for (var l = 0; l < latlons.length; l++) {
-					  		var lat = parseFloat(latlons[l][0]);
-					  		var lon = parseFloat(latlons[l][1]);
-					  		if (isNaN(lon) || isNaN(lat)) { continue; }
-					  		
-					  		var coord = ol.proj.fromLonLat([lon, lat]);
-					  		centerCoord = coord;
-					  		var point = new ol.geom.Point(coord);
-					  		var pointFeature = new ol.Feature({
-					  			geometry: point,
-					  			weight: 1,
-					  		});
-					  		heatData.addFeature(pointFeature);
-					  	}
-
-					  	heatMapLayer = new ol.layer.Heatmap({
-					  		source: heatData,
-					  		opacity: 0.5,
-					  	});
-
-					  	map.addLayer(heatMapLayer);
-					  	map.getView().centerOn(centerCoord, [1,1], [0,0]);
-
-					  	var label = document.getElementById("species-labelBox");
-					  	$(label).empty();
-
-  					  	spLabelCommon = document.createElement("p");
-  					  	spLabelCommon.innerText = common;
-  					  	spLabelCommon.id = "species-label-common";
-
-  					  	spLabelScientific = document.createElement("p");
-  					  	spLabelScientific.innerText = species[common];
-  					  	spLabelScientific.id = "species-label-scientific";
-
-  					  	label.append(spLabelCommon);
-  					  	label.append(spLabelScientific);
-
-  					  	var photoBox = document.getElementById("bird-photoBox");
-					  	$(photoBox).empty();
-
-					  	var spImg = imagesBySpecies[common];
-  					  	photoBox.append(spImg);
-					});
-
-					spButtonsByFamily[family].push(spButton);
-				}
-
-				noSightings = false;
-				familyHeader.classList.add("family-header");
-
-				familyHeader.addEventListener("click", function() {
-					sessionStorage.scrollLogger = document.documentElement.scrollTop;
-					document.documentElement.scrollTop = 0;
-
-					family = this.innerText;
-				  	this.classList.toggle("active");
-				  	var overlay = document.getElementById("species-overlay");
-				  	var guide = getComputedStyle(overlay.parentElement);
-
-				  	overlay.append(overlayBackButton);
-
-				  	var familyLabel = document.createElement("p");
-				  	familyLabel.id = "family-label";
-				  	familyLabel.innerText = family.split("(")[1].split(")")[0];
-				  	overlay.append(familyLabel);
-
-				  	var speciesList = document.createElement("ul");
-				  	speciesList.classList.add("species-list");
-				  	for (b in spButtonsByFamily[family]) {
-				  		sp = document.createElement("li");
-				  		sp.append(spButtonsByFamily[family][b]);
-				  		speciesList.append(sp);
-				  	}
-
-				  	overlay.append(speciesList);
-				  	overlay.style.zIndex = "2";
-
-				  	var map = document.getElementById("bird-map");
-				  	map.style.visibility = "visible";
-				  	map.style.zIndex = "2";
-
-				  	var label = document.getElementById("species-labelBox");
-				  	label.style.visibility = "visible";
-				  	label.style.zIndex = "2";
-
-				  	var photoBox = document.getElementById("bird-photoBox");
-				  	photoBox.style.visibility = "visible";
-				  	photoBox.style.zIndex = "2";
-
-				  	var backgroundList = document.getElementById("order-list");
-				  	backgroundList.style.display = "none";
-
-		  			var aboutInfo = document.getElementById("bird-about");
-					aboutInfo.style.display = "none";
-				});
-			} 
-			else {
-				familyHeader.classList.add("family-header-none");
-			}
-
-			familyList.append(familyHeader);
-		}
-
-		if (noSightings) {
-			orderHeader.classList.add("order-header-none");
-		}
-		else {
-			orderCounter += 1;
-			orderHeader.addEventListener("click", function() {
-			  	this.classList.toggle("active");
-			  	this.classList.add("order-header-active");
-			    var panel = this.nextElementSibling;
-			    if (panel.style.maxHeight){
-			    	this.classList.remove("order-header-active");
-			    	panel.style.maxHeight = null;
-			    } else {
-			      	panel.style.maxHeight = panel.scrollHeight + "px";
-			    }
-			});
-		}
-
-		if (order == "Passeriformes") {
-			orderHeader.id = "last";
-		}
-		orderList.append(orderHeader);
-		orderList.append(familyList);
-	}
-
-	$("#eBird-data").append(orderList);
-
-	var stats = document.createElement("p");
-	stats.innerText = Object.keys(species).length + " species in " + orderCounter + "/" +totalOrders + " orders and " + familyCounter + "/" + totalFamilies + " families";
-	$("#bird-about").prepend(stats);
-})
-})
-});
+	return overlayBackButton;
+}
