@@ -395,7 +395,7 @@ td.date {
 }
 
 #bird-map {
-	position: absolute;
+	position: fixed;
 	width: 450px;
 	height: 250px;
 	margin-left: 320px;
@@ -406,7 +406,7 @@ td.date {
 }
 
 #species-labelBox {
-	position: absolute;
+	position: fixed;
 	font-size: 20px;
 	text-align: center;
 	top: 420px;
@@ -432,7 +432,7 @@ td.date {
 }
 
 #bird-photoBox {
-	position: absolute;
+	position: fixed;
 	top: 480px;
 	width: 450px;
 	height: 350px;
