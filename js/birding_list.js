@@ -1,6 +1,6 @@
 var pendingMessage = document.createElement("p");
 pendingMessage.id = "pending-message";
-pendingMessage.innerText = "Loading checklist and images...";
+pendingMessage.innerText = "Loading checklist and images";
 $("#eBird-data").prepend(pendingMessage);
 
 var prom_Obs = $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/MyEBirdData.csv", function(obsData) {
