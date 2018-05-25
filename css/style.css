@@ -64,7 +64,7 @@ td.date {
 }
 
 .comment {
-	color: darkgreen;
+	color: rgb(102, 19, 19);
 	font-weight: bold;
 }
 
@@ -163,20 +163,6 @@ td.date {
 	background: lightgray;
 }
 
-.order-header.#last {
-	border-bottom: 2px solid black;
-}
-
-.order-header-active {
-	background: gray;
-	color: white;
-}
-
-.order-header-active:hover, .order-header-active:focus {
-	color: black;
-	background: lightgray;
-}
-
 .order-header-none {
 	font-family: "Gill Sans";
 	font-size: 10px;
@@ -192,6 +178,18 @@ td.date {
     color: lightgray;
     background: white;
 }
+
+.order-header-active {
+	background: gray;
+	color: white;
+	border-bottom: 2px solid black;
+}
+
+.order-header-active:hover, .order-header-active:focus {
+	color: black;
+	background: lightgray;
+}
+
 
 .order-header-none:hover, .order-header-none:focus {
 	color: gray;
@@ -276,14 +274,23 @@ td.date {
 	color: white;
 }
 
-.has-img {
-	background: green;
+.has-img{
+	background: rgba(124, 191, 134, 0.5);
+}
+
+.has-img:hover, .has-img:focus {
+	color: black;
+	background: rgba(124, 191, 134, 1);
 }
 
 .bird-img {
 	display: block;
 	border: 5px solid black;
 	margin: auto;
+}
+
+.bird-stat {
+	background: black;
 }
 
 #cv-full {
@@ -342,7 +349,7 @@ td.date {
 	overflow: hidden;
 }
 
-#last.cv-header {
+#last.cv-header, #last.order-header{
 	border-bottom: 2px solid black;
 }
 
@@ -352,10 +359,6 @@ td.date {
 	margin: auto;
 	margin-bottom: 0;
 	padding-bottom: 0;
-}
-
-#last.order-header {
-	border-bottom: 2px solid black;
 }
 
 #species-overlay {
@@ -436,6 +439,14 @@ td.date {
 	display: inline;
 	visibility: hidden;
 	z-index: -1;
+}
+
+
+#photo-legend { 
+	background: rgba(124, 191, 134, 0.5);
+	border: 2px solid black;
+	vertical-align: center;
+	padding: 1px;
 }
 
 #papers {

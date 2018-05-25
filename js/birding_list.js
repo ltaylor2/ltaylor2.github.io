@@ -1,6 +1,6 @@
 var pendingMessage = document.createElement("p");
 pendingMessage.id = "pending-message";
-pendingMessage.innerText = "loading checklist and images...";
+pendingMessage.innerText = "Loading checklist and images...";
 $("#eBird-data").prepend(pendingMessage);
 
 var prom_Obs = $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/MyEBirdData.csv", function(obsData) {
@@ -87,25 +87,53 @@ Promise.all([prom_Obs, prom_Orders, prom_Families]).then(function(values)
 	// build the species lists by family, 
 	// waiting for images to query within the function
 	// and waiting for complete resolve before adding orderList
-
-	var prom_spButtons = makeSpeciesButtons(families, locations, scientificByCommon);
+	var spButtonsByFamily = makeSpeciesButtons(families, locations, scientificByCommon);
 
 	var overlayBackButton = makeOverlayBack();
 
+	var orderList = document.createElement("div");
+	orderList.id = "order-list";
 
-	prom_spButtons.then(function(spButtonsByFamily) {
-		var orderList = document.createElement("div");
-		orderList.id = "order-list";
+	Promise.all(flatten(spButtonsByFamily)).then(function() {
+		let orderCounter = 0;
 
 		for (order in familiesByOrder) {
 			let {familyList, noSightings} = makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, overlayBackButton);
+			if (!noSightings) {
+				orderCounter += 1;
+			}
 			let orderHeader = makeOrderHeader(order, noSightings);
-			orderList.append(orderHeader, familyList);
+				orderList.append(orderHeader, familyList);
 		}
-		
+
 		$("#pending-message").remove();
 		$("#eBird-data").append(orderList);
+
+		let speciesCounter = Object.keys(scientificByCommon).length;
+		let sC = document.getElementById("species-counter");
+		sC.innerText = speciesCounter;
+		sC.style.background = "white";
+
+		let oC = document.getElementById("order-counter");
+		oC.innerText = orderCounter;
+		oC.style.background = "white";
+
+		let orderTotal = Object.keys(familiesByOrder).length;
+		let oT = document.getElementById("order-total");
+		oT.innerText = orderTotal;
+		oT.style.background = "white";
+
+		let familyCounter = Object.keys(families).length;
+		let fC = document.getElementById("family-counter");
+		fC.innerText = familyCounter;
+		fC.style.background = "white";
+
+		let familyTotal = flatten(familiesByOrder).length;
+		let fT = document.getElementById("family-total");
+		fT.innerText = familyTotal;
+		fT.style.background = "white";
 	});
+
 });
 
 
@@ -120,33 +148,22 @@ function makeSpeciesButtons(families, locations, scientificByCommon)
 
 	for (family in families) {
 		spButtonsByFamily[family] = [];
-
 		for (c in families[family]) {
 			common = families[family][c];
 			let prom_spImg = promSpImage(common, family, maxWidth, maxHeight);
 
-			let spButton = prom_spImg.then(function(values) {
+			spButtonsByFamily[family].push(prom_spImg.then(function(values) {
 				let imgLink = values[0];
 				let common = values[1];
 				let family = values[2];
-				let spB = makeSpButton(common, locations[common], scientificByCommon[common], imgLink);
-				spB.classList.add("has-img");
-				spButtonsByFamily[family].push(spB);
-			},
-			function(values) {
-				let imgLink = values[0];
-				let common = values[1];
-				let family = values[2];
-				let spB = makeSpButton(common, locations[common], scientificByCommon[common], imgLink);
-				spButtonsByFamily[family].push(spB);
-			});
-
+				let spB = makeSpButton(common, locations[common],
+									   scientificByCommon[common], imgLink);
+				return spB;
+			}));
 		}
 	}
 
-	return new Promise(function(resolve) {
-		resolve(spButtonsByFamily);
-	});
+	return spButtonsByFamily;
 }
 
 
@@ -156,6 +173,10 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	spButton.classList.add("species");
 	spButton.id = common;
 	spButton.innerText = common;
+	if (imgLink) {
+		spButton.classList.add("has-img");
+	}
+
 	spButton.addEventListener("click", function() {
 		let common = this.innerText;
 	  	map.removeLayer(heatMapLayer);
@@ -212,7 +233,7 @@ function makeSpButton(common, latlons, scientific, imgLink)
 
 function promSpImage(common, family, maxWidth, maxHeight) 
 {
-	var retPromise = new Promise(function(resolve, reject) {
+	var promise = new Promise(function(resolve) {
 		// var imgPath = "https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/Smaller_Bird_Photos/" +common + ".jpg"
 
 		var imgPath = "./Media/Smaller_Bird_Photos/" + common + ".jpg";
@@ -222,9 +243,8 @@ function promSpImage(common, family, maxWidth, maxHeight)
 
 		var spImg = document.createElement("img");
 		spImg.classList.add("bird-img");
-		
 		spImg.onerror = function() { 
-			reject([null, common, family]);
+			resolve([null, common, family]);
 		};
 
 		spImg.onload = function() {
@@ -238,7 +258,7 @@ function promSpImage(common, family, maxWidth, maxHeight)
 		spImg.style.maxHeight = maxHeight;
 	});
 
-	return retPromise;
+	return promise;
 }
 
 function makeOrderHeader(order, noSightings) 
@@ -264,6 +284,9 @@ function makeOrderHeader(order, noSightings)
 		orderHeader.classList.add("order-header");
 	}
 
+	if (order == "Passeriformes") {
+		orderHeader.id = "last";
+	}
 	return orderHeader;
 }
 
@@ -273,7 +296,6 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 	fL.classList.add("family-list");
 
 	var noS = true;
-
 	for (f in familiesByOrder[order]) {
 		let family = familiesByOrder[order][f];
 		familyHeader = document.createElement("button");
@@ -301,8 +323,10 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 			  	var speciesList = document.createElement("ul");
 			  	speciesList.classList.add("species-list");
 			  	for (b in spButtonsByFamily[family]) {
-			  		sp = document.createElement("li");
-			  		sp.append(spButtonsByFamily[family][b]);
+			  		let sp = document.createElement("li");
+			  		spButtonsByFamily[family][b].then(function(button) {
+			  			sp.append(button);
+			  		});
 			  		speciesList.append(sp);
 			  	}
 
@@ -369,4 +393,15 @@ function makeOverlayBack() {
 	});
 
 	return overlayBackButton;
+}
+
+function flatten(nestedDict) {
+	var flatArray = [];
+	for (key in nestedDict) {
+		for (i in nestedDict[key]) {
+			let value = nestedDict[key][i];
+			flatArray.push(value);
+		}
+	}
+	return flatArray;
 }
