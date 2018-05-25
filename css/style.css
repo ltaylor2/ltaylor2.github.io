@@ -462,11 +462,12 @@ td.date {
     width: 1.25em;    
   }
 }
+
 #photo-legend { 
 	background: rgba(124, 191, 134, 0.5);
 	border: 2px solid black;
-	vertical-align: center;
 	padding: 1px;
+	padding-left: 5px;
 }
 
 #papers {
