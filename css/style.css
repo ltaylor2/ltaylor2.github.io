@@ -40,12 +40,12 @@ td.date {
 	float: right;
 	font-family: "Gill Sans";
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 17px;
 	display: inline-block;
-	color: white;
+	color: black;
 	margin-top: 12px;
-	margin-bottom: 4px;
-	margin-left: 4px;
+	margin-bottom: auto;
+	margin-left: 3px;
 	padding-top: 12px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -56,15 +56,13 @@ td.date {
 }
 
 .menu-item-active {
-	background-color: gray;
-}
+	background-color: darkgray;
+	color: black;
 
-.menu-item:clicked {
-	color: white;
 }
 
 .comment {
-	color: rgb(102, 19, 19);
+	color: rgba(73, 56, 41, 1);
 	font-weight: bold;
 }
 
@@ -307,8 +305,8 @@ td.date {
 	margin: auto;
 	padding-left: 12px;
 	padding-right: 12px;
+	background: inherit;
 	overflow: hidden;
-	background-color: black;
 	z-index: 3;
 }
 
@@ -317,15 +315,15 @@ td.date {
 	width: 100%;
 	top: 0;
 	left: 0;
-	color: white;
-	border-top: 8px solid lightgray;
-	border-bottom: 8px solid lightgray;
+	border-top: 8px solid black;
+	border-bottom: 8px solid black;
 	z-index: 3;
-	background: black;
+	background: lightgray;
 }
 
 #title {
 	font-family: "Gill Sans";
+	color: black;
 	float: left;
 	font-weight: bold;
 	font-size: 24px;
@@ -338,6 +336,7 @@ td.date {
 
 #subtitle {
 	font-family: "Gill Sans";
+	color: black;
 	float: left;
 	font-weight: bold;
 	font-size: 12px;
@@ -361,6 +360,9 @@ td.date {
 	padding-bottom: 0;
 }
 
+#bird-about {
+	font-size: 18px;
+}
 #species-overlay {
 	position: absolute;
 	background: white;
@@ -445,6 +447,7 @@ td.date {
   overflow: hidden;
   display: inline-block;
   vertical-align: bottom;
+  font-size: 18px;
   -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
   animation: ellipsis steps(4,end) 900ms infinite;
   content: "\2026";
@@ -468,6 +471,7 @@ td.date {
 	border: 2px solid black;
 	padding: 1px;
 	padding-left: 5px;
+	margin-right: 4px;
 }
 
 #papers {
