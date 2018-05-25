@@ -21,9 +21,6 @@ var prom_Families = $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylo
 		});
 });
 
-$.get("./Media/Smaller_Bird_Photos/", function(test) {
-	console.log(test);
-});
 
 Promise.all([prom_Obs, prom_Orders, prom_Families]).then(function(values) 
 {
