@@ -394,53 +394,65 @@ td.date {
 	pargin-bottom: 30px;
 }
 
-#bird-map {
+#rightcolumn-overlay{
 	position: fixed;
-	width: 450px;
-	height: 250px;
 	margin-left: 320px;
-	border: 5px solid black;
-	display: inline;
+	width: 40%;
+	height: 60%;
+	max-width: 550px;
+	align-content: center;
+	overflow: visible;
 	visibility: hidden;
 	z-index: -1;
+}
+
+#bird-map {
+	position: relative;
+	left: 0;
+	width: 70%;
+	height: 45%;
+	margin: auto;
+	max-height: 250px;
+	border: 5px solid black;
+	display: block;
 }
 
 #species-labelBox {
-	position: fixed;
-	font-size: 20px;
-	text-align: center;
-	top: 420px;
-	width: 450px;
-	padding: 0;
-	margin: 0;
-	margin-left: 320px;
-	display: inline;
-	visibility: hidden;
-	z-index: -1;
+	position: relative;
+	width: 100%;
+	font-size: 18px;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 #species-label-common {
+	text-align: center;
 	font-weight: bold;
-	margin: 0;
 	padding: 0;
+	margin: 0;
+	margin-top: 10px;
 }
 
 #species-label-scientific {
+	text-align: center;
 	font-style: italic;
-	margin: 0;
 	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
 }
 
 #bird-photoBox {
-	position: fixed;
-	top: 480px;
-	width: 450px;
-	height: 350px;
-	margin-left: 320px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 40%;
+	max-width: 450px;
+	max-height: 350px;
 	border: none;
-	display: inline;
-	visibility: hidden;
-	z-index: -1;
+	margin: auto;
+	display: block;
 }
 
 #pending-message:after {

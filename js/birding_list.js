@@ -35,12 +35,23 @@ function(hasImgRaw)
 	});
 });
 
+prom_hasImgList.fail = function() {
+	return new Promise(function(resolve, reject) {
+		reject(null);
+	});
+};
+
 Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(function(values) 
 {
 	obsData = values[0];
 	familiesByOrder = values[1];
 	speciesByFamily = values[2];
 	hasImgRaw = values[3];
+
+	if (!hasImgRaw) {
+		$("pending-message").innerText = "GitHub API Error! Try again soon.";
+		return;
+	}
 
 	// formatting eBird CSV observation data into array
 	let rows = obsData.split("\n");
@@ -364,25 +375,15 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 			  	overlay.append(speciesList);
 			  	overlay.style.zIndex = "2";
 
-			  	var map = document.getElementById("bird-map");
-			  	map.style.visibility = "visible";
-			  	map.style.zIndex = "2";
-
-			  	var label = document.getElementById("species-labelBox");
-			  	label.style.visibility = "visible";
-			  	label.style.zIndex = "2";
-
-			  	var photoBox = document.getElementById("bird-photoBox");
-			  	photoBox.style.visibility = "visible";
-			  	photoBox.style.zIndex = "2";
+			  	var rightColumn = document.getElementById("rightcolumn-overlay");
+			  	rightColumn.style.visibility = "visible";
+			  	rightColumn.style.zIndex = "2";
 
 			  	var backgroundList = document.getElementById("order-list");
 			  	backgroundList.style.display = "none";
 
 	  			var aboutInfo = document.getElementById("bird-about");
 				aboutInfo.style.display = "none";
-
-				$("#eBird-data").scrollHeight = 450;
 			});
 		} else {
 			familyHeader.classList.add("family-header-none");
@@ -401,18 +402,14 @@ function makeOverlayBack() {
 		let overlay = this.parentElement;
 		overlay.style.zIndex = "-1";
 
-		let map = document.getElementById("bird-map");
-		map.style.visibility = "hidden";
-		map.style.zIndex = "-1";
+		let rightColumn = document.getElementById("rightcolumn-overlay");
+		rightColumn.style.visibility = "hidden";
+		rightColumn.style.zIndex = "-1";
 
 	  	let label = document.getElementById("species-labelBox");
-	  	label.style.visibility = "hidden";
-	  	label.style.zIndex = "-1";
 	  	$(label).empty();
 
 		let photoBox = document.getElementById("bird-photoBox");
-		photoBox.style.visibility = "hidden";
-		photoBox.style.zIndex = "-1";
 		$(photoBox).empty();
 
 		$(overlay).empty();
