@@ -3,30 +3,44 @@ pendingMessage.id = "pending-message";
 pendingMessage.innerText = "Loading checklist and images";
 $("#eBird-data").prepend(pendingMessage);
 
-var prom_Obs = $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/MyEBirdData.csv", function(obsData) {
-		return new Promise(function(resolve) {
-			resolve(obsData);
-		});
+var prom_Obs = $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/MyEBirdData.csv",
+function(obsData) 
+{
+	return new Promise(function(resolve) {
+		resolve(obsData);
+	});
 });
 
-var prom_Orders = $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/order_families.json", function(familiesByOrder) {
-		return new Promise(function(resolve) {
-			resolve(familiesByOrder);
-		});
+var prom_Orders = $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/order_families.json", 
+function(familiesByOrder) 
+{
+	return new Promise(function(resolve) {
+		resolve(familiesByOrder);
+	});
 });
 
-var prom_Families = $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/species_families.json", function(speciesByFamily) {
-		return new Promise(function(resolve) {
-			resolve(speciesByFamily);
-		});
+var prom_Families = $.getJSON("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/eBird/species_families.json", 
+function(speciesByFamily) 
+{
+	return new Promise(function(resolve) {
+		resolve(speciesByFamily);
+	});
 });
 
+var prom_hasImgList = $.getJSON("https://api.github.com/repos/ltaylor2/ltaylor2.github.io/contents/Media/Smaller_Bird_Photos", 
+function(hasImgRaw)  
+{
+	return new Promise(function(resolve) {
+		resolve(hasImgRaw);
+	});
+});
 
-Promise.all([prom_Obs, prom_Orders, prom_Families]).then(function(values) 
+Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(function(values) 
 {
 	obsData = values[0];
 	familiesByOrder = values[1];
 	speciesByFamily = values[2];
+	hasImgRaw = values[3];
 
 	// formatting eBird CSV observation data into array
 	let rows = obsData.split("\n");
@@ -85,10 +99,18 @@ Promise.all([prom_Obs, prom_Orders, prom_Families]).then(function(values)
 		}
 	}
 
+	// extracting has-image list from GitHub API metadata
+	var hasImgList = {};
+	for (i in hasImgRaw) {
+		let nameStr = hasImgRaw[i]["name"];
+		nameStr = nameStr.substr(0, nameStr.lastIndexOf("."));
+		hasImgList[nameStr] = nameStr;
+	}
+
 	// build the species lists by family, 
 	// waiting for images to query within the function
 	// and waiting for complete resolve before adding orderList
-	var spButtonsByFamily = makeSpeciesButtons(families, locations, scientificByCommon);
+	var spButtonsByFamily = makeSpeciesButtons(families, locations, scientificByCommon, hasImgList);
 
 	var overlayBackButton = makeOverlayBack();
 
@@ -138,7 +160,7 @@ Promise.all([prom_Obs, prom_Orders, prom_Families]).then(function(values)
 });
 
 
-function makeSpeciesButtons(families, locations, scientificByCommon) 
+function makeSpeciesButtons(families, locations, scientificByCommon, hasImgList) 
 {
 	var photoBox = document.getElementById("bird-photoBox");
 	var guide = getComputedStyle(photoBox)
@@ -151,7 +173,11 @@ function makeSpeciesButtons(families, locations, scientificByCommon)
 		spButtonsByFamily[family] = [];
 		for (c in families[family]) {
 			common = families[family][c];
-			let prom_spImg = promSpImage(common, family, maxWidth, maxHeight);
+			let hasImg = false;
+			if (hasImgList[common] != null) {
+				hasImg = true;
+			}
+			let prom_spImg = promSpImage(common, family, maxWidth, maxHeight, hasImg);
 
 			spButtonsByFamily[family].push(prom_spImg.then(function(values) {
 				let imgLink = values[0];
@@ -232,33 +258,36 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	return spButton;
 }
 
-function promSpImage(common, family, maxWidth, maxHeight) 
+function promSpImage(common, family, maxWidth, maxHeight, hasImg) 
 {
 	var promise = new Promise(function(resolve) {
-		// var imgPath = "https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/Smaller_Bird_Photos/" +common + ".jpg"
 
-		var imgPath = "./Media/Smaller_Bird_Photos/" + common + ".jpg";
 		var imgLink = document.createElement("A");
-		imgLink.href = imgPath;
-		imgLink.target = "_blank";
 
-		var spImg = document.createElement("img");
-		spImg.classList.add("bird-img");
-		spImg.onerror = function() { 
+		if (hasImg) {
+			var imgPath = "./Media/Smaller_Bird_Photos/" + common + ".jpg";
+			imgLink.href = imgPath;
+			imgLink.target = "_blank";
+
+			var spImg = document.createElement("img");
+			spImg.classList.add("bird-img");
+			spImg.onerror = function() { 
+				resolve([null, common, family]);
+			};
+
+			spImg.onload = function() {
+				imgLink.append(spImg);
+				resolve([imgLink, common, family]);
+			};
+
+			spImg.alt = common;
+			spImg.src = imgPath;
+			spImg.style.maxWidth = maxWidth;
+			spImg.style.maxHeight = maxHeight;
+		} else {
 			resolve([null, common, family]);
-		};
-
-		spImg.onload = function() {
-			imgLink.append(spImg);
-			resolve([imgLink, common, family]);
-		};
-
-		spImg.alt = common;
-		spImg.src = imgPath;
-		spImg.style.maxWidth = maxWidth;
-		spImg.style.maxHeight = maxHeight;
+		}
 	});
-
 	return promise;
 }
 
