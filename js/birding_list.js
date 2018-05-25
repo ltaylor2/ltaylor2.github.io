@@ -381,6 +381,8 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 
 	  			var aboutInfo = document.getElementById("bird-about");
 				aboutInfo.style.display = "none";
+
+				$("#eBird-data").scrollHeight = 450;
 			});
 		} else {
 			familyHeader.classList.add("family-header-none");
