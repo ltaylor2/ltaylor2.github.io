@@ -265,8 +265,9 @@ function promSpImage(common, family, maxWidth, maxHeight, hasImg)
 		var imgLink = document.createElement("A");
 
 		if (hasImg) {
-			var imgPath = "./Media/Medium_Bird_Photos/" + common + ".jpg";
-			imgLink.href = imgPath;
+			var imgPath = "./Media/Smaller_Bird_Photos/" + common + ".jpg";
+			var imgPath_LINK = "./Media/Medium_Bird_Photos/" + common + ".jpg";
+			imgLink.href = imgPath_LINK;
 			imgLink.target = "_blank";
 
 			var spImg = document.createElement("img");
