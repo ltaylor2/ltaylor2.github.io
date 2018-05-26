@@ -493,8 +493,22 @@ td.date {
 }
 
 #music {
+	position: absolute;
+	width: 330px;
+	right: 20px;
+	height: 280px;
+	border: 8px solid lightgray;
+	overflow-y: scroll;
+	padding: auto;
 }
+
+#music::-webkit-scrollbar {
+	display: none;
+}
+
+
 
 #album-list {
 	list-style-type: none;
+	padding: auto;
 }

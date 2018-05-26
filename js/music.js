@@ -7,9 +7,11 @@ function(albumListRaw)
 	var prom_albums = [];
 
 	for (i in albumList) {
-		let album = albumList[i];
+		let s = albumList[i].split(",");
+		let album = s[0];
+		let url = s[1];
 		if (album != "") {
-			prom_albums.push(promiseAlbumLink(album));
+			prom_albums.push(promiseAlbumLink(album, url));
 		}
 	}
 
@@ -26,7 +28,7 @@ function(albumListRaw)
 
 });
 
-function promiseAlbumLink(title) {
+function promiseAlbumLink(title, url) {
 
 	let width = "100px";
 	let height = "100px";
@@ -35,7 +37,7 @@ function promiseAlbumLink(title) {
 		var imgLink = document.createElement("A");
 
 		var imgPath = "./Media/Album_Art/" + title + ".jpg";
-		imgLink.href = imgPath;
+		imgLink.href = url;
 		imgLink.target = "_blank";
 
 		var alImg = document.createElement("img");
