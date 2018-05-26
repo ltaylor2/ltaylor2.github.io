@@ -1,4 +1,4 @@
-$.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/album_list.txt",
+$.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/album_list.csv",
 function(albumListRaw) 
 {
 
@@ -7,9 +7,11 @@ function(albumListRaw)
 	var prom_albums = [];
 
 	for (i in albumList) {
+		console.log(albumList[i]);
 		let s = albumList[i].split(",");
 		let album = s[0];
 		let url = s[1];
+		console.log(album + "/" + url);
 		if (album != "") {
 			prom_albums.push(promiseAlbumLink(album, url));
 		}
