@@ -1,17 +1,15 @@
 $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/album_list.csv",
 function(albumListRaw) 
 {
-
+	console.log(albumListRaw);
 	var albumList = albumListRaw.split("\n");
 
 	var prom_albums = [];
 
-	for (var i = albumList.length(); i > 0; i--) {
-		console.log(albumList[i-1]);
-		let s = albumList[i].split(",");
+	for (var i = albumList.length; i > 0; i--) {
+		let s = albumList[i-1].split(",")
 		let album = s[0];
 		let url = s[1];
-		console.log(album + "/" + url);
 		if (album != "") {
 			prom_albums.push(promiseAlbumLink(album, url));
 		}
