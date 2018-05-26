@@ -291,6 +291,12 @@ td.date {
 	background: black;
 }
 
+.album-art {
+	display: inline;
+	float: left;
+	border: 6px solid black;
+	margin: 4px;
+}
 #cv-full {
 	width: 80%;
 	max-width: 1500px;
@@ -487,11 +493,8 @@ td.date {
 }
 
 #music {
-	position: absolute;
-	top: 150px;
-	left: 10%;
-	height: 70%;
-	width: 300px;
-	overlap: hidden;
-	border: 1px solid black;
+}
+
+#album-list {
+	list-style-type: none;
 }
