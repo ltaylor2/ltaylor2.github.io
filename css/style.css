@@ -486,7 +486,7 @@ td.date {
 	margin-right: 4px;
 }
 
-#papers {
+#music {
 	position: absolute;
 	top: 150px;
 	left: 10%;
@@ -494,30 +494,4 @@ td.date {
 	width: 300px;
 	overlap: hidden;
 	border: 1px solid black;
-}
-
-#booksAndMusic {
-	position: absolute;
-	top: 150px;
-	right: 10%;
-	height: 70%;
-	width: 300px;
-	top: 150px;
-	padding: 0;
-}
-
-#books {
-	border: 1px solid black;
-	width: 100%;
-	height: 45%;
-	padding: 0;
-}
-
-#music {
-	border: 1px solid black;
-	overflow: auto;
-	width: 100%;
-	height: 45%;
-	padding: 0;
-	margin-top: 21%;
 }
