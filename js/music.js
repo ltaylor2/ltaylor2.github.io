@@ -54,8 +54,6 @@ function promiseAlbumLink(title, url) {
 		alImg.alt = title;
 		alImg.src = imgPath;
 
-		alImg.style.width = width
-		alImg.style.height = height;
 	});
 
 	return promise;

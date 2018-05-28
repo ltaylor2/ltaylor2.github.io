@@ -11,13 +11,13 @@ function(bookListRaw)
 		let book = s[0];
 		let url = s[1];
 		if (book != "") {
-			prom_books.push(promiseBookLink(album, url));
+			prom_books.push(promiseBookLink(book, url));
 		}
 	}
 
 	Promise.all(prom_books).then(function(bookLinks) {
-		let as = document.createElement("ul");
-		as.id = "book-list";
+		let bs = document.createElement("ul");
+		bs.id = "book-list";
 		for (i in bookLinks) {
 			let b = document.createElement("li");
 			b.append(bookLinks[i]);
@@ -54,8 +54,6 @@ function promiseBookLink(title, url) {
 		alImg.alt = title;
 		alImg.src = imgPath;
 
-		alImg.style.width = width
-		alImg.style.height = height;
 	});
 
 	return promise;
