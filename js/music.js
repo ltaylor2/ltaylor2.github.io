@@ -30,8 +30,6 @@ function(albumListRaw)
 
 function promiseAlbumLink(title, url) {
 
-	let width = "100px";
-	let height = "100px";
 	var promise = new Promise(function(resolve) {
 
 		var imgLink = document.createElement("A");

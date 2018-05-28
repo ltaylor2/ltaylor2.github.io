@@ -296,7 +296,20 @@ td.date {
 	float: left;
 	border: 6px solid black;
 	margin: 4px;
+	width: 100px;
+	height: 100px;
 }
+
+.book-cover {
+	display: inline;
+	float: left;
+	border: 6px solid black;
+	margin: 4px;
+	width: 125px;
+	height: 200px;
+}
+
+
 #cv-full {
 	width: 80%;
 	max-width: 1500px;
@@ -495,9 +508,10 @@ td.date {
 #music {
 	position: absolute;
 	width: 330px;
-	right: 20px;
 	height: 280px;
+	right: 150px;
 	border: 8px solid lightgray;
+	display: block;
 	overflow-y: scroll;
 	padding: auto;
 }
@@ -506,9 +520,25 @@ td.date {
 	display: none;
 }
 
-
-
 #album-list {
+	list-style-type: none;
+	margin: auto;
+}
+
+#books {
+	position: absolute;
+	width: 330px;
+	height: 280px;
+	right: 150px;
+	top: 500px;
+	border: 8px solid lightgray;
+	overflow-y: scroll;
+	display: block;
+	padding: auto;
+}
+
+#book-list {
 	list-style-type: none;
 	padding: auto;
 }
+
