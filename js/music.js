@@ -1,7 +1,6 @@
 $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/album_list.csv",
 function(albumListRaw) 
 {
-	console.log(albumListRaw);
 	var albumList = albumListRaw.split("\n");
 
 	var prom_albums = [];

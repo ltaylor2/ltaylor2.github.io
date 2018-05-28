@@ -1,7 +1,6 @@
 $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/book_list.csv",
 function(bookListRaw) 
 {
-	console.log(bookListRaw);
 	var bookList = bookListRaw.split("\n");
 
 	var prom_books = [];
@@ -23,7 +22,7 @@ function(bookListRaw)
 			b.append(bookLinks[i]);
 			bs.append(b);
 		}
-		$("#books").append(as);
+		$("#books").append(bs);
 	});
 
 });

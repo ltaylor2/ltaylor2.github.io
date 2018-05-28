@@ -382,6 +382,7 @@ td.date {
 #bird-about {
 	font-size: 18px;
 }
+
 #species-overlay {
 	position: absolute;
 	background: white;
@@ -505,15 +506,35 @@ td.date {
 	margin-right: 4px;
 }
 
-#music {
+#papers {
 	position: absolute;
+	display: inline;
+	border: 6px solid gray;
+	left: 0;
+	width: 30%;
+	margin-left: 10%;
+}
+
+#papers>.citation {
+	font-family: "Serif";
+}
+
+#media {
+	position: absolute;
+	display: inline;
+	right: 0;
+	width: 40%;
+	margin-right: 10%;
+}
+
+#music {
+	position: relative;
 	width: 330px;
 	height: 280px;
-	right: 150px;
-	border: 8px solid lightgray;
-	display: block;
+	margin: auto;
+	border: 6px solid lightgray;
 	overflow-y: scroll;
-	padding: auto;
+	display: block;
 }
 
 #music::-webkit-scrollbar {
@@ -522,23 +543,31 @@ td.date {
 
 #album-list {
 	list-style-type: none;
-	margin: auto;
+	width: 330px;
+	text-align: center;
+	padding: auto;
 }
 
 #books {
-	position: absolute;
-	width: 330px;
+	position: relative;
+	width: 220px;
 	height: 280px;
-	right: 150px;
-	top: 500px;
-	border: 8px solid lightgray;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 6px solid lightgray;
 	overflow-y: scroll;
 	display: block;
-	padding: auto;
+}
+
+#books::-webkit-scrollbar {
+	display: none;
 }
 
 #book-list {
 	list-style-type: none;
+	width: 200px;
+	text-align: center;
 	padding: auto;
 }
 
