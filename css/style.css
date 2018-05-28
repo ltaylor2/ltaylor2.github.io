@@ -506,25 +506,57 @@ td.date {
 	margin-right: 4px;
 }
 
+#papers-header {
+	postion: absolute;
+	display: block;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	margin-left: 10%;
+	width: 35%;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;	
+}
+
 #papers {
 	position: absolute;
 	display: inline;
-	border: 6px solid gray;
+	border: 6px solid lightgray;
 	left: 0;
-	width: 30%;
+	width: 37%;
 	margin-left: 10%;
+	overflow-y: scroll;
+	height: 638px;
+	margin-bottom: 30px;
 }
 
 #papers>.citation {
-	font-family: "Serif";
+	font-size: 16px;
+	margin: 8px;
+}
+
+#papers::-webkit-scrollbar {
+	display: none;
 }
 
 #media {
 	position: absolute;
 	display: inline;
+	top: 150px;
 	right: 0;
 	width: 40%;
 	margin-right: 10%;
+}
+
+#music-header {
+	font-size: 30px;
+	font-style: italic;
+	postion: absolute;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;	
 }
 
 #music {
@@ -546,6 +578,18 @@ td.date {
 	width: 330px;
 	text-align: center;
 	padding: auto;
+	margin-top: 10px;
+}
+
+#books-header {
+	font-size: 30px;
+	font-style: italic;
+	postion: absolute;
+	display: block;
+	margin: 0;
+	margin-top: 30px;
+	padding: 0;
+	text-align: center;
 }
 
 #books {
@@ -553,7 +597,7 @@ td.date {
 	width: 220px;
 	height: 280px;
 	margin: auto;
-	margin-top: 30px;
+	margin-top: 0;
 	margin-bottom: 30px;
 	border: 6px solid lightgray;
 	overflow-y: scroll;
