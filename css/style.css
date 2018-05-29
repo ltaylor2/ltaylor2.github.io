@@ -54,7 +54,7 @@ td.date {
 }
 
 .menu-item-active {
-	background-color: darkgray;
+	background-color: gray;
 	color: black;
 
 }
@@ -315,8 +315,8 @@ td.date {
 	margin: auto;
 	padding-left: 12px;
 	padding-right: 12px;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
+	border-top: 3px solid gray;
+	border-bottom: 3px solid gray;
 	padding-top: 18px;
 	padding-bottom: 10px;
 	background: inherit;
@@ -541,6 +541,7 @@ td.date {
 	overflow-y: scroll;
 	height: 638px;
 	margin-bottom: 30px;
+	background: lightgray;
 }
 
 #papers>.citation {
@@ -579,6 +580,7 @@ td.date {
 	border: 6px solid lightgray;
 	overflow-y: scroll;
 	display: block;
+	background: lightgray;
 }
 
 #music::-webkit-scrollbar {
@@ -614,6 +616,7 @@ td.date {
 	border: 6px solid lightgray;
 	overflow-y: scroll;
 	display: block;
+	background: lightgray;
 }
 
 #books::-webkit-scrollbar {

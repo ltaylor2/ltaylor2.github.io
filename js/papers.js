@@ -10,6 +10,7 @@ function(papersListRaw)
 			p.classList.add("citation");
 			p.innerHTML = paper;
 			$("#papers").append(p);
+			$("#papers").css("background", "white");
 		}
 	}
 });

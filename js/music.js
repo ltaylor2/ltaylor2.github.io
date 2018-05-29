@@ -23,6 +23,7 @@ function(albumListRaw)
 			as.append(a);
 		}
 		$("#music").append(as);
+		$("#music").css("background", "white");
 	});
 
 });

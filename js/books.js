@@ -23,6 +23,7 @@ function(bookListRaw)
 			bs.append(b);
 		}
 		$("#books").append(bs);
+		$("#books").css("background", "white");
 	});
 
 });
