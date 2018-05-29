@@ -48,15 +48,17 @@ td.date {
 	padding-bottom: 3px;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-top: -4px;
 	overflow: hidden;
 	text-decoration: none;
 	background-color: transparent;
+	border: 2px solid white;
 }
 
 .menu-item-active {
-	background-color: gray;
+	background-color: lightgray;
 	color: black;
-
+	border: 2px solid gray;
 }
 
 .comment {
@@ -313,12 +315,12 @@ td.date {
 	list-style-type: none;
 	width: 875px;
 	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 12px;
 	padding-left: 12px;
 	padding-right: 12px;
-	border-top: 3px solid gray;
-	border-bottom: 3px solid gray;
-	padding-top: 18px;
-	padding-bottom: 10px;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
 	background: inherit;
 	overflow: hidden;
 	z-index: 3;
