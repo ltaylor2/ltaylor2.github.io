@@ -365,6 +365,7 @@ S32297342,American Black Duck,Anas rubripes,407,X,US-ME,Androscoggin,Sabattus Po
 S32380386,American Black Duck,Anas rubripes,407,5,US-ME,Androscoggin,Sabattus Pond,44.1283834,-70.0992966,11-05-2016,11:50 AM,eBird - Traveling Count,120,1,3.219,,6
 S42071885,American Black Duck,Anas rubripes,407,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,01-19-2018,04:40 PM,eBird - Stationary Count,15,1,,,1
 S44442052,American Black Duck,Anas rubripes,407,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Terra Nova NP--Southwest Brook,48.6236111,-53.9669444,04-10-2018,12:00 PM,eBird - Traveling Count,60,1,3.219,,2
+S45912425,American Black Duck,Anas rubripes,407,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S38353102,American Black Duck,Anas rubripes,407,10,CA-MB,Churchill and Northern Manitoba,Churchill--Bird Cove,58.7503943,-93.883667,07-26-2017,01:40 PM,IBA Canada (protocol),63,1,2.414,,2
 S38155730,American Black Duck,Anas rubripes,407,7,CA-MB,Churchill and Northern Manitoba,Churchill--East Point,58.7739924,-93.8298512,07-15-2017,03:06 PM,eBird - Traveling Count,96,1,1.609,,2
 S38223405,American Black Duck,Anas rubripes,407,5,CA-MB,Churchill and Northern Manitoba,Churchill--East Point,58.7739924,-93.8298512,07-19-2017,02:34 PM,IBA Canada (protocol),88,1,1.609,,2
@@ -1051,6 +1052,7 @@ S38352985,Pacific Loon,Gavia pacifica,1565,2,CA-MB,Churchill and Northern Manito
 S32380386,Common Loon,Gavia immer,1567,3,US-ME,Androscoggin,Sabattus Pond,44.1283834,-70.0992966,11-05-2016,11:50 AM,eBird - Traveling Count,120,1,3.219,,6
 S32381133,Common Loon,Gavia immer,1567,2,US-ME,Androscoggin,Sabattus Pond--Martin Point Park,44.1251572,-70.1063512,11-05-2016,01:57 PM,eBird - Stationary Count,30,1,,,6
 S42041594,Common Loon,Gavia immer,1567,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,01-18-2018,10:45 AM,eBird - Stationary Count,10,1,,,1
+S45712766,Common Loon,Gavia immer,1567,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-15-2018,05:00 PM,eBird - Traveling Count,60,1,3.219,,1,,On drive over
 S24293135,Common Loon,Gavia immer,1567,2,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-17-2015,11:00 AM,eBird - Casual Observation,0,0
 S37818377,Common Loon,Gavia immer,1567,2,CA-MB,Churchill and Northern Manitoba,Churchill--Old Coast,58.7651811,-94.1029644,06-26-2017,09:08 AM,IBA Canada (protocol),40,1,.805,,2,,,Down on old coast beach
 S35984498,Common Loon,Gavia immer,1567,3,US-ME,Cumberland,"Bowdoin College Coastal Studies Center, Harpswell",43.788306,-69.9579549,04-15-2017,11:46 AM,eBird - Traveling Count,3,1,3.219,,8,,,No comment
@@ -1449,6 +1451,7 @@ S44295391,Bald Eagle,Haliaeetus leucocephalus,2881,1,CA-NL,Bonavista/Trinity-Cla
 S44441992,Bald Eagle,Haliaeetus leucocephalus,2881,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-10-2018,02:45 PM,eBird - Casual Observation,,0,,,2
 S44442112,Bald Eagle,Haliaeetus leucocephalus,2881,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-10-2018,04:00 PM,eBird - Traveling Count,60,1,.805,,2
 S44764147,Bald Eagle,Haliaeetus leucocephalus,2881,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-20-2018,11:20 AM,eBird - Stationary Count,30,1,,,1
+S46100979,Bald Eagle,Haliaeetus leucocephalus,2881,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
 S30816731,Bald Eagle,Haliaeetus leucocephalus,2881,1,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-16-2016,11:30 AM,eBird - Traveling Count,90,1,3.219,,2
 S24243464,Bald Eagle,Haliaeetus leucocephalus,2881,2,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-12-2015,12:00 PM,eBird - Traveling Count,30,0,1.609,,1
 S24824397,Bald Eagle,Haliaeetus leucocephalus,2881,4,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,08-29-2015,08:00 AM,eBird - Casual Observation,0,0,,,4
@@ -2408,6 +2411,7 @@ S44442112,Ring-billed Gull,Larus delawarensis,4319,1,CA-NL,Bonavista/Trinity-Cla
 S44764147,Ring-billed Gull,Larus delawarensis,4319,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-20-2018,11:20 AM,eBird - Stationary Count,30,1,,,1
 S45074412,Ring-billed Gull,Larus delawarensis,4319,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-29-2018,04:30 PM,eBird - Stationary Count,20,1,,,2
 S45415782,Ring-billed Gull,Larus delawarensis,4319,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-07-2018,08:30 AM,eBird - Stationary Count,15,1,,,1
+S46100979,Ring-billed Gull,Larus delawarensis,4319,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
 S30816731,Ring-billed Gull,Larus delawarensis,4319,1,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-16-2016,11:30 AM,eBird - Traveling Count,90,1,3.219,,2
 S38352721,Ring-billed Gull,Larus delawarensis,4319,4,CA-MB,Churchill and Northern Manitoba,Churchill--Cape Merry,58.78632,-94.19733,07-24-2017,01:04 PM,IBA Canada (protocol),41,1,.805,,2
 S37765331,Ring-billed Gull,Larus delawarensis,4319,8,CA-MB,Churchill and Northern Manitoba,Churchill--Crocket's Point,58.7562785,-94.2363453,06-23-2017,06:30 AM,IBA Canada (protocol),300,1,3.219,,3
@@ -2566,7 +2570,9 @@ S44442112,Herring Gull,Larus argentatus,4328,2,CA-NL,Bonavista/Trinity-Clarenvil
 S44764147,Herring Gull,Larus argentatus,4328,4,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-20-2018,11:20 AM,eBird - Stationary Count,30,1,,,1
 S45074412,Herring Gull,Larus argentatus,4328,6,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-29-2018,04:30 PM,eBird - Stationary Count,20,1,,,2
 S45415782,Herring Gull,Larus argentatus,4328,6,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-07-2018,08:30 AM,eBird - Stationary Count,15,1,,,1
+S46100979,Herring Gull,Larus argentatus,4328,4,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
 S44442052,Herring Gull,Larus argentatus,4328,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Terra Nova NP--Southwest Brook,48.6236111,-53.9669444,04-10-2018,12:00 PM,eBird - Traveling Count,60,1,3.219,,2
+S45912425,Herring Gull,Larus argentatus,4328,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S30816731,Herring Gull,Larus argentatus,4328,6,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-16-2016,11:30 AM,eBird - Traveling Count,90,1,3.219,,2
 S30817499,Herring Gull,Larus argentatus,4328,50,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-22-2016,03:30 PM,eBird - Traveling Count,90,1,3.219,,2
 S30816871,Herring Gull,Larus argentatus,4328,5,CA-NB,Charlotte,Grand Manan--Swallowtail Lighthouse,44.763416,-66.733154,07-07-2016,02:30 PM,eBird - Stationary Count,30,1,,,2
@@ -2868,6 +2874,7 @@ S44442112,Great Black-backed Gull,Larus marinus,4371,1,CA-NL,Bonavista/Trinity-C
 S44764147,Great Black-backed Gull,Larus marinus,4371,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-20-2018,11:20 AM,eBird - Stationary Count,30,1,,,1
 S45074412,Great Black-backed Gull,Larus marinus,4371,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-29-2018,04:30 PM,eBird - Stationary Count,20,1,,,2
 S45415782,Great Black-backed Gull,Larus marinus,4371,4,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-07-2018,08:30 AM,eBird - Stationary Count,15,1,,,1
+S46100979,Great Black-backed Gull,Larus marinus,4371,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
 S30816731,Great Black-backed Gull,Larus marinus,4371,4,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-16-2016,11:30 AM,eBird - Traveling Count,90,1,3.219,,2
 S30817499,Great Black-backed Gull,Larus marinus,4371,5,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-22-2016,03:30 PM,eBird - Traveling Count,90,1,3.219,,2
 S30816871,Great Black-backed Gull,Larus marinus,4371,2,CA-NB,Charlotte,Grand Manan--Swallowtail Lighthouse,44.763416,-66.733154,07-07-2016,02:30 PM,eBird - Stationary Count,30,1,,,2
@@ -2950,6 +2957,8 @@ S30676072,Least Tern,Sternula antillarum,4440,5,US-ME,Sagadahoc,Popham  Beach SP
 S30959038,Least Tern,Sternula antillarum,4440,6,US-ME,York,Stratton Island,43.5046746,-70.3116417,08-03-2016,10:30 AM,eBird - Traveling Count,215,1,1.609,,4,,,<br />Submitted from eBird Android 1.2.3
 S45527869,Caspian Tern,Hydroprogne caspia,4463,1,CA-NL,Notre Dame Bay-Lewisporte,Twillingate--Lower Head Trail--between lighthouse and lower head,49.6860743,-54.8061562,05-10-2018,09:51 AM,eBird - Traveling Count,80,1,6.437,,1
 S35278654,Caspian Tern,Hydroprogne caspia,4463,1,US-CA,San Mateo,US-California-Burlingame-620 Airport Boulevard - 37.59x-122.343,37.5901191,-122.3431229,03-19-2017,09:43 AM,eBird - Stationary Count,2,1,,,2
+S46100979,Common Tern,Sterna hirundo,4492,4,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
+S45912425,Common Tern,Sterna hirundo,4492,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S30362387,Common Tern,Sterna hirundo,4492,1,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,06-23-2016,04:15 PM,eBird - Traveling Count,60,1,2.414,,1,,,<br />Submitted from eBird Android 1.2.3
 S30499424,Common Tern,Sterna hirundo,4492,4,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,07-02-2016,01:59 PM,eBird - Traveling Count,80,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30946652,Common Tern,Sterna hirundo,4492,2,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,08-02-2016,10:00 AM,eBird - Traveling Count,80,1,1.609,,5,,,<br />Submitted from eBird Android 1.2.3
@@ -3835,6 +3844,7 @@ S35335285,Nuttall's Woodpecker,Picoides nuttallii,11147,1,US-CA,Santa Clara,Stan
 S35331829,Nuttall's Woodpecker,Picoides nuttallii,11147,1,US-CA,Santa Clara,US-California-Stanford-680 Lomita Drive - 37.421x-122.171,37.420517,-122.1713676,03-21-2017,11:05 AM,eBird - Traveling Count,20,1,.322,,1
 S28008271,Downy Woodpecker,Picoides pubescens,11148,1,US-ME,Androscoggin,"Androscoggin Riverlands SP, Turner",44.2611647,-70.1881313,03-06-2016,04:00 PM,eBird - Traveling Count,60,1,1.609,,3
 S32380386,Downy Woodpecker,Picoides pubescens,11148,1,US-ME,Androscoggin,Sabattus Pond,44.1283834,-70.0992966,11-05-2016,11:50 AM,eBird - Traveling Count,120,1,3.219,,6
+S45912425,Downy Woodpecker,Picoides pubescens,11148,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S24824397,Downy Woodpecker,Picoides pubescens,11148,1,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,08-29-2015,08:00 AM,eBird - Casual Observation,0,0,,,4
 S35951513,Downy Woodpecker,Picoides pubescens,11148,1,US-ME,Cumberland, Durham Road ,43.918738,-70.0388214,04-14-2017,01:00 PM,eBird - Traveling Count,120,1,2.414,,10
 S29383943,Downy Woodpecker,Picoides pubescens,11148,1,US-ME,Cumberland,Bowdoin College,43.9075924,-69.9630564,05-03-2016,02:32 PM,eBird - Traveling Count,80,1,3.621,,5,,,"<br />Submitted from eBird for iOS, version 1.1.5 Build 44"
@@ -4505,6 +4515,7 @@ S44442112,Blue Jay,Cyanocitta cristata,18831,1,CA-NL,Bonavista/Trinity-Clarenvil
 S44764147,Blue Jay,Cyanocitta cristata,18831,4,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-20-2018,11:20 AM,eBird - Stationary Count,30,1,,,1,"C Courtship, Display, or Copulation"
 S45074412,Blue Jay,Cyanocitta cristata,18831,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-29-2018,04:30 PM,eBird - Stationary Count,20,1,,,2
 S45415782,Blue Jay,Cyanocitta cristata,18831,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-07-2018,08:30 AM,eBird - Stationary Count,15,1,,,1
+S46100979,Blue Jay,Cyanocitta cristata,18831,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
 S35951513,Blue Jay,Cyanocitta cristata,18831,3,US-ME,Cumberland, Durham Road ,43.918738,-70.0388214,04-14-2017,01:00 PM,eBird - Traveling Count,120,1,2.414,,10
 S29383943,Blue Jay,Cyanocitta cristata,18831,6,US-ME,Cumberland,Bowdoin College,43.9075924,-69.9630564,05-03-2016,02:32 PM,eBird - Traveling Count,80,1,3.621,,5,,,"<br />Submitted from eBird for iOS, version 1.1.5 Build 44"
 S31765842,Blue Jay,Cyanocitta cristata,18831,2,US-ME,Cumberland,Bowdoin College,43.9075924,-69.9630564,09-26-2016,11:11 AM,eBird - Stationary Count,3,1,,,1,,,One tree outside of steam room
@@ -4580,6 +4591,8 @@ S44764147,American Crow,Corvus brachyrhynchos,19073,3,CA-NL,Bonavista/Trinity-Cl
 S45074412,American Crow,Corvus brachyrhynchos,19073,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-29-2018,04:30 PM,eBird - Stationary Count,20,1,,,2
 S44442052,American Crow,Corvus brachyrhynchos,19073,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Terra Nova NP--Southwest Brook,48.6236111,-53.9669444,04-10-2018,12:00 PM,eBird - Traveling Count,60,1,3.219,,2
 S45415986,American Crow,Corvus brachyrhynchos,19073,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-06-2018,02:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45712766,American Crow,Corvus brachyrhynchos,19073,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-15-2018,05:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45912425,American Crow,Corvus brachyrhynchos,19073,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S33887250,American Crow,Corvus brachyrhynchos,19073,20,US-NC,Buncombe,Tracey's House,35.6556777,-82.3502775,01-16-2017,11:00 AM,eBird - Stationary Count,20,1,,,2
 S30816731,American Crow,Corvus brachyrhynchos,19073,2,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-16-2016,11:30 AM,eBird - Traveling Count,90,1,3.219,,2
 S30817499,American Crow,Corvus brachyrhynchos,19073,2,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-22-2016,03:30 PM,eBird - Traveling Count,90,1,3.219,,2
@@ -4719,6 +4732,7 @@ S28508599,Fish Crow,Corvus ossifragus,19087,2,US-CT,New Haven,West Haven,41.2706
 S30676072,Fish Crow,Corvus ossifragus,19087,1,US-ME,Sagadahoc,Popham  Beach SP,43.7358483,-69.7985888,07-13-2016,06:42 PM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S41648266,Common Raven,Corvus corax,19134,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,01-05-2018,12:32 PM,eBird - Traveling Count,127,1,5.955,,2
 S44442112,Common Raven,Corvus corax,19134,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-10-2018,04:00 PM,eBird - Traveling Count,60,1,.805,,2
+S45912425,Common Raven,Corvus corax,19134,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S37341808,Common Raven,Corvus corax,19134,10,CA-MB,Churchill and Northern Manitoba,Churchill--Bird Cove,58.7503943,-93.883667,06-02-2017,01:16 PM,eBird - Traveling Count,120,1,1.609,,2
 S37479643,Common Raven,Corvus corax,19134,1,CA-MB,Churchill and Northern Manitoba,Churchill--Bird Cove,58.7503943,-93.883667,06-08-2017,01:11 PM,IBA Canada (protocol),180,1,3.219,,2
 S37577527,Common Raven,Corvus corax,19134,1,CA-MB,Churchill and Northern Manitoba,Churchill--Bird Cove,58.7503943,-93.883667,06-13-2017,01:55 PM,IBA Canada (protocol),68,1,1.609,,2
@@ -4875,6 +4889,9 @@ S40826985,Southern Rough-winged Swallow,Stelgidopteryx ruficollis,19948,16,EC-P,
 S39182346,Southern Rough-winged Swallow,Stelgidopteryx ruficollis,19948,3,EC-P,,Rio Silanche--general area,.1261084,-79.139439,09-14-2017,07:00 AM,eBird - Traveling Count,240,1,.322,,2
 S40791299,Southern Rough-winged Swallow,Stelgidopteryx ruficollis,19948,4,EC-P,,San Tadeo Birdwatching (Feeders),-.0291667,-78.7504077,11-27-2017,05:27 PM,eBird - Stationary Count,39,1,,,1
 S30010896,Purple Martin,Progne subis,19953,20,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46100979,Tree Swallow,Tachycineta bicolor,19972,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
+S45712766,Tree Swallow,Tachycineta bicolor,19972,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-15-2018,05:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45912425,Tree Swallow,Tachycineta bicolor,19972,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S24216976,Tree Swallow,Tachycineta bicolor,19972,4,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-10-2015,02:00 PM,eBird - Traveling Count,180,1,3.219,,1
 S30817098,Tree Swallow,Tachycineta bicolor,19972,2,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-21-2016,01:30 PM,eBird - Traveling Count,60,1,3.219,,2
 S37341808,Tree Swallow,Tachycineta bicolor,19972,3,CA-MB,Churchill and Northern Manitoba,Churchill--Bird Cove,58.7503943,-93.883667,06-02-2017,01:16 PM,eBird - Traveling Count,120,1,1.609,,2
@@ -5033,6 +5050,8 @@ S35335285,Chestnut-backed Chickadee,Poecile rufescens,20275,4,US-CA,Santa Clara,
 S35331829,Chestnut-backed Chickadee,Poecile rufescens,20275,4,US-CA,Santa Clara,US-California-Stanford-680 Lomita Drive - 37.421x-122.171,37.420517,-122.1713676,03-21-2017,11:05 AM,eBird - Traveling Count,20,1,.322,,1
 S41648266,Boreal Chickadee,Poecile hudsonicus,20279,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,01-05-2018,12:32 PM,eBird - Traveling Count,127,1,5.955,,2
 S45415986,Boreal Chickadee,Poecile hudsonicus,20279,4,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-06-2018,02:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45712766,Boreal Chickadee,Poecile hudsonicus,20279,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-15-2018,05:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45912425,Boreal Chickadee,Poecile hudsonicus,20279,6,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S45527914,Boreal Chickadee,Poecile hudsonicus,20279,1,CA-NL,Notre Dame Bay-Lewisporte,Brimstone Head,49.7194773,-54.3026314,05-09-2018,12:00 PM,eBird - Stationary Count,45,1,,,1
 S35344543,Oak Titmouse,Baeolophus inornatus,20475,2,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-21-2017,05:52 PM,eBird - Traveling Count,30,0,1.609,,1
 S35335285,Oak Titmouse,Baeolophus inornatus,20475,2,US-CA,Santa Clara,Stanford University--Papua New Guinea Sculpture Garden,37.424802,-122.1735799,03-21-2017,01:00 PM,eBird - Stationary Count,60,1,,,1
@@ -5256,6 +5275,8 @@ S36957867,Golden-crowned Kinglet,Regulus satrapa,21932,1,US-ME,Cumberland,Evergr
 S31966254,Golden-crowned Kinglet,Regulus satrapa,21932,12,US-ME,Hancock,"Lower Hadlock Pond, Mount Desert",44.3096931,-68.2903666,10-08-2016,11:01 AM,eBird - Traveling Count,60,1,1.609,,6
 S32714790,Golden-crowned Kinglet,Regulus satrapa,21932,2,US-NY,Suffolk,Sagg Swamp Preserve,40.9375,-72.28417,11-25-2016,02:46 PM,eBird - Traveling Count,40,1,1.609,,1
 S45415986,Ruby-crowned Kinglet,Regulus calendula,21939,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-06-2018,02:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45712766,Ruby-crowned Kinglet,Regulus calendula,21939,6,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-15-2018,05:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45912425,Ruby-crowned Kinglet,Regulus calendula,21939,9,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S38561905,Ruby-crowned Kinglet,Regulus calendula,21939,X,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,06-02-2017,,Historical,,0,,,,,"Infrequent sightings, but heard consistently starting mid-July","CNSC Room 11 Window List, spanning 06/02/17 to 08/09/17. Counts not included"
 S37692600,Ruby-crowned Kinglet,Regulus calendula,21939,2,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,06-19-2017,08:30 AM,eBird - Traveling Count,30,1,.483,,1,,,Walk behind studies center back towards marsh
 S38039666,Ruby-crowned Kinglet,Regulus calendula,21939,1,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,07-08-2017,07:15 PM,eBird - Traveling Count,35,1,.805,,2
@@ -5301,6 +5322,8 @@ S40360523,Swainson's Thrush,Catharus ustulatus,24602,1,EC-P,,Milpe Bird Sanctuar
 S40382967,Swainson's Thrush,Catharus ustulatus,24602,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-08-2017,03:42 PM,eBird - Traveling Count,74,1,2.092,,1
 S40416391,Swainson's Thrush,Catharus ustulatus,24602,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-10-2017,07:00 AM,PriMig - Pri Mig Banding Protocol,227,1,,,1
 S40791299,Swainson's Thrush,Catharus ustulatus,24602,2,EC-P,,San Tadeo Birdwatching (Feeders),-.0291667,-78.7504077,11-27-2017,05:27 PM,eBird - Stationary Count,39,1,,,1
+S45712766,Hermit Thrush,Catharus guttatus,24608,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-15-2018,05:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45912425,Hermit Thrush,Catharus guttatus,24608,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S33887250,Hermit Thrush,Catharus guttatus,24608,1,US-NC,Buncombe,Tracey's House,35.6556777,-82.3502775,01-16-2017,11:00 AM,eBird - Stationary Count,20,1,,,2
 S30817056,Hermit Thrush,Catharus guttatus,24608,3,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-20-2016,03:00 PM,eBird - Traveling Count,120,1,3.219,,2
 S30817098,Hermit Thrush,Catharus guttatus,24608,3,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-21-2016,01:30 PM,eBird - Traveling Count,60,1,3.219,,2
@@ -5351,6 +5374,7 @@ S43257953,American Robin,Turdus migratorius,24903,9,CA-NL,Bonavista/Trinity-Clar
 S43258578,American Robin,Turdus migratorius,24903,22,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,02-28-2018,10:00 AM,eBird - Stationary Count,38,1,,,2,,Increasingly flock moving with waxwings.
 S45074412,American Robin,Turdus migratorius,24903,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-29-2018,04:30 PM,eBird - Stationary Count,20,1,,,2
 S45415986,American Robin,Turdus migratorius,24903,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-06-2018,02:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45912425,American Robin,Turdus migratorius,24903,3,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S30816871,American Robin,Turdus migratorius,24903,1,CA-NB,Charlotte,Grand Manan--Swallowtail Lighthouse,44.763416,-66.733154,07-07-2016,02:30 PM,eBird - Stationary Count,30,1,,,2
 S37839518,American Robin,Turdus migratorius,24903,1,CA-MB,Churchill and Northern Manitoba,Churchill--Bird Cove,58.7503943,-93.883667,06-27-2017,01:40 PM,IBA Canada (protocol),58,1,3.219,,2
 S38561905,American Robin,Turdus migratorius,24903,X,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,06-02-2017,,Historical,,0,,,,,Singing males frequent early on. 3+ fledglings frequent by August,"CNSC Room 11 Window List, spanning 06/02/17 to 08/09/17. Counts not included"
@@ -5892,6 +5916,8 @@ S36908320,Pine Warbler,Setophaga pinus,27933,1,US-ME,Cumberland,US-Maine-Brunswi
 S31720744,Pine Warbler,Setophaga pinus,27933,2,US-ME,Cumberland,Wolfe's Neck Woods SP,43.8212814,-70.0819397,09-23-2016,01:40 PM,eBird - Traveling Count,132,1,2.414,,6
 S38735451,Pine Warbler,Setophaga pinus,27933,1,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,08-20-2017,02:30 PM,eBird - Stationary Count,30,1,,,1
 S30434014,Pine Warbler,Setophaga pinus,27933,6,US-ME,Sagadahoc,"Morse Mtn., Phippsburg",43.7379258,-69.8259687,06-27-2016,11:40 AM,eBird - Traveling Count,300,1,11.265,,1,,,<br />Submitted from eBird Android 1.2.3
+S45712766,Yellow-rumped Warbler,Setophaga coronata,27938,8,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-15-2018,05:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45912425,Yellow-rumped Warbler,Setophaga coronata,27938,4,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S38561905,Yellow-rumped Warbler,Setophaga coronata,27938,X,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,06-02-2017,,Historical,,0,,,,,Singing males and foraging males/females frequent since July. 2+ Fledglings present by August,"CNSC Room 11 Window List, spanning 06/02/17 to 08/09/17. Counts not included"
 S37692600,Yellow-rumped Warbler,Setophaga coronata,27938,1,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,06-19-2017,08:30 AM,eBird - Traveling Count,30,1,.483,,1,,,Walk behind studies center back towards marsh
 S38039666,Yellow-rumped Warbler,Setophaga coronata,27938,2,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,07-08-2017,07:15 PM,eBird - Traveling Count,35,1,.805,,2
@@ -5928,6 +5954,7 @@ S29685045,Yellow-rumped Warbler (Myrtle),Setophaga coronata coronata,27939,1,US-
 S36908320,Prairie Warbler,Setophaga discolor,27956,6,US-ME,Cumberland,US-Maine-Brunswick-Abijah Street - 43.907x-69.948,43.9068054,-69.9475745,05-16-2017,11:53 AM,eBird - Traveling Count,60,1,3.219,,1
 S35344543,Townsend's Warbler,Setophaga townsendi,27971,4,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-21-2017,05:52 PM,eBird - Traveling Count,30,0,1.609,,1
 S35331829,Townsend's Warbler,Setophaga townsendi,27971,1,US-CA,Santa Clara,US-California-Stanford-680 Lomita Drive - 37.421x-122.171,37.420517,-122.1713676,03-21-2017,11:05 AM,eBird - Traveling Count,20,1,.322,,1
+S45912425,Black-throated Green Warbler,Setophaga virens,27977,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S30816800,Black-throated Green Warbler,Setophaga virens,27977,2,CA-NB,Charlotte,Grand Manan--Swallowtail Lighthouse,44.763416,-66.733154,07-16-2016,03:00 PM,eBird - Stationary Count,120,1,,,2,,,"+ 3 minkies, several harbor seals, and several porpoises"
 S24243464,Black-throated Green Warbler,Setophaga virens,27977,4,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-12-2015,12:00 PM,eBird - Traveling Count,30,0,1.609,,1
 S30817056,Black-throated Green Warbler,Setophaga virens,27977,2,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-20-2016,03:00 PM,eBird - Traveling Count,120,1,3.219,,2
@@ -6443,6 +6470,8 @@ S44441992,Dark-eyed Junco,Junco hyemalis,29958,4,CA-NL,Bonavista/Trinity-Clarenv
 S44764147,Dark-eyed Junco,Junco hyemalis,29958,4,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-20-2018,11:20 AM,eBird - Stationary Count,30,1,,,1
 S45074412,Dark-eyed Junco,Junco hyemalis,29958,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-29-2018,04:30 PM,eBird - Stationary Count,20,1,,,2
 S45415986,Dark-eyed Junco,Junco hyemalis,29958,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-06-2018,02:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45712766,Dark-eyed Junco,Junco hyemalis,29958,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-15-2018,05:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45912425,Dark-eyed Junco,Junco hyemalis,29958,1,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S33887250,Dark-eyed Junco,Junco hyemalis,29958,4,US-NC,Buncombe,Tracey's House,35.6556777,-82.3502775,01-16-2017,11:00 AM,eBird - Stationary Count,20,1,,,2
 S37612686,Dark-eyed Junco,Junco hyemalis,29958,3,CA-MB,Churchill and Northern Manitoba,Churchill--Paulson Feeder,58.7114408,-94.1278036,06-15-2017,02:30 PM,eBird - Stationary Count,7,1,,,3
 S35951513,Dark-eyed Junco,Junco hyemalis,29958,6,US-ME,Cumberland, Durham Road ,43.918738,-70.0388214,04-14-2017,01:00 PM,eBird - Traveling Count,120,1,2.414,,10
@@ -6609,6 +6638,8 @@ S35296317,White-crowned Sparrow,Zonotrichia leucophrys,29984.05,10,US-CA,Marin,M
 S35313781,White-crowned Sparrow,Zonotrichia leucophrys,29984.05,8,US-CA,San Francisco,Golden Gate Park--Stow Lake,37.7675496,-122.4734026,03-20-2017,04:39 PM,eBird - Traveling Count,72,1,2.414,,2
 S35296125,White-crowned Sparrow,Zonotrichia leucophrys,29984.05,8,US-CA,San Mateo,Anza Lagoon,37.5915194,-122.3436856,03-19-2017,06:00 PM,eBird - Traveling Count,75,1,1.609,,1
 S35362804,White-crowned Sparrow,Zonotrichia leucophrys,29984.05,1,US-CA,San Mateo,Anza Lagoon,37.5915194,-122.3436856,03-22-2017,05:00 PM,eBird - Traveling Count,60,1,3.219,,1,,,Includes walk down public shore path to beach to the north
+S45712766,White-throated Sparrow,Zonotrichia albicollis,29984.17,4,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-15-2018,05:00 PM,eBird - Traveling Count,60,1,3.219,,1
+S45912425,White-throated Sparrow,Zonotrichia albicollis,29984.17,6,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S33887351,White-throated Sparrow,Zonotrichia albicollis,29984.17,1,US-NC,Buncombe,Beaver Lake Bird Sanctuary,35.633465,-82.55752,01-16-2017,01:00 PM,eBird - Traveling Count,60,1,.805,,5
 S33887250,White-throated Sparrow,Zonotrichia albicollis,29984.17,2,US-NC,Buncombe,Tracey's House,35.6556777,-82.3502775,01-16-2017,11:00 AM,eBird - Stationary Count,20,1,,,2
 S30817056,White-throated Sparrow,Zonotrichia albicollis,29984.17,1,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-20-2016,03:00 PM,eBird - Traveling Count,120,1,3.219,,2
@@ -6641,6 +6672,7 @@ S45527914,White-throated Sparrow,Zonotrichia albicollis,29984.17,2,CA-NL,Notre D
 S45527869,White-throated Sparrow,Zonotrichia albicollis,29984.17,2,CA-NL,Notre Dame Bay-Lewisporte,Twillingate--Lower Head Trail--between lighthouse and lower head,49.6860743,-54.8061562,05-10-2018,09:51 AM,eBird - Traveling Count,80,1,6.437,,1
 S32714790,White-throated Sparrow,Zonotrichia albicollis,29984.17,5,US-NY,Suffolk,Sagg Swamp Preserve,40.9375,-72.28417,11-25-2016,02:46 PM,eBird - Traveling Count,40,1,1.609,,1
 S32846668,White-throated Sparrow,Zonotrichia albicollis,29984.17,1,US-ME,York,Biddeford Pool--East Point Sanctuary,43.4470928,-70.3369403,12-03-2016,01:30 PM,eBird - Traveling Count,90,1,1.287,,4
+S46100979,Savannah Sparrow,Passerculus sandwichensis,29984.32,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
 S24216976,Savannah Sparrow,Passerculus sandwichensis,29984.32,5,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-10-2015,02:00 PM,eBird - Traveling Count,180,1,3.219,,1
 S30817056,Savannah Sparrow,Passerculus sandwichensis,29984.32,20,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-20-2016,03:00 PM,eBird - Traveling Count,120,1,3.219,,2
 S30816901,Savannah Sparrow,Passerculus sandwichensis,29984.32,20,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-21-2016,07:30 AM,eBird - Traveling Count,30,1,.805,,1
@@ -7051,6 +7083,7 @@ S40730047,Orange-bellied Euphonia,Euphonia xanthogaster,30782,1,EC-P,,San Miguel
 S39307881,Orange-bellied Euphonia,Euphonia xanthogaster,30782,2,EC-P,,San Tadeo Birdwatching (Feeders),-.0291667,-78.7504077,09-20-2017,03:30 AM,eBird - Stationary Count,30,1,,,3
 S39557703,Orange-bellied Euphonia,Euphonia xanthogaster,30782,2,EC-P,,San Tadeo Birdwatching (Feeders),-.0291667,-78.7504077,10-04-2017,03:40 PM,eBird - Stationary Count,60,1,,,3
 S40791299,Orange-bellied Euphonia,Euphonia xanthogaster,30782,2,EC-P,,San Tadeo Birdwatching (Feeders),-.0291667,-78.7504077,11-27-2017,05:27 PM,eBird - Stationary Count,39,1,,,1
+S45912425,Evening Grosbeak,Coccothraustes vespertinus,30797.2,2,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S27845588,Evening Grosbeak,Coccothraustes vespertinus,30797.2,1,US-ME,Franklin,York Hill (private),44.6795376,-70.3748274,02-26-2016,06:35 AM,eBird - Stationary Count,35,1,,,4,,,"Feeder watch. Party size somewhat variable, as people where going in an out of a cabin to watch the birds for short periods of time."
 S43258578,Pine Grosbeak,Pinicola enucleator,30864.26,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,02-28-2018,10:00 AM,eBird - Stationary Count,38,1,,,2
 S44441992,Pine Grosbeak,Pinicola enucleator,30864.26,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-10-2018,02:45 PM,eBird - Casual Observation,,0,,,2
@@ -7083,6 +7116,7 @@ S35296125,House Finch,Haemorhous mexicanus,30866,2,US-CA,San Mateo,Anza Lagoon,3
 S35331829,House Finch,Haemorhous mexicanus,30866,1,US-CA,Santa Clara,US-California-Stanford-680 Lomita Drive - 37.421x-122.171,37.420517,-122.1713676,03-21-2017,11:05 AM,eBird - Traveling Count,20,1,.322,,1
 S28609197,House Finch,Haemorhous mexicanus,30866,1,US-MA,Worcester,South St (Private),42.2030879,-71.6852137,03-27-2016,12:00 PM,eBird - Stationary Count,60,1,,,1,,,<br />Submitted from eBird Android 1.0.3
 S31614958,House Finch,Haemorhous mexicanus,30866,6,US-ME,York,Biddeford Pool,43.4441328,-70.3623676,09-16-2016,01:46 PM,eBird - Traveling Count,90,1,2.414,,6,,,<br />Submitted from eBird Android 1.2.5
+S45912425,Purple Finch,Haemorhous purpureus,30878.4,3,CA-NL,Bonavista/Trinity-Clarenville,TNNP--Louil Hill Trail,48.64479,-53.9592,05-21-2018,03:00 PM,eBird - Traveling Count,80,1,4.828,,2
 S35951513,Purple Finch,Haemorhous purpureus,30878.4,2,US-ME,Cumberland, Durham Road ,43.918738,-70.0388214,04-14-2017,01:00 PM,eBird - Traveling Count,120,1,2.414,,10
 S28985465,Purple Finch,Haemorhous purpureus,30878.4,2,US-ME,Cumberland,Durham Rd (Private),43.92343,-70.0434208,04-15-2016,09:00 AM,eBird - Stationary Count,120,1,,,1
 S36902525,Purple Finch,Haemorhous purpureus,30878.4,2,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-16-2017,06:40 AM,eBird - Traveling Count,160,1,3.219,,10
@@ -7225,6 +7259,7 @@ S43665129,House Sparrow,Passer domesticus,31345,10,CA-NL,Bonavista/Trinity-Clare
 S44764147,House Sparrow,Passer domesticus,31345,15,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-20-2018,11:20 AM,eBird - Stationary Count,30,1,,,1
 S45074412,House Sparrow,Passer domesticus,31345,8,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,04-29-2018,04:30 PM,eBird - Stationary Count,20,1,,,2
 S45415782,House Sparrow,Passer domesticus,31345,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-07-2018,08:30 AM,eBird - Stationary Count,15,1,,,1
+S46100979,House Sparrow,Passer domesticus,31345,4,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
 S37631678,House Sparrow,Passer domesticus,31345,4,CA-MB,Churchill and Northern Manitoba,Churchill--Cape Merry,58.78632,-94.19733,06-16-2017,01:30 PM,eBird - Stationary Count,11,1,,,3,,Further back on road towards town
 S37665252,House Sparrow,Passer domesticus,31345,10,CA-MB,Churchill and Northern Manitoba,Churchill--Granary Ponds,58.77398,-94.18103,06-16-2017,12:45 PM,eBird - Stationary Count,10,1,,,3
 S38223284,House Sparrow,Passer domesticus,31345,3,CA-MB,Churchill and Northern Manitoba,Churchill--Sea North Beach,58.7803548,-94.1964496,07-17-2017,09:57 AM,IBA Canada (protocol),29,1,.483,,2

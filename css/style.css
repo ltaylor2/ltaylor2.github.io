@@ -489,14 +489,15 @@ td.date {
 }
 
 #pending-message:after {
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: bottom;
-  font-size: 18px;
-  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
-  animation: ellipsis steps(4,end) 900ms infinite;
-  content: "\2026";
-  width: 0px;
+	font-size: inherit;
+  	overflow: hidden;
+  	display: inline-block;
+  	vertical-align: bottom;
+  	font-size: 18px;
+  	-webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+  	animation: ellipsis steps(4,end) 900ms infinite;
+  	content: "\2026";
+  	width: 0px;
 }
 
 @keyframes ellipsis {
