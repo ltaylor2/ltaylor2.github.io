@@ -12,8 +12,7 @@
 		<ul id="title-bar">
 			<li id="title">Liam U. Taylor</li>
 			<li id="subtitle">Ph.D. Student<br>Ecology and Evolution</li>
-			<li><a class="menu-item" id="manakins-link" href="manakins.html">Manakins</a></li>
-			<li><a class="menu-item" id="git-link" href="git.html">Git</a></li>
+			<li><a class="menu-item" id="projects-link" href="projects.html">Git</a></li>
 			<li><a class="menu-item" id="rl-link" href="rl.html">Read/Listen</a></li>
 			<li><a class="menu-item" id="birding-link" href="birding.html">Birds</a></li>
 			<li><a class="menu-item" id="cv-link" href="cv.html">CV</a></li>
@@ -22,17 +21,9 @@
 	</div>
 
 	<script type="text/javascript">
-		$("#header").load("https://ltaylor2.github.io/index.html #header",
-			function() {
-				var links = document.getElementsByClassName("menu-item");
-				for (var l = 0; l < links.length; l++) {
-					links[l].classList.remove("menu-item-active");
-				}
-
-				var activeLinkName = "about-link";
-				var activeLink = document.getElementById(activeLinkName);
-				activeLink.classList.add("menu-item-active");
-		});
+		var activeLinkName = "about-link";
+		var activeLink = document.getElementById(activeLinkName);
+		activeLink.classList.add("menu-item-active");
 	</script>
 
 	<div class="page">

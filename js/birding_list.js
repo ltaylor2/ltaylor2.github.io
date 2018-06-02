@@ -352,17 +352,17 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 
 				family = this.innerText;
 			  	this.classList.toggle("active");
-			  	var overlay = document.getElementById("species-overlay");
-			  	var guide = getComputedStyle(overlay.parentElement);
+			  	let overlay = document.getElementById("species-overlay");
+			  	let guide = getComputedStyle(overlay.parentElement);
 
 			  	overlay.append(overlayBackButton);
 
-			  	var familyLabel = document.createElement("p");
+			  	let familyLabel = document.createElement("p");
 			  	familyLabel.id = "family-label";
 			  	familyLabel.innerText = family.split("(")[1].split(")")[0];
 			  	overlay.append(familyLabel);
 
-			  	var speciesList = document.createElement("ul");
+			  	let speciesList = document.createElement("ul");
 			  	speciesList.classList.add("species-list");
 			  	for (b in spButtonsByFamily[family]) {
 			  		let sp = document.createElement("li");
@@ -372,19 +372,25 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 			  		speciesList.append(sp);
 			  	}
 
+				let neededHeight = $("#rightcolumn-overlay").offset().top + $("#rightcolumn-overlay").height() + 30;
+
+			  	overlay.style.minHeight = neededHeight + "px";
+			  	
 			  	overlay.append(speciesList);
 			  	overlay.style.zIndex = "2";
 
-			  	var rightColumn = document.getElementById("rightcolumn-overlay");
+			  	let rightColumn = document.getElementById("rightcolumn-overlay");
 			  	rightColumn.style.visibility = "visible";
 			  	rightColumn.style.zIndex = "2";
 
-			  	var backgroundList = document.getElementById("order-list");
+			  	let backgroundList = document.getElementById("order-list");
 			  	backgroundList.style.display = "none";
 
-	  			var aboutInfo = document.getElementById("bird-about");
+	  			let aboutInfo = document.getElementById("bird-about");
 				aboutInfo.style.display = "none";
+
 			});
+
 		} else {
 			familyHeader.classList.add("family-header-none");
 		}
@@ -400,6 +406,7 @@ function makeOverlayBack() {
 	overlayBackButton.innerText = "< Back"
 	overlayBackButton.addEventListener("click", function() {
 		let overlay = this.parentElement;
+		overlay.style.minHeight = "0px";
 		overlay.style.zIndex = "-1";
 
 		let rightColumn = document.getElementById("rightcolumn-overlay");
