@@ -539,26 +539,27 @@ td.date {
 	margin-right: 4px;
 }
 
-#papers-header {
-	postion: absolute;
-	display: block;
-	margin: 0;
-	padding: 0;
-	left: 0;
-	margin-left: 10%;
-	width: 35%;
-	font-size: 30px;
-	font-style: italic;
-	text-align: center;	
-}
-
-#papers {
+#papers-parent {
 	position: absolute;
 	display: inline;
-	border: 6px solid lightgray;
+	top: 150px;
 	left: 0;
 	width: 37%;
 	margin-left: 10%;
+}
+
+#papers-header {
+	font-size: 30px;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#papers {
+	position: relative;
+	display: block;
+	border: 4px solid black;
 	overflow-y: scroll;
 	height: 638px;
 	margin-bottom: 30px;
@@ -566,7 +567,7 @@ td.date {
 }
 
 #papers>.citation {
-	font-size: 16px;
+	font-size: 15px;
 	margin: 8px;
 }
 
@@ -574,7 +575,7 @@ td.date {
 	display: none;
 }
 
-#media {
+#media-parent {
 	position: absolute;
 	display: inline;
 	top: 150px;
@@ -585,7 +586,6 @@ td.date {
 
 #music-header {
 	font-size: 30px;
-	font-style: italic;
 	postion: absolute;
 	display: block;
 	margin: 0;
@@ -598,7 +598,7 @@ td.date {
 	width: 330px;
 	height: 280px;
 	margin: auto;
-	border: 6px solid lightgray;
+	border: 4px solid black;
 	overflow-y: scroll;
 	display: block;
 	background: lightgray;
@@ -618,7 +618,6 @@ td.date {
 
 #books-header {
 	font-size: 30px;
-	font-style: italic;
 	postion: absolute;
 	display: block;
 	margin: 0;
@@ -634,7 +633,7 @@ td.date {
 	margin: auto;
 	margin-top: 0;
 	margin-bottom: 30px;
-	border: 6px solid lightgray;
+	border: 4px solid black;
 	overflow-y: scroll;
 	display: block;
 	background: lightgray;
