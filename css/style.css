@@ -377,6 +377,14 @@ td.date {
 	overflow: hidden;
 }
 
+#bio-pic {
+	border: 2px solid black;
+	width: 80%;
+	display: block;
+	margin: auto;
+	max-width: 875px;
+}
+
 #cv-full {
 	width: 80%;
 	max-width: 1500px;
@@ -388,7 +396,7 @@ td.date {
 	
 #cv-title {
 	font-size: 30px;
-	font-style: italic;
+	text-transform: uppercase;
 	text-align: center;	
 	margin: 0;
 	padding-top: 10px;
