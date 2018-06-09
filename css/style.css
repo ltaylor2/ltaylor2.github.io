@@ -22,7 +22,7 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6, p, a, td {
+h1, h2, h3, h4, h5, h6, p, a, td, li {
 	font-family: "Gill Sans";
 }
 
@@ -40,12 +40,13 @@ td.date {
 .page {
 	border: 4px solid black;
 	width: 80%;
+	height: 100%;
 	max-width: 1500px;
 	margin-top: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	background: white;
 }
 
@@ -377,8 +378,38 @@ td.date {
 	overflow: hidden;
 }
 
+#about-info {
+	font-size: 18px;
+	padding: 10px;
+}
+
+#about-name {
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;	
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+}
+
+#about-contact {
+	padding-top: 1px;
+	padding-left: 0px;
+	margin-top: 1px;
+	width: 100%;
+	text-align: center;
+}
+
+#about-contact>li {
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 #bio-pic {
-	border: 2px solid black;
+	border: 4px solid black;
 	width: 80%;
 	display: block;
 	margin: auto;
