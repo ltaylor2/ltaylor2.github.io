@@ -51,6 +51,7 @@ function promiseBookLink(title, url) {
 			resolve(imgLink)
 		};
 
+		alImg.title = title;
 		alImg.alt = title;
 		alImg.src = imgPath;
 
