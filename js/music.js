@@ -52,6 +52,7 @@ function promiseAlbumLink(title, url) {
 		};
 
 		alImg.alt = title;
+		alImg.title = title;
 		alImg.src = imgPath;
 
 	});
