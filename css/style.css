@@ -380,7 +380,10 @@ td.date {
 
 #about-info {
 	font-size: 18px;
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 #about-name {
@@ -413,6 +416,7 @@ td.date {
 	width: 80%;
 	display: block;
 	margin: auto;
+	margin-bottom: 30px;
 	max-width: 875px;
 }
 
