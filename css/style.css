@@ -38,7 +38,7 @@ td.date {
 }
 
 .page {
-	border: 4px solid black;
+	border: 1px solid black;
 	width: 80%;
 	height: 100%;
 	max-width: 1500px;
@@ -99,7 +99,7 @@ td.date {
     padding-top: 12px;
     padding-bottom: 4px;
     border: none;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
     border-bottom: none;
     color: black;
     background: white;
@@ -111,13 +111,13 @@ td.date {
 }
 
 .cv-header.#last {
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 .cv-header-active {
 	background: gray;
 	color: white;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 .cv-header-active:hover, .cv-header-active:focus {
@@ -133,7 +133,7 @@ td.date {
 	padding-left: 1em;
 	padding-right: 0;
 	padding-bottom: 0;
-	margin-bottom: 0;
+	margin-bottom: 2px;
 	transition: max-height 0.2s ease-out;
 }
 
@@ -168,7 +168,7 @@ td.date {
     padding-top: 10px;
     padding-bottom: 5px;
     border: none;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
     border-bottom: none;
     color: black;
     background: white;
@@ -189,7 +189,7 @@ td.date {
     padding-top: 10px;
     padding-bottom: 5px;
     border: none;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
     border-bottom: none;
     color: lightgray;
     background: white;
@@ -198,7 +198,7 @@ td.date {
 .order-header-active {
 	background: gray;
 	color: white;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 .order-header-active:hover, .order-header-active:focus {
@@ -282,7 +282,7 @@ td.date {
 	padding-bottom: .25em;
 	margin-top: 2px;
 	margin-bottom: 2px;
-	border: 2px solid black;
+	border: 1px solid black;
 }
 
 .species:hover, .species:focus {
@@ -301,7 +301,7 @@ td.date {
 
 .bird-img {
 	display: block;
-	border: 5px solid black;
+	border: 1px solid black;
 	margin: auto;
 }
 
@@ -327,6 +327,40 @@ td.date {
 	height: 200px;
 }
 
+.project-cover {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 500px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.project-cover:hover>.project-cover-title,
+.project-cover:focus>.project-cover-title {
+	background-color: gray;
+	color: white;
+	border-color: white;
+}
+
+.project-cover-img {
+	width: 100%;
+	height: 100%;
+	text-align: middle;
+	border: 2px solid black;
+}
+
+.project-cover-title {
+	position: absolute;
+	top: 1em;
+	right: 2em;
+	padding: 1em;
+	font-size: 20px;
+	background-color: lightgray;
+	color: black;
+	border: 2px solid gray;
+}
+
 #title-bar {
 	list-style-type: none;
 	width: 875px;
@@ -335,7 +369,7 @@ td.date {
 	padding-bottom: 12px;
 	padding-left: 12px;
 	padding-right: 12px;
-	border: 4px solid black;
+	border: 2px solid black;
 	background: white;
 	overflow: hidden;
 	z-index: 3;
@@ -346,8 +380,8 @@ td.date {
 	width: 100%;
 	top: 0;
 	left: 0;
-	border-top: 4px solid black;
-	border-bottom: 4px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	padding-top: 16px;
 	padding-bottom: 16px;
 	z-index: 3;
@@ -412,7 +446,7 @@ td.date {
 }
 
 #bio-pic {
-	border: 4px solid black;
+	border: 1px solid black;
 	width: 80%;
 	display: block;
 	margin: auto;
@@ -444,7 +478,7 @@ td.date {
 }
 
 #last.cv-header, #last.order-header{
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 #eBird-data {
@@ -474,7 +508,7 @@ td.date {
 	background: white;
 	padding: .5em;
 	padding-bottom: .1em;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin-top: 10px;
 }
 
@@ -512,7 +546,7 @@ td.date {
 	height: 45%;
 	margin: auto;
 	max-height: 250px;
-	border: 5px solid black;
+	border: 1px solid black;
 	display: block;
 }
 
@@ -580,7 +614,7 @@ td.date {
 
 #photo-legend { 
 	background: rgba(124, 191, 134, 0.5);
-	border: 2px solid black;
+	border: 1px solid black;
 	padding: 1px;
 	padding-top: 3px;
 	padding-left: 5px;
@@ -607,7 +641,7 @@ td.date {
 #papers {
 	position: relative;
 	display: block;
-	border: 4px solid black;
+	border: 1px solid black;
 	overflow-y: scroll;
 	height: 638px;
 	margin-bottom: 30px;
@@ -646,7 +680,7 @@ td.date {
 	width: 330px;
 	height: 280px;
 	margin: auto;
-	border: 4px solid black;
+	border: 1px solid black;
 	overflow-y: scroll;
 	display: block;
 	background: lightgray;
@@ -681,7 +715,7 @@ td.date {
 	margin: auto;
 	margin-top: 0;
 	margin-bottom: 30px;
-	border: 4px solid black;
+	border: 1px solid black;
 	overflow-y: scroll;
 	display: block;
 	background: lightgray;
@@ -697,4 +731,3 @@ td.date {
 	text-align: center;
 	padding: auto;
 }
-
