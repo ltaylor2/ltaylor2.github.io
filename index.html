@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<ul id="title-bar">
+			<li id="title">Liam U. Taylor</li>
+			<li id="subtitle">Ph.D. Student<br>Ecology and Evolution</li>
+			<li><a class="menu-item" id="rl-link" href="rl.html">Read/Listen</a></li>
+			<li><a class="menu-item" id="birding-link" href="birding.html">Birds</a></li>
+			<li><a class="menu-item" id="projects-link" href="projects.html">Projects</a></li>
+			<li><a class="menu-item" id="cv-link" href="cv.html">CV</a></li>
+			<li><a class="menu-item" id="about-link" href="index.html">About</a></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		var activeLinkName = "about-link";
+		var activeLink = document.getElementById(activeLinkName);
+		activeLink.classList.add("menu-item-active");
+	</script>
+
+	<div class="page">
+		<div id="about-info">
+			<p id="about-name"> Liam U. Taylor </p>
+			<ul id="about-contact">
+				<li>liam.taylor@yale.edu</li>
+				<li>@LUlyssesT</li>
+			</ul>
+
+			<img id="bio-pic" alt="me!" src="Media/bio_picture.jpg"/>
+			<p>
+				I'm a first-year Ph.D. student (NSF GRFP) in the Ecology and Evolutionary Biology Department at Yale University. My current research interests include sexual selection theory (how does "Beauty Happen"?) and applying computational theory and tools to the study of birds in the field and lab. 
+				<br>
+				<br>
+				Some past research projects include:
+				<ul>
+					<li>Behavior of Golden-winged Manakins in the cloudforests of Ecuador</li>
+					<li>Demographics of Semipalmated Plovers in the subartic of Churchill, Manitoba</li>
+					<li>Demographics of Tree Swallows on Kent Island</li>
+					<li>Two seasons learning the trade with <span class=comment title="/Chuck's">Leach's</span> Storm-petrels on Kent Island</li>
+				</ul>
+			</p>
+			<p>
+				Some other research includes CS work in computer vision, spatial reasoning, and machine learning.
+				<br>
+				<br>
+				I'm also a  
+				<span class="comment" title="I put the 'which?' in whichity-whichity-which">passable</span>
+				birder, a 
+				<span class="comment" title="in both skill and attitude">miserable</span> 
+				taker-of-bird-photos, and a 
+				<span class="comment" title="but optimistic">new</span>
+				knitter. 
+				<br>
+				<br>
+				This site is entirely
+				<span class="comment" title="part of my efforts to learn HTML/CSS/JavaScript">hand-built</span>,
+				which is just to say I'm sorry if you're on mobile, a browser like Safari or Internet Explorer, or pretty much anything that's not this half-screen tab I have open in Chrome on my laptop right now. 
+				<br>
+				<br>
+				<br>
+				<div id="pressing-questions">
+					<p> CURRENT PRESSING QUESTIONS: </p>
+					<ul>
+						<li>Why hasn't my finely-tuned taxonomy of "bird/good-bird/really-good-bird/truly-good-bird" caught on yet?</li>
+						<li>Does anyone ever just purl the whole thing and then flip it inside out?</li>
+						<li>Hypothetically, just asking for a friend, how much longer does one have to keep feeding that crow all their moose stew before one starts gaining its trust?</li>
+					</ul>
+				</div>
+			</p>
+		</div>
+
+	</div>
+</body>
+</html>

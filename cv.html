@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+
+	<div id="load-header">
+	</div>
+	<script type="text/javascript">
+		$("#load-header").load("https://ltaylor2.github.io/index.html #header",
+			function() {
+				var links = document.getElementsByClassName("menu-item");
+				for (var l = 0; l < links.length; l++) {
+					links[l].classList.remove("menu-item-active");
+				}
+
+				var activeLinkName = "cv-link";
+				var activeLink = document.getElementById(activeLinkName);
+				activeLink.classList.add("menu-item-active");
+		});
+	</script>
+	<div class="page">
+		<div id="cv-full">
+			<p id="cv-title">Curriculum Vitae</p>
+			<button class="cv-header"><strong>Education</strong></button>
+			<div class="cv-content">
+				<table>
+				<tbody>
+					<tr>
+						<td><strong>Yale University, New Haven, CT</strong></td>
+						<td class="date">1st Year</td>
+					</tr>
+					<tr>
+						<td>Department of Ecology and Evolutionary Biology</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>NSF GRFP Fellow</td>
+					</tr>
+					<tr>
+						<td><strong>Bowdoin College, Brunswick, ME</strong></td>
+						<td class="date">2017</td>
+					</tr>
+					<tr>
+						<td>A.B. with Honors, <em>summa cum laude</em></td>
+					</tr>
+					<tr>
+						<td>Goldwater Scholar, Phi Beta Kappa</td>
+					</tr>
+					<tr>
+						<td>Major: Biology, Minor: Computer Science</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>G.P.A: 3.99/4.00</td>
+					</tr>
+					<tr class="info-header">
+						<td><em>Example Coursework</em></td>
+					</tr>
+					<tr class="info">
+						<td>Behavioral Ecology & Population Biology, Ornithology, Evolution, Advanced Winter Field Ecology, Ecological Genetics, Evo Devo, Molecular Evolution, Biomechanics, Biomathematics, Cognitive Architectures, Optimization and Uncertainty, Nature-Inspired Computation, Logic
+					</tr>
+				</tbody>
+				</table>
+			</div>
+
+			<button class="cv-header"><strong>Research Experience</strong></button>
+			<div class="cv-content">
+				<table>
+				<tbody>
+					<tr>
+						<td>Field Technician, <strong>Milpe Bird Sanctuary, Ecuador</strong></td>
+						<td class="date">Fall 2017</td>
+					</tr>
+					<tr>
+						<td>Supervisor: Dr. David McDonald (University of Wyoming)</td>
+					</tr>
+					<tr class="info-header">
+						<td>Display Behavior in Golden-winged Manakins</td>
+					</tr>
+					<tr class="info spaceUnder">
+						<td>Fieldwork on the lek and social display behaviors of Golden-winged Manakins, including blind observations, netting, banding, slow-motion display recording, and the design/implementation of a motion-detection program (Python) to automate the recognition of bird movement in 30+ hours of footage per day</td>
+					</tr>
+					<tr>
+						<td>Field Technician, <strong>Churchill Northern Studies Centre, Manitoba, Canada</strong></td>
+						<td class="date">Summer 2017</td>
+					</tr>
+					<tr>
+						<td>Supervisor: Dr. Erica Nol (Trent University)</td>
+					</tr>
+					<tr class="info-header">
+						<td>Semipalmated Plover Demographics</td>
+					</tr>
+					<tr class="info spaceUnder">
+						<td>Demographic fieldwork on a breeding population of Semipalmated Plovers in the northern subarctic, including nest-finding, adult and chick trapping and banding, and daily surveys of avian diversity across a large and discontinuous study site</td>
+					</tr>
+					<tr>
+						<td>Honors Project, <strong>Department of Biology, Bowdoin College</strong></td>
+						<td class="date">2016-2017</td>
+					</tr>
+					<tr>
+						<td>Supervisor: Dr. Nathaniel Wheelwright</td>
+					</tr>
+					<tr class="info-header">
+						<td>Demography of a collapsing aerial insectivore population</td>
+					</tr>
+					<tr class="info spaceUnder">
+						<td>Bayesian analysis of an integrated population model (R, JAGS) parsing the local extinction of a Tree Swallow population on Kent Island, New Brunswick, Canada, using long-term population, capture-recapture, and productivity datasets</td>
+					</tr>
+					<tr class="info-header">
+						<td>Nesting territories and natal dispersal in a philopatric songbird</td>
+					</tr>
+					<tr class="info spaceUnder">
+						<td>Approximate Bayesian computation (R) of male Savannah Sparrow territories on Kent Island, including a Voronoi algorithm for territory distribution estimation and an analysis of natal dispersal patterns</td>
+					</tr>
+					<tr>
+						<td>Independent Studies,</a> <strong>Department of Computer Science</span>, Bowdoin College</strong></td>
+						<td class="date">2016-2017</td>
+					</tr>
+					<tr>
+						<td>Supervisors: Dr. Eric Chown, Dr. Stephen Majerick, William Silver</td>
+					</tr>
+					<tr class="info-header">
+						<td>Evolution and computation of spatial reasoning</td>
+					</tr>
+					<tr class="info spaceUnder">
+						<td>Multidisciplinary approach to understanding the algorithms that underlie spatial problem-solving in organisms and robots, with particular consideration of the evolutionary and quantitative links between individual and social processes</td>
+					</tr>
+					<tr class="info-header">
+						<td>Pruning neural networks</td>
+					</tr>
+					<tr class="info spaceUnder">
+						<td>Novel algorithm (C++) by which neural networks are pruned using Ant Colony Optimization, increasing machine learning accuracy and testing efficiency</td>
+					</tr>
+					<tr class="info-header">
+						<td>Identifying edges with machine vision</td>
+					</tr>
+					<tr class="info spaceUnder">
+						<td>Color-independent Hough algorithm (C, C#, C++) for automated robotic edge detection with the Bowdoin RoboCup team (Northern Bites)</td>
+					</tr>
+					<tr>
+						<td>Researcher, <strong>Bowdoin Scientific Station, Kent Island, New Brunswick, Canada</strong></td>
+						<td class="date">Summer 2014-2015</td>
+					</tr>
+					<tr>
+						<td>Supervisor: Dr. Robert Mauck (Kenyon College)</td>
+					</tr>
+					<tr class="info-header">
+						<td>Modeling biparental incubation in Leach’s Storm-petrels</td>
+					</tr>
+					<tr class="info spaceUnder">
+						<td>Computational model (C++, R) simulating the evolution of obligate biparental incubation behaviors, parameterized with incubation and foraging datetime data from Passive Integrated Transponder tags on active breeding pairs</td>
+					</tr>
+					<tr class="info-header">
+						<td>Demographics and incubation activity of Leach’s Storm-petrels</td>
+					</tr>
+					<tr class="info spaceUnder">
+						<td>Continuing a 60+ year study on an island nesting colony, including banding and measuring hundreds of storm-petrels, feather analysis, bleeding, geolocator attachment, recovery, and analysis, burrow-finding, and study site mapping</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+
+			<button class="cv-header"><strong>Technical Skills</strong></button>
+			<div class="cv-content">
+				<table>
+				<tbody>
+					<tr>
+						<td><em>Fieldwork</em></td>
+					</tr>
+					<tr>
+						<td class="citation">General: data collection and entry, surveys, quadrats, behavioral observation, firearm safety</td>
+					</tr>
+					<tr>
+						<td class="citation">Ornithology: banding, bleeding, morphometrics, mist netting, PIT tags, radio telemetry, geolocators</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td class="citation">Natural History: extensive knowledge of avian identification and taxonomy, especially in New England, as well as basic knowledge of insect and plant diversity</td>
+					</tr>
+					<tr>
+						<td><em>Programming and Data Analysis</em></td>
+					</tr>
+					<tr>
+						<td>Proficient: R, C++</td>
+					</tr>
+					<tr>
+						<td>Experienced: Python, C, JAGS, OpenCV</td>
+					</tr>
+					<tr>
+						<td>Familiar: Java, WinBUGS, HTML/CSS (haha!)</td>
+					</tr>
+					<tr>
+						<td>Workflow: Sublime Text, RStudio, Git</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+
+			<button class="cv-header"><strong>Publications, Presentations, and Posters</strong></button>
+			<div class="cv-content">
+				<table>
+				<tbody>
+					<tr>
+						<td><em>Publications</em></td>
+					</tr>
+					<tr class="spaceUnder">
+						<td class="citation"><strong>Taylor, LU</strong>, BK Woodworth, BK Sandercock, and NT Wheelwright. In Submission at <em>The Condor</em>. Demographic drivers of collapse in an island songbird population.</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td class="citation">Wheelwright, NT, <strong>LU Taylor</strong>, BM West, ER Voss, SY Berzins, AR Villeneuve, HR LeBlanc, VB Leos, SJ Mayne, SA McCarthy, SJ Nagar, and JS Watling. 2017. Pupation site selection and enemy avoidance in the Introduced Pine Sawfly (<em>Diprion similis</em>). Northeastern Naturalist 24(Sp. 7):B19-B31.</td>
+					</tr>
+					<tr>
+						<td><em>Other Publications</em></td>
+					</tr>
+					<tr class="spaceUnder">
+						<td class="citation"><strong>Taylor, LU</strong> and LE Michael. 2018. Methods for Young Fieldworkers. The Bulletin of the Ecological Society of America 99(2):169-172.</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td class="citation"><strong>Taylor, LU</strong>. 2017. <a href="https://digitalcommons.bowdoin.edu/honorsprojects/66/">Demography of a collapsing aerial insectivore population</a>. Honors Project for the Department of Biology, Bowdoin College.</td>
+					</tr>
+					<tr>
+						<td><em>Presentations</em></td>
+					</tr>
+					<tr class="spaceUnder">
+						<td class="citation"><strong>Taylor, LU</strong>. 2017. Demography of a collapsing aerial insectivore population & Natal dispersal of Savannah Sparrows. Department of Biology Honors Seminar, Bowdoin College.</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td class="citation"><strong>Taylor, LU</strong>. 2016. A framework for mammalian and insect spatial systems. Department of Computer Science Summer Research Seminar, Bowdoin College.</td>
+					</tr>
+					<tr>
+						<td><em>Posters</em></td>
+					</tr>
+					<tr class="spaceUnder">
+						<td class="citation"><strong>Taylor, LU</strong> and E Chown. 2016. <a href="./Media/Posters/Taylor_Spatial_Poster.pdf" target="_blank">A framework for understanding spatial reasoning</a>. Poster session presented at: Presidential Research Symposium, Bowdoin College.</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td class="citation">McCarthy, SA, SY Berzins, HR LeBlanc, VB Leos, SJ Mayne, SJ Nagar, <strong>LU Taylor</strong>, AR Villeneuve, ER Voss, JS Watling, BM West, and NT Wheelwright. 2016. <a href="./Media/Posters/Taylor_Sawfly_Poster.pdf" target="_blank">Pupation site selection and enemy avoidance in the Introduced Pine Sawfly</a>. Poster for: Advanced Winter Field Ecology, Bowdoin College.</td>
+					</tr>
+					<tr>
+						<td class="citation"><strong>Taylor, LU</strong> and RA Mauck. 2015. <a href="./Media/Posters/Taylor_LHSP_Poster.pdf" target="_blank">Biparental incubation coordination of the Leach’s Storm-petrel (<em>Oceanodroma leucorhoa</em>)</a>. Poster session presented at: Presidential Science Symposium, Bowdoin College.</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+
+			<button class="cv-header"><strong>Teaching Experience</strong></button>
+			<div class="cv-content">
+				<table>
+				<tbody>
+					<tr>
+						<td><strong>Center for Learning and Teaching, Bowdoin College</strong></td>
+						<td class="date">Spring 2017</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td><em>Head tutor</em>, Department of Computer Science</td>
+					</tr>
+					<tr>
+						<td><strong>Center for Learning and Teaching, Bowdoin College</strong></td>
+						<td class="date">2014-2017</td>
+					</tr>
+					<tr>
+						<td><em>Teaching assistant and study group leader</em>, Department of Computer Science</td>
+					</tr>
+					<tr>
+						<td style="text-indent: 2em;">Courses: Intro CS, Data Structures, Nature-Inspired Computation</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+
+			<button class="cv-header" id="last"><strong>Grants and Awards</strong></button>
+			<div class="cv-content">
+				<table>
+				<tbody>
+					<tr>
+						<td><em>Research Fellowships and Grants</em></td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Graduate Research Fellowship, National Science Foundation (NSF GRFP)</td>
+						<td class="date">2018</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Bowdoin Research Award, Bowdoin College</td>
+						<td class="date">2016</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Roberts Fund Mini-grant, Bowdoin College</td>
+						<td class="date">2016</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Surdna Summer Research Fellowship, Bowdoin College</td>
+						<td class="date">2016</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Grua/O'Connell Fund Mini-grant, Bowdoin College</td>
+						<td class="date">2015</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Summer Research Fellowship, Bowdoin Scientific Station</td>
+						<td class="date">2014, 2015</td>
+					</tr>
+					<tr>
+						<td><em>Awards</em></td>
+					</tr>
+					<tr class="spaceUnder"> 
+						<td>Sterling Prize, given to the department's top application candidate, Department of Ecology and Evolutionary Biology, Yale University</td>
+						<td class="date">2018</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Donald and Harriet S. Macomber Prize in Biology, awarded to the outstanding student in the Department of Biology, Bowdoin College</td>
+						<td class="date">2017</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Member, Phi Beta Kappa Society</td>
+						<td class="date">2017</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Goldwater Scholar, Barry Goldwater Scholarship and Excellence in Education Foundation</td>
+						<td class="date">2016</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>James Malcolm Moulton Prize in Biology, awarded to the outstanding junior majoring in Biology, Bowdoin College</td>
+						<td class="date">2016</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Sarah and James Bowdoin Day Student Speaker, Bowdoin College. "<a href="https://www.youtube.com/watch?v=mRxCMd4cHqw&feature=youtu.be&t=4m13s" target="_blank">Attention and the Life of the Brain</a>"</td>
+						<td class="date">2016</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Bowdoin Book Award, distinction given for G.P.A. of 4.00 in previous year</td>
+						<td class="date">2014, 2016</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>Sarah and James Bowdoin Scholar, distinction given to top 20% G.P.A.</td>
+						<td class="date">2014-2016</td>
+					</tr>
+					<tr class="spaceUnder">
+						<td>National Merit Scholar, Bowdoin College</td>
+						<td class="date">2014</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var acc = document.getElementsByClassName("cv-header");
+		for (var i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		  	this.classList.toggle("active");
+		  	this.classList.add("cv-header-active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.maxHeight){
+		    	this.classList.remove("cv-header-active");
+		    	panel.style.maxHeight = null;
+		    } else {
+		      	panel.style.maxHeight = panel.scrollHeight + 3 + "px";
+		    }
+		  });
+		}
+	</script>
+</body>
+</html>
