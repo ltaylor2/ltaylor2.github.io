@@ -165,6 +165,7 @@ S26961152,Canada Goose,Branta canadensis,277,25,US-CT,Fairfield,Sherwood Island 
 S28146373,Canada Goose,Branta canadensis,277,200,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,Canada Goose,Branta canadensis,277,100,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
 S41324332,Canada Goose,Branta canadensis,277,150,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-26-2017,10:30 AM,eBird - Traveling Count,90,1,1.609,,2
+S46792130,Canada Goose,Branta canadensis,277,45,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S26843855,Canada Goose,Branta canadensis,277,300,US-CT,Fairfield,Short Beach Park,41.1648434,-73.1104136,01-11-2016,12:00 PM,eBird - Traveling Count,60,1,2.414,,1
 S26960517,Canada Goose,Branta canadensis,277,40,US-CT,Fairfield,Short Beach Park,41.1648434,-73.1104136,01-17-2016,11:00 AM,eBird - Traveling Count,45,1,2.414,,4
 S33887569,Canada Goose,Branta canadensis,277,10,US-TN,Franklin,Perimeter Trail,35.2183165,-85.9186123,01-19-2017,12:00 PM,eBird - Traveling Count,90,1,1.609,,7,F Flyover
@@ -989,6 +990,7 @@ S40416394,Wattled Guan,Aburria aburri,699,1,EC-P,,Milpe Bird Sanctuary,.033327,-
 S40541653,Wattled Guan,Aburria aburri,699,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-14-2017,08:00 AM,eBird - Stationary Count,135,1,,,1
 S39354069,Wattled Guan,Aburria aburri,699,1,EC-P,,Pachijal Drive,.0529575,-78.7983227,09-23-2017,02:25 PM,eBird - Traveling Count,240,1,8.047,,2
 S30918216,Chukar,Alectoris chukar,1066,2,US-ME,Cumberland,Harpswell Apartments,43.9033224,-69.9570787,07-31-2016,11:52 AM,eBird - Stationary Count,30,1,,,4,,Timid and clean -- escapees?,<br />Submitted from eBird Android 1.2.3
+S47291675,Red Junglefowl,Gallus gallus,1200,1,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
 S27334623,Ruffed Grouse,Bonasa umbellus,1443,1,US-ME,Sagadahoc,"Reid SP, Georgetown",43.7876805,-69.7235091,02-06-2016,01:31 PM,eBird - Traveling Count,95,1,4.828,,4,,,<br />Submitted from eBird Android 1.0.1
 S38561905,Willow Ptarmigan,Lagopus lagopus,1469,X,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,06-02-2017,,Historical,,0,,,,,"Male only, conflict and perching","CNSC Room 11 Window List, spanning 06/02/17 to 08/09/17. Counts not included"
 S38367464,Willow Ptarmigan,Lagopus lagopus,1469,2,CA-MB,Churchill and Northern Manitoba,Churchill--Eastern Estuary,58.7714747,-93.8154745,07-28-2017,02:05 PM,IBA Canada (protocol),146,1,3.219,,2,FL Recently Fledged Young
@@ -1131,6 +1133,9 @@ S30816945,Wilson's Storm-Petrel,Oceanites oceanicus,1857,160,CA-NB,Saint John,Ba
 S24217029,Wilson's Storm-Petrel,Oceanites oceanicus,1857,10,US-ME,Washington,Machias Seal Island,44.5017549,-67.10078,07-04-2015,07:00 AM,eBird - Traveling Count,480,0,32.187,,10
 S25932425,Leach's Storm-Petrel,Oceanodroma leucorhoa,1890,3,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,09-19-2015,,eBird - Casual Observation,0,0,,,,,Removed from Burrow (chicks/juvenile)
 S30817056,Leach's Storm-Petrel,Oceanodroma leucorhoa,1890,3,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-20-2016,03:00 PM,eBird - Traveling Count,120,1,3.219,,2,,Adult from burrow plus two chicks
+S47105106,Storm's Stork,Ciconia stormi,1941.2,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
+S47105161,Storm's Stork,Ciconia stormi,1941.2,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47021971,Milky Stork,Mycteria cinerea,1941.6,30,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
 S46327543,Northern Gannet,Morus bassanus,1964,5000,CA-NL,Avalon Peninsula-St. John's,NL--Cape St. Mary's,46.823875,-54.1877942,06-05-2018,08:30 AM,eBird - Traveling Count,240,1,3.219,,2,,"arbitrary low count, breeding"
 S30816731,Northern Gannet,Morus bassanus,1964,2,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-16-2016,11:30 AM,eBird - Traveling Count,90,1,3.219,,2
 S30817499,Northern Gannet,Morus bassanus,1964,3,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-22-2016,03:30 PM,eBird - Traveling Count,90,1,3.219,,2
@@ -1149,6 +1154,9 @@ S24293099,Northern Gannet,Morus bassanus,1964,2,CA-NB,Saint John,Bay of Fundy,44
 S25932472,Northern Gannet,Morus bassanus,1964,40,CA-NB,Saint John,Bay of Fundy,44.869922,-66.2870407,09-20-2015,,eBird - Casual Observation,0,0
 S32714767,Northern Gannet,Morus bassanus,1964,4,US-NY,Suffolk,Sagg Main Town Beach,40.9085302,-72.2843903,11-25-2016,03:47 PM,eBird - Traveling Count,32,1,1.609,,1
 S24217029,Northern Gannet,Morus bassanus,1964,4,US-ME,Washington,Machias Seal Island,44.5017549,-67.10078,07-04-2015,07:00 AM,eBird - Traveling Count,480,0,32.187,,10
+S47306440,Little Pied Cormorant,Microcarbo melanoleucos,1968,1,ID-NU,Bali,Benoa Bay general (no stopping on Jalan Toll),-8.7586121,115.1969504,07-20-2018,04:20 PM,eBird - Traveling Count,20,1,3.219,,1
+S47022258,Little Cormorant,Microcarbo niger,1971,3,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47021971,Little Cormorant,Microcarbo niger,1971,2,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
 S44295347,Great Cormorant,Phalacrocorax carbo,1984.04,2,CA-NL,Avalon Peninsula-St. John's,NL--Cape Spear,47.5216036,-52.6246846,04-05-2018,01:30 PM,eBird - Stationary Count,60,1,,,3
 S41648266,Great Cormorant,Phalacrocorax carbo,1984.04,27,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,01-05-2018,12:32 PM,eBird - Traveling Count,127,1,5.955,,2
 S41790507,Great Cormorant,Phalacrocorax carbo,1984.04,25,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,01-10-2018,11:00 AM,eBird - Stationary Count,20,1,,,2
@@ -1167,6 +1175,7 @@ S45075031,Great Cormorant,Phalacrocorax carbo,1984.04,1,CA-NL,Northern Peninsula
 S45075363,Great Cormorant,Phalacrocorax carbo,1984.04,4,CA-NL,Northern Peninsula-St. Anthony,NL--Cow Head,49.9205924,-57.8198605,04-23-2018,02:30 PM,eBird - Traveling Count,120,1,3.219,,3
 S24293099,Great Cormorant,Phalacrocorax carbo,1984.04,2,CA-NB,Saint John,Bay of Fundy,44.869922,-66.2870407,07-16-2015,01:00 PM,eBird - Traveling Count,360,0,32.187,,15,,,Whale/Bird watching trip
 S32846668,Great Cormorant,Phalacrocorax carbo,1984.04,8,US-ME,York,Biddeford Pool--East Point Sanctuary,43.4470928,-70.3369403,12-03-2016,01:30 PM,eBird - Traveling Count,90,1,1.287,,4
+S47021971,Little Black Cormorant,Phalacrocorax sulcirostris,1984.18,40,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
 S39307981,Neotropic Cormorant,Phalacrocorax brasilianus,1985,2,EC-P,,Mindo Garden Lodge,-.0729554,-78.754549,09-20-2017,04:20 PM,eBird - Traveling Count,180,1,6.437,,3
 S32380386,Double-crested Cormorant,Phalacrocorax auritus,1988,3,US-ME,Androscoggin,Sabattus Pond,44.1283834,-70.0992966,11-05-2016,11:50 AM,eBird - Traveling Count,120,1,3.219,,6
 S46327543,Double-crested Cormorant,Phalacrocorax auritus,1988,20,CA-NL,Avalon Peninsula-St. John's,NL--Cape St. Mary's,46.823875,-54.1877942,06-05-2018,08:30 AM,eBird - Traveling Count,240,1,3.219,,2
@@ -1199,6 +1208,7 @@ S31861611,Double-crested Cormorant,Phalacrocorax auritus,1988,20,US-ME,Cumberlan
 S38838633,Double-crested Cormorant,Phalacrocorax auritus,1988,20,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-26-2017,07:09 PM,eBird - Traveling Count,2,1,.145,,1
 S38857908,Double-crested Cormorant,Phalacrocorax auritus,1988,30,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-27-2017,03:30 PM,eBird - Traveling Count,60,1,1.609,,2
 S24595191,Double-crested Cormorant,Phalacrocorax auritus,1988,6,US-CT,Fairfield,Fairweather Island,41.1413776,-73.2154154,08-12-2015,05:00 PM,eBird - Casual Observation,0,0,,,2
+S46792130,Double-crested Cormorant,Phalacrocorax auritus,1988,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S31966340,Double-crested Cormorant,Phalacrocorax auritus,1988,10,US-ME,Hancock,Acadia NP--Dorr Pt. & Compass Harbor,44.375481,-68.1922996,10-09-2016,02:03 PM,eBird - Stationary Count,20,1,,,6
 S31966361,Double-crested Cormorant,Phalacrocorax auritus,1988,4,US-ME,Hancock,Acadia NP--Otter Pt.,44.3072668,-68.1901217,10-09-2016,06:23 PM,eBird - Stationary Count,15,1,,,7
 S31966353,Double-crested Cormorant,Phalacrocorax auritus,1988,12,US-ME,Hancock,US-Maine-Mount Desert-Park Loop Road - 44.317x-68.201,44.3171617,-68.2008253,10-09-2016,04:51 PM,eBird - Stationary Count,15,1,,,7
@@ -1263,6 +1273,8 @@ S35313781,Great Blue Heron,Ardea herodias,2118,7,US-CA,San Francisco,Golden Gate
 S35319370,Great Blue Heron,Ardea herodias,2118,2,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-20-2017,05:32 PM,eBird - Traveling Count,40,1,.805,,2
 S35344543,Great Blue Heron,Ardea herodias,2118,1,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-21-2017,05:52 PM,eBird - Traveling Count,30,0,1.609,,1
 S31614958,Great Blue Heron,Ardea herodias,2118,1,US-ME,York,Biddeford Pool,43.4441328,-70.3623676,09-16-2016,01:46 PM,eBird - Traveling Count,90,1,2.414,,6,,,<br />Submitted from eBird Android 1.2.5
+S47306440,Purple Heron,Ardea purpurea,2140,2,ID-NU,Bali,Benoa Bay general (no stopping on Jalan Toll),-8.7586121,115.1969504,07-20-2018,04:20 PM,eBird - Traveling Count,20,1,3.219,,1
+S47306440,Great Egret,Ardea alba,2144,4,ID-NU,Bali,Benoa Bay general (no stopping on Jalan Toll),-8.7586121,115.1969504,07-20-2018,04:20 PM,eBird - Traveling Count,20,1,3.219,,1
 S30499424,Great Egret,Ardea alba,2144,4,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,07-02-2016,01:59 PM,eBird - Traveling Count,80,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S25932554,Great Egret,Ardea alba,2144,4,US-ME,Cumberland,Scarborough Marsh,43.5614567,-70.3611791,10-04-2015,,eBird - Casual Observation,0,0
 S25302037,Great Egret,Ardea alba,2144,15,US-ME,Cumberland,Scarborough Marsh,43.5614567,-70.3611791,10-04-2015,04:15 PM,eBird - Traveling Count,80,1,1.207,,3,,Estimate,"Walked down Eastern Trail, starting at the parking lot down the road from the Audubon Center then doubling back. Distance is one way, but new birds were recorded on the return trip."
@@ -1270,6 +1282,7 @@ S30494106,Great Egret,Ardea alba,2144,4,US-ME,Cumberland,Scarborough Marsh--East
 S38838633,Great Egret,Ardea alba,2144,1,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-26-2017,07:09 PM,eBird - Traveling Count,2,1,.145,,1
 S38857908,Great Egret,Ardea alba,2144,4,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-27-2017,03:30 PM,eBird - Traveling Count,60,1,1.609,,2
 S30010896,Great Egret,Ardea alba,2144,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Great Egret,Ardea alba,2144,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S38924028,Great Egret,Ardea alba,2144,2,US-CT,New Haven,Hammonasset Beach SP,41.2619859,-72.5548234,08-31-2017,02:30 PM,eBird - Traveling Count,44,1,1.609,,3
 S28539203,Great Egret,Ardea alba,2144,7,US-CT,New Haven,Milford Pt.,41.1754303,-73.1032485,03-25-2016,04:32 PM,eBird - Traveling Count,48,1,1.609,,1,,,<br />Submitted from eBird Android 1.0.3
 S31244771,Great Egret,Ardea alba,2144,2,US-CT,New Haven,Milford Pt.,41.1754303,-73.1032485,08-25-2016,11:50 AM,eBird - Traveling Count,30,1,1.609,,1,,,<br />Submitted from eBird Android 1.2.5
@@ -1277,6 +1290,13 @@ S30029439,Great Egret,Ardea alba,2144,3,US-CT,New Haven,Silver Sands SP,41.2,-73
 S35319370,Great Egret,Ardea alba,2144,1,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-20-2017,05:32 PM,eBird - Traveling Count,40,1,.805,,2
 S35344543,Great Egret,Ardea alba,2144,1,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-21-2017,05:52 PM,eBird - Traveling Count,30,0,1.609,,1
 S30959038,Great Egret,Ardea alba,2144,6,US-ME,York,Stratton Island,43.5046746,-70.3116417,08-03-2016,10:30 AM,eBird - Traveling Count,215,1,1.609,,4,,,<br />Submitted from eBird Android 1.2.3
+S47306440,Intermediate Egret,Ardea intermedia,2150,6,ID-NU,Bali,Benoa Bay general (no stopping on Jalan Toll),-8.7586121,115.1969504,07-20-2018,04:20 PM,eBird - Traveling Count,20,1,3.219,,1
+S47291675,Intermediate Egret,Ardea intermedia,2150,20,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47105978,Intermediate Egret,Ardea intermedia,2150,1,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S46997989,Little Egret,Egretta garzetta,2158,1,ID-JW,Banten,Jakarta--international airport vicinity,-6.104942,106.6726413,07-05-2018,10:30 AM,eBird - Traveling Count,20,0,8.047,,1,,,"Weak, weak IDs to start"
+S47022258,Little Egret,Egretta garzetta,2158,2,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47021971,Little Egret,Egretta garzetta,2158,8,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
+S47145448,Little Egret,Egretta garzetta,2158,12,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
 S30362387,Snowy Egret,Egretta thula,2169,3,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,06-23-2016,04:15 PM,eBird - Traveling Count,60,1,2.414,,1,,,<br />Submitted from eBird Android 1.2.3
 S30499424,Snowy Egret,Egretta thula,2169,15,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,07-02-2016,01:59 PM,eBird - Traveling Count,80,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30946652,Snowy Egret,Egretta thula,2169,1,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,08-02-2016,10:00 AM,eBird - Traveling Count,80,1,1.609,,5,,,<br />Submitted from eBird Android 1.2.3
@@ -1286,6 +1306,7 @@ S30494106,Snowy Egret,Egretta thula,2169,12,US-ME,Cumberland,Scarborough Marsh--
 S38838633,Snowy Egret,Egretta thula,2169,8,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-26-2017,07:09 PM,eBird - Traveling Count,2,1,.145,,1
 S38857908,Snowy Egret,Egretta thula,2169,14,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-27-2017,03:30 PM,eBird - Traveling Count,60,1,1.609,,2
 S24595191,Snowy Egret,Egretta thula,2169,1,US-CT,Fairfield,Fairweather Island,41.1413776,-73.2154154,08-12-2015,05:00 PM,eBird - Casual Observation,0,0,,,2
+S46792130,Snowy Egret,Egretta thula,2169,2,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S38924028,Snowy Egret,Egretta thula,2169,6,US-CT,New Haven,Hammonasset Beach SP,41.2619859,-72.5548234,08-31-2017,02:30 PM,eBird - Traveling Count,44,1,1.609,,3
 S31244771,Snowy Egret,Egretta thula,2169,6,US-CT,New Haven,Milford Pt.,41.1754303,-73.1032485,08-25-2016,11:50 AM,eBird - Traveling Count,30,1,1.609,,1,,,<br />Submitted from eBird Android 1.2.5
 S38805180,Snowy Egret,Egretta thula,2169,1,US-NY,New York,Central Park--The Pond and Hallett Sanctuary,40.7662497,-73.9743751,08-24-2017,05:45 PM,eBird - Traveling Count,100,1,3.589,,3
@@ -1306,12 +1327,20 @@ S39039816,Cattle Egret,Bubulcus ibis,2183,3,EC-P,,Mindo--Road from highway to to
 S40826967,Cattle Egret,Bubulcus ibis,2183,6,EC-P,,Mindo--Vía a las cascadas (Waterfall trail),-.0627651,-78.7742693,11-29-2017,01:15 PM,eBird - Traveling Count,45,1,4.828,,2
 S39354069,Cattle Egret,Bubulcus ibis,2183,18,EC-P,,Pachijal Drive,.0529575,-78.7983227,09-23-2017,02:25 PM,eBird - Traveling Count,240,1,8.047,,2
 S39182346,Cattle Egret,Bubulcus ibis,2183,8,EC-P,,Rio Silanche--general area,.1261084,-79.139439,09-14-2017,07:00 AM,eBird - Traveling Count,240,1,.322,,2,F Flyover
+S47291675,Javan Pond-Heron,Ardeola speciosa,2191,2,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47203635,Javan Pond-Heron,Ardeola speciosa,2191,2,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47221958,Javan Pond-Heron,Ardeola speciosa,2191,2,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-16-2018,09:00 AM,eBird - Traveling Count,30,1,.805,,1
+S47021971,Javan Pond-Heron,Ardeola speciosa,2191,15,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
+S47022258,Striated Heron,Butorides striata,2201,3,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47145448,Striated Heron,Butorides striata,2201,1,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
 S38838633,Black-crowned Night-Heron,Nycticorax nycticorax,2233,4,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-26-2017,07:09 PM,eBird - Traveling Count,2,1,.145,,1
 S38857908,Black-crowned Night-Heron,Nycticorax nycticorax,2233,3,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-27-2017,03:30 PM,eBird - Traveling Count,60,1,1.609,,2
 S30010896,Black-crowned Night-Heron,Nycticorax nycticorax,2233,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Black-crowned Night-Heron,Nycticorax nycticorax,2233,0,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S31614958,Black-crowned Night-Heron,Nycticorax nycticorax,2233,1,US-ME,York,Biddeford Pool,43.4441328,-70.3623676,09-16-2016,01:46 PM,eBird - Traveling Count,90,1,2.414,,6,,,<br />Submitted from eBird Android 1.2.5
 S30959038,Black-crowned Night-Heron,Nycticorax nycticorax,2233,2,US-ME,York,Stratton Island,43.5046746,-70.3116417,08-03-2016,10:30 AM,eBird - Traveling Count,215,1,1.609,,4,,,<br />Submitted from eBird Android 1.2.3
 S24595191,Yellow-crowned Night-Heron,Nyctanassa violacea,2244,1,US-CT,Fairfield,Fairweather Island,41.1413776,-73.2154154,08-12-2015,05:00 PM,eBird - Casual Observation,0,0,,,2
+S46792130,Yellow-crowned Night-Heron,Nyctanassa violacea,2244,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S30499424,Glossy Ibis,Plegadis falcinellus,2268,8,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,07-02-2016,01:59 PM,eBird - Traveling Count,80,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30816754,Glossy Ibis,Plegadis falcinellus,2268,3,US-ME,Cumberland,Peaks Island,43.6564685,-70.1887436,07-09-2016,12:45 PM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30494106,Glossy Ibis,Plegadis falcinellus,2268,20,US-ME,Cumberland,Scarborough Marsh--Eastern Trail pannes,43.5668063,-70.3579393,07-02-2016,09:12 AM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
@@ -1402,6 +1431,7 @@ S38838633,Osprey,Pandion haliaetus,2376,1,US-CT,Fairfield,Captain's Cove,41.1576
 S38857908,Osprey,Pandion haliaetus,2376,2,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-27-2017,03:30 PM,eBird - Traveling Count,60,1,1.609,,2
 S24595191,Osprey,Pandion haliaetus,2376,3,US-CT,Fairfield,Fairweather Island,41.1413776,-73.2154154,08-12-2015,05:00 PM,eBird - Casual Observation,0,0,,,2
 S30010896,Osprey,Pandion haliaetus,2376,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Osprey,Pandion haliaetus,2376,6,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S38924028,Osprey,Pandion haliaetus,2376,5,US-CT,New Haven,Hammonasset Beach SP,41.2619859,-72.5548234,08-31-2017,02:30 PM,eBird - Traveling Count,44,1,1.609,,3
 S28539203,Osprey,Pandion haliaetus,2376,1,US-CT,New Haven,Milford Pt.,41.1754303,-73.1032485,03-25-2016,04:32 PM,eBird - Traveling Count,48,1,1.609,,1,,,<br />Submitted from eBird Android 1.0.3
 S29809905,Osprey,Pandion haliaetus,2376,1,US-ME,Sagadahoc,Merritt Island,43.8548069,-69.8725917,05-20-2016,07:47 PM,eBird - Stationary Count,60,1,,,2,,,<br />Submitted from eBird Android 1.2.0
@@ -1414,6 +1444,8 @@ S35344543,White-tailed Kite,Elanus leucurus,2391,1,US-CA,Santa Clara,Lake Laguni
 S35331829,White-tailed Kite,Elanus leucurus,2391,2,US-CA,Santa Clara,US-California-Stanford-680 Lomita Drive - 37.421x-122.171,37.420517,-122.1713676,03-21-2017,11:05 AM,eBird - Traveling Count,20,1,.322,,1
 S39182346,Hook-billed Kite,Chondrohierax uncinatus,2409,2,EC-P,,Rio Silanche--general area,.1261084,-79.139439,09-14-2017,07:00 AM,eBird - Traveling Count,240,1,.322,,2,F Flyover
 S40730047,Swallow-tailed Kite,Elanoides forficatus,2431,3,EC-P,,San Miguel de Los Bancos--Mirador Rio Blanco,.0222802,-78.8909025,11-25-2017,02:01 PM,eBird - Traveling Count,60,1,.483,,1
+S47105242,Crested Serpent-Eagle,Spilornis cheela,2494,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,03:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47291675,Black Eagle,Ictinaetus malaiensis,2568,1,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
 S24216976,Northern Harrier,Circus hudsonius,2657,2,CA-NB,Charlotte,Kent Island,44.5753435,-66.7548696,07-10-2015,02:00 PM,eBird - Traveling Count,180,1,3.219,,1
 S38561905,Northern Harrier,Circus hudsonius,2657,X,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,06-02-2017,,Historical,,0,,,,,Male and Female infrequent harrying,"CNSC Room 11 Window List, spanning 06/02/17 to 08/09/17. Counts not included"
 S38289995,Northern Harrier,Circus hudsonius,2657,1,CA-MB,Churchill and Northern Manitoba,Churchill--Crocket's Point,58.7562785,-94.2363453,07-21-2017,06:15 AM,IBA Canada (protocol),100,1,3.219,,2
@@ -1517,6 +1549,7 @@ S27233891,Bald Eagle,Haliaeetus leucocephalus,2881,1,US-ME,Sagadahoc,Popham  Bea
 S30676072,Bald Eagle,Haliaeetus leucocephalus,2881,1,US-ME,Sagadahoc,Popham  Beach SP,43.7358483,-69.7985888,07-13-2016,06:42 PM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S27334620,Bald Eagle,Haliaeetus leucocephalus,2881,1,US-ME,Sagadahoc,US-Maine-Georgetown-924 5 Islands Rd - 43.804x-69.748,43.8044165,-69.7480354,02-06-2016,03:08 PM,eBird - Stationary Count,15,1,,,4,,,<br />Submitted from eBird Android 1.0.1
 S30816945,Bald Eagle,Haliaeetus leucocephalus,2881,1,CA-NB,Saint John,Bay of Fundy,44.869922,-66.2870407,07-21-2016,08:00 AM,eBird - Traveling Count,240,1,24.14,,6
+S47306440,White-bellied Sea-Eagle,Haliaeetus leucogaster,2885.5,1,ID-NU,Bali,Benoa Bay general (no stopping on Jalan Toll),-8.7586121,115.1969504,07-20-2018,04:20 PM,eBird - Traveling Count,20,1,3.219,,1
 S40165257,Plumbeous Hawk,Cryptoleucopteryx plumbea,2899,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,10-28-2017,07:36 AM,eBird - Traveling Count,6,1,.241,,1
 S40567451,Plumbeous Hawk,Cryptoleucopteryx plumbea,2899,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-18-2017,06:06 AM,eBird - Traveling Count,40,1,1.287,,1
 S39035993,Roadside Hawk,Rupornis magnirostris,2921,1,EC-P,,G+K Feeders,-.0275375,-78.7453651,09-06-2017,06:50 AM,eBird - Traveling Count,420,1,2.414,,2
@@ -1557,6 +1590,7 @@ S28578376,Red-tailed Hawk,Buteo jamaicensis,2989,1,US-MA,Worcester,Tuft's Farm F
 S32846668,Red-tailed Hawk,Buteo jamaicensis,2989,1,US-ME,York,Biddeford Pool--East Point Sanctuary,43.4470928,-70.3369403,12-03-2016,01:30 PM,eBird - Traveling Count,90,1,1.287,,4,,Eastern juvenile hovering in high winds
 S32297342,hawk sp.,Accipitridae sp. (hawk sp.),3041,1,US-ME,Androscoggin,Sabattus Pond,44.1283834,-70.0992966,10-30-2016,01:56 PM,eBird - Stationary Count,30,1,,,2,,,No SAGU
 S39307981,Sunbittern,Eurypyga helias,3228.8,3,EC-P,,Mindo Garden Lodge,-.0729554,-78.754549,09-20-2017,04:20 PM,eBird - Traveling Count,180,1,6.437,,3
+S47022258,White-breasted Waterhen,Amaurornis phoenicurus,3463,1,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
 S38561905,Sora,Porzana carolina,3495,X,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,06-02-2017,,Historical,,0,,,,,"Semi-frequently heard, particularly by late July","CNSC Room 11 Window List, spanning 06/02/17 to 08/09/17. Counts not included"
 S37918673,Sora,Porzana carolina,3495,1,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,07-01-2017,06:00 PM,IBA Canada (protocol),25,1,.161,,2
 S37936367,Sora,Porzana carolina,3495,1,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,07-02-2017,07:00 AM,IBA Canada (protocol),35,1,.483,,2
@@ -2810,6 +2844,7 @@ S26961152,Herring Gull,Larus argentatus,4328,100,US-CT,Fairfield,Sherwood Island
 S28146373,Herring Gull,Larus argentatus,4328,50,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,Herring Gull,Larus argentatus,4328,15,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
 S41324332,Herring Gull,Larus argentatus,4328,20,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-26-2017,10:30 AM,eBird - Traveling Count,90,1,1.609,,2
+S46792130,Herring Gull,Larus argentatus,4328,14,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S26843855,Herring Gull,Larus argentatus,4328,30,US-CT,Fairfield,Short Beach Park,41.1648434,-73.1104136,01-11-2016,12:00 PM,eBird - Traveling Count,60,1,2.414,,1
 S26960517,Herring Gull,Larus argentatus,4328,50,US-CT,Fairfield,Short Beach Park,41.1648434,-73.1104136,01-17-2016,11:00 AM,eBird - Traveling Count,45,1,2.414,,4
 S31966340,Herring Gull,Larus argentatus,4328,12,US-ME,Hancock,Acadia NP--Dorr Pt. & Compass Harbor,44.375481,-68.1922996,10-09-2016,02:03 PM,eBird - Stationary Count,20,1,,,6
@@ -2947,6 +2982,7 @@ S28463852,Great Black-backed Gull,Larus marinus,4371,4,US-CT,Fairfield,Seaside P
 S26537430,Great Black-backed Gull,Larus marinus,4371,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-30-2015,03:30 PM,eBird - Traveling Count,60,1,1.609,,2
 S26961152,Great Black-backed Gull,Larus marinus,4371,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,01-17-2016,02:00 PM,eBird - Traveling Count,120,1,4.828,,1
 S41324332,Great Black-backed Gull,Larus marinus,4371,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-26-2017,10:30 AM,eBird - Traveling Count,90,1,1.609,,2
+S46792130,Great Black-backed Gull,Larus marinus,4371,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S26843855,Great Black-backed Gull,Larus marinus,4371,2,US-CT,Fairfield,Short Beach Park,41.1648434,-73.1104136,01-11-2016,12:00 PM,eBird - Traveling Count,60,1,2.414,,1
 S26960517,Great Black-backed Gull,Larus marinus,4371,2,US-CT,Fairfield,Short Beach Park,41.1648434,-73.1104136,01-17-2016,11:00 AM,eBird - Traveling Count,45,1,2.414,,4
 S31966340,Great Black-backed Gull,Larus marinus,4371,2,US-ME,Hancock,Acadia NP--Dorr Pt. & Compass Harbor,44.375481,-68.1922996,10-09-2016,02:03 PM,eBird - Stationary Count,20,1,,,6
@@ -2985,6 +3021,7 @@ S24217029,Great Black-backed Gull,Larus marinus,4371,3,US-ME,Washington,Machias 
 S31614958,Great Black-backed Gull,Larus marinus,4371,8,US-ME,York,Biddeford Pool,43.4441328,-70.3623676,09-16-2016,01:46 PM,eBird - Traveling Count,90,1,2.414,,6,,,<br />Submitted from eBird Android 1.2.5
 S32846668,Great Black-backed Gull,Larus marinus,4371,2,US-ME,York,Biddeford Pool--East Point Sanctuary,43.4470928,-70.3369403,12-03-2016,01:30 PM,eBird - Traveling Count,90,1,1.287,,4
 S30959038,Great Black-backed Gull,Larus marinus,4371,50,US-ME,York,Stratton Island,43.5046746,-70.3116417,08-03-2016,10:30 AM,eBird - Traveling Count,215,1,1.609,,4,,,<br />Submitted from eBird Android 1.2.3
+S47306440,Little Tern,Sternula albifrons,4433,4,ID-NU,Bali,Benoa Bay general (no stopping on Jalan Toll),-8.7586121,115.1969504,07-20-2018,04:20 PM,eBird - Traveling Count,20,1,3.219,,1
 S30494106,Least Tern,Sternula antillarum,4440,4,US-ME,Cumberland,Scarborough Marsh--Eastern Trail pannes,43.5668063,-70.3579393,07-02-2016,09:12 AM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30434014,Least Tern,Sternula antillarum,4440,2,US-ME,Sagadahoc,"Morse Mtn., Phippsburg",43.7379258,-69.8259687,06-27-2016,11:40 AM,eBird - Traveling Count,300,1,11.265,,1,,,<br />Submitted from eBird Android 1.2.3
 S30676072,Least Tern,Sternula antillarum,4440,5,US-ME,Sagadahoc,Popham  Beach SP,43.7358483,-69.7985888,07-13-2016,06:42 PM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
@@ -3004,6 +3041,7 @@ S30499424,Common Tern,Sterna hirundo,4492,4,US-ME,Cumberland,Gilsland Farm Audub
 S30946652,Common Tern,Sterna hirundo,4492,2,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,08-02-2016,10:00 AM,eBird - Traveling Count,80,1,1.609,,5,,,<br />Submitted from eBird Android 1.2.3
 S30816754,Common Tern,Sterna hirundo,4492,4,US-ME,Cumberland,Peaks Island,43.6564685,-70.1887436,07-09-2016,12:45 PM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30494106,Common Tern,Sterna hirundo,4492,20,US-ME,Cumberland,Scarborough Marsh--Eastern Trail pannes,43.5668063,-70.3579393,07-02-2016,09:12 AM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
+S46792130,Common Tern,Sterna hirundo,4492,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S30029439,Common Tern,Sterna hirundo,4492,2,US-CT,New Haven,Silver Sands SP,41.2,-73.0666667,06-01-2016,03:11 PM,eBird - Traveling Count,60,1,3.219,,2,,,<br />Submitted from eBird Android 1.2.1
 S29809905,Common Tern,Sterna hirundo,4492,2,US-ME,Sagadahoc,Merritt Island,43.8548069,-69.8725917,05-20-2016,07:47 PM,eBird - Stationary Count,60,1,,,2,,,<br />Submitted from eBird Android 1.2.0
 S29935245,Common Tern,Sterna hirundo,4492,4,US-ME,Sagadahoc,Merritt Island,43.8548069,-69.8725917,05-21-2016,08:02 AM,eBird - Stationary Count,60,1,,,1,,,<br />Submitted from eBird Android 1.2.1
@@ -3135,6 +3173,8 @@ S38290457,Arctic Tern,Sterna paradisaea,4497,3,CA-MB,Churchill and Northern Mani
 S24217029,Arctic Tern,Sterna paradisaea,4497,20,US-ME,Washington,Machias Seal Island,44.5017549,-67.10078,07-04-2015,07:00 AM,eBird - Traveling Count,480,0,32.187,,10
 S46191455,Common/Arctic Tern,Sterna hirundo/paradisaea,4498,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-31-2018,04:00 PM,eBird - Traveling Count,80,1,.805,,1
 S35362804,Forster's Tern,Sterna forsteri,4508,3,US-CA,San Mateo,Anza Lagoon,37.5915194,-122.3436856,03-22-2017,05:00 PM,eBird - Traveling Count,60,1,3.219,,1,,distant foraging,Includes walk down public shore path to beach to the north
+S47306440,Great Crested Tern,Thalasseus bergii,4518,1,ID-NU,Bali,Benoa Bay general (no stopping on Jalan Toll),-8.7586121,115.1969504,07-20-2018,04:20 PM,eBird - Traveling Count,20,1,3.219,,1
+S46997989,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,2,ID-JW,Banten,Jakarta--international airport vicinity,-6.104942,106.6726413,07-05-2018,10:30 AM,eBird - Traveling Count,20,0,8.047,,1,,,"Weak, weak IDs to start"
 S30816731,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,1,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-16-2016,11:30 AM,eBird - Traveling Count,90,1,3.219,,2
 S30817499,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,4,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-22-2016,03:30 PM,eBird - Traveling Count,90,1,3.219,,2
 S29685045,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,6,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-15-2016,06:56 AM,eBird - Traveling Count,159,1,2.414,,7,,,"Things I didn't see or hear but others may have: Mockingbird, black-throated blue??house wren, chimney swift, northern water thrush?, yellow-rumpled warbler  <br />Submitted from eBird for iOS, version 1.2.0 Build 62"
@@ -3150,6 +3190,8 @@ S28451972,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,10,US-C
 S28463852,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,3,US-CT,Fairfield,Seaside Park,41.1615162,-73.1931067,03-21-2016,09:10 AM,eBird - Traveling Count,43,1,3.219,,1,,,See Ross's goose comment (present again today)<br />Submitted from eBird Android 1.0.2
 S28146373,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,24,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S33887402,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,7,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,11:00 AM,eBird - Stationary Count,60,1,,,7
+S47328744,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,15,ID-JW,Jakarta Raya,Jakarta--Monas,-6.1753835,106.8270803,07-21-2018,12:00 PM,eBird - Traveling Count,60,1,.483,,1
+S47021971,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,6,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
 S35296633,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,40,US-CA,Marin,Gabrielson Park,37.8572629,-122.4789333,03-19-2017,02:00 PM,eBird - Traveling Count,120,1,3.219,,1
 S28472488,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,2,US-CT,New Haven,Hammonasset Beach SP,41.2619859,-72.5548234,03-21-2016,01:30 PM,eBird - Traveling Count,150,1,2.414,,1,,,<br />Submitted from eBird Android 1.0.2
 S30029439,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,1,US-CT,New Haven,Silver Sands SP,41.2,-73.0666667,06-01-2016,03:11 PM,eBird - Traveling Count,60,1,3.219,,2,,,<br />Submitted from eBird Android 1.2.1
@@ -3157,6 +3199,7 @@ S28508599,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,10,US-C
 S26748783,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,75,US-NY,New York,Central Park,40.7715482,-73.9724819,01-05-2016,03:40 PM,eBird - Traveling Count,140,1,4.828,,2
 S38805180,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,60,US-NY,New York,Central Park--The Pond and Hallett Sanctuary,40.7662497,-73.9743751,08-24-2017,05:45 PM,eBird - Traveling Count,100,1,3.589,,3
 S45075125,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,2,CA-NL,Northern Peninsula-St. Anthony,NL--Rocky Harbour,49.5896032,-57.9159052,04-23-2018,12:00 PM,eBird - Traveling Count,60,1,3.219,,2
+S47145448,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,40,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
 S25931987,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,12,US-ME,Sagadahoc,Fort Popham & Kennebec River,43.7544811,-69.7839546,11-08-2015,02:45 PM,eBird - Stationary Count,30,1,,,4,,Estimate
 S27233975,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,4,US-ME,Sagadahoc,Fort Popham & Kennebec River,43.7544811,-69.7839546,01-31-2016,03:30 PM,eBird - Traveling Count,20,1,.322,,1
 S32502478,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,2,US-ME,Sagadahoc,Fort Popham & Kennebec River,43.7544811,-69.7839546,11-12-2016,11:44 AM,eBird - Stationary Count,30,1,,,4
@@ -3166,6 +3209,7 @@ S35313781,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,40,US-C
 S35362804,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,3,US-CA,San Mateo,Anza Lagoon,37.5915194,-122.3436856,03-22-2017,05:00 PM,eBird - Traveling Count,60,1,3.219,,1,,,Includes walk down public shore path to beach to the north
 S35278654,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,2,US-CA,San Mateo,US-California-Burlingame-620 Airport Boulevard - 37.59x-122.343,37.5901191,-122.3431229,03-19-2017,09:43 AM,eBird - Stationary Count,2,1,,,2
 S33887174,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,500,US-PA,Schuylkill,Driving,40.7362775,-76.3087255,01-15-2017,12:00 PM,eBird - Casual Observation,0,0,,,2
+S47105978,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,18,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
 S40826967,Rock Pigeon (Feral Pigeon),Columba livia (Feral Pigeon),4686.5,20,EC-P,,Mindo--Vía a las cascadas (Waterfall trail),-.0627651,-78.7742693,11-29-2017,01:15 PM,eBird - Traveling Count,45,1,4.828,,2
 S39035993,Band-tailed Pigeon,Patagioenas fasciata,4778,1,EC-P,,G+K Feeders,-.0275375,-78.7453651,09-06-2017,06:50 AM,eBird - Traveling Count,420,1,2.414,,2
 S39035993,Ruddy Pigeon,Patagioenas subvinacea,4798,6,EC-P,,G+K Feeders,-.0275375,-78.7453651,09-06-2017,06:50 AM,eBird - Traveling Count,420,1,2.414,,2
@@ -3176,6 +3220,15 @@ S39160979,Ruddy Pigeon,Patagioenas subvinacea,4798,1,EC-P,,Milpe Bird Sanctuary,
 S39211271,Ruddy Pigeon,Patagioenas subvinacea,4798,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-16-2017,06:30 AM,eBird - Traveling Count,240,1,1.609,,2
 S40696836,Ruddy Pigeon,Patagioenas subvinacea,4798,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-24-2017,10:30 AM,eBird - Traveling Count,60,1,.966,,1
 S39182346,Ruddy Pigeon,Patagioenas subvinacea,4798,12,EC-P,,Rio Silanche--general area,.1261084,-79.139439,09-14-2017,07:00 AM,eBird - Traveling Count,240,1,.322,,2,F Flyover
+S47291675,Spotted Dove,Streptopelia chinensis,4860,7,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47203635,Spotted Dove,Streptopelia chinensis,4860,20,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47035628,Spotted Dove,Streptopelia chinensis,4860,2,ID-JW,Banten,Jakarta Soekarna Hatta Airport,-6.1266,106.6544,07-07-2018,08:15 AM,eBird - Stationary Count,11,1,,,1
+S47328744,Spotted Dove,Streptopelia chinensis,4860,10,ID-JW,Jakarta Raya,Jakarta--Monas,-6.1753835,106.8270803,07-21-2018,12:00 PM,eBird - Traveling Count,60,1,.483,,1
+S47022258,Spotted Dove,Streptopelia chinensis,4860,3,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47021971,Spotted Dove,Streptopelia chinensis,4860,2,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
+S47145448,Spotted Dove,Streptopelia chinensis,4860,10,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47162175,Spotted Dove,Streptopelia chinensis,4860,8,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47105978,Zebra Dove,Geopelia striata,4981,2,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
 S39684361,Black-winged Ground-Dove,Metriopelia melanoptera,4990.285,4,EC-N,,Reserva Ecológica Antisana--general area (*Please consider using a more precise hotspot or personal location when possible.),-.5139473,-78.1866074,10-07-2017,06:00 AM,eBird - Traveling Count,300,1,8.047,,4
 S39684389,Black-winged Ground-Dove,Metriopelia melanoptera,4990.285,1,EC-N,,Reserva Ecológica Antisana--general area (*Please consider using a more precise hotspot or personal location when possible.),-.5139473,-78.1866074,10-08-2017,07:00 AM,eBird - Traveling Count,180,1,6.437,,4
 S40730053,White-tipped Dove,Leptotila verreauxi,4990.39,1,EC-P,,"Calle 29 de Abril, Quito, Pichincha, EC (-0.186, -78.347)",-.1861787,-78.3473508,11-25-2017,08:46 AM,eBird - Stationary Count,20,1,,,1
@@ -3247,12 +3300,23 @@ S35362804,Mourning Dove,Zenaida macroura,5015,3,US-CA,San Mateo,Anza Lagoon,37.5
 S35344543,Mourning Dove,Zenaida macroura,5015,1,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-21-2017,05:52 PM,eBird - Traveling Count,30,0,1.609,,1
 S31515439,Mourning Dove,Zenaida macroura,5015,3,US-MA,Worcester,"Tower Hill Botanic Garden, Boylston",42.3611125,-71.7263889,09-02-2016,03:24 PM,eBird - Traveling Count,45,1,1.609,,1,,,<br />Submitted from eBird Android 1.2.5
 S28578376,Mourning Dove,Zenaida macroura,5015,6,US-MA,Worcester,Tuft's Farm Fields,42.2492435,-71.6716933,03-27-2016,11:00 AM,eBird - Traveling Count,40,1,1.609,,3,,,<br />Submitted from eBird Android 1.0.3
+S47162175,Gray-cheeked Pigeon,Treron griseicauda,5264,1,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47105106,Green Imperial-Pigeon,Ducula aenea,5492,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
+S47105161,Green Imperial-Pigeon,Ducula aenea,5492,2,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47105224,Green Imperial-Pigeon,Ducula aenea,5492,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,08:00 AM,eBird - Traveling Count,180,1,1.609,,2
+S47105251,Green Imperial-Pigeon,Ducula aenea,5492,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-09-2018,08:30 AM,eBird - Traveling Count,90,1,3.219,,1
+S47221852,Green Imperial-Pigeon,Ducula aenea,5492,2,ID-NU,Nusa Tenggara Barat,Taman Nasional Rinjani,-8.3717083,116.3975816,07-14-2018,01:00 PM,eBird - Stationary Count,60,1,,,1
 S39321325,Smooth-billed Ani,Crotophaga ani,6599,5,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-21-2017,05:10 PM,eBird - Traveling Count,60,1,3.219,,3
 S40826967,Smooth-billed Ani,Crotophaga ani,6599,3,EC-P,,Mindo--Vía a las cascadas (Waterfall trail),-.0627651,-78.7742693,11-29-2017,01:15 PM,eBird - Traveling Count,45,1,4.828,,2
+S47105242,Greater Coucal,Centropus sinensis,6843.5,2,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,03:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47105106,Chestnut-bellied Malkoha,Phaenicophaeus sumatranus,6882,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
+S47105242,Chestnut-bellied Malkoha,Phaenicophaeus sumatranus,6882,2,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,03:00 PM,eBird - Traveling Count,60,1,1.609,,1
 S39256031,Squirrel Cuckoo,Piaya cayana,6888,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-18-2017,06:00 AM,eBird - Traveling Count,240,1,2.414,,2
 S40755702,Squirrel Cuckoo,Piaya cayana,6888,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-26-2017,02:30 PM,eBird - Traveling Count,120,1,1.609,,1
 S40826967,Squirrel Cuckoo,Piaya cayana,6888,1,EC-P,,Mindo--Vía a las cascadas (Waterfall trail),-.0627651,-78.7742693,11-29-2017,01:15 PM,eBird - Traveling Count,45,1,4.828,,2
 S36957867,Black-billed Cuckoo,Coccyzus erythropthalmus,6911,1,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-18-2017,06:40 AM,eBird - Traveling Count,160,1,3.219,,4
+S47203635,Plaintive Cuckoo,Cacomantis merulinus,6934.2,1,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47203662,Rinjani Scops-Owl,Otus jolandae,7090,2,ID-NU,Nusa Tenggara Barat,Lombok,-8.6510351,116.3245712,07-14-2018,09:30 PM,eBird - Stationary Count,15,1,,,1,,,Location sensored
 S39447143,Crested Owl,Lophostrix cristata,7238,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-28-2017,07:30 PM,eBird - Stationary Count,10,1,,,2
 S39941572,Crested Owl,Lophostrix cristata,7238,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,10-15-2017,11:36 AM,eBird - Traveling Count,201,1,.837,,1
 S40012542,Crested Owl,Lophostrix cristata,7238,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,10-19-2017,08:00 AM,PriMig - Pri Mig Banding Protocol,80,1,,,1,,Continued roosting
@@ -3284,6 +3348,19 @@ S38765935,Chimney Swift,Chaetura pelagica,8096,8,US-CT,New Haven,Milford backyar
 S39321325,Gray-rumped Swift,Chaetura cinereiventris,8121,30,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-21-2017,05:10 PM,eBird - Traveling Count,60,1,3.219,,3
 S40474961,Gray-rumped Swift,Chaetura cinereiventris,8121,4,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-12-2017,05:33 PM,eBird - Stationary Count,15,1,,,1
 S39182346,Gray-rumped Swift,Chaetura cinereiventris,8121,1,EC-P,,Rio Silanche--general area,.1261084,-79.139439,09-14-2017,07:00 AM,eBird - Traveling Count,240,1,.322,,2
+S47306440,Cave Swiftlet,Collocalia linchi,8179.2,2,ID-NU,Bali,Benoa Bay general (no stopping on Jalan Toll),-8.7586121,115.1969504,07-20-2018,04:20 PM,eBird - Traveling Count,20,1,3.219,,1
+S47291675,Cave Swiftlet,Collocalia linchi,8179.2,20,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47203635,Cave Swiftlet,Collocalia linchi,8179.2,10,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47221958,Cave Swiftlet,Collocalia linchi,8179.2,2,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-16-2018,09:00 AM,eBird - Traveling Count,30,1,.805,,1
+S47021971,Cave Swiftlet,Collocalia linchi,8179.2,4,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
+S47221852,Cave Swiftlet,Collocalia linchi,8179.2,2,ID-NU,Nusa Tenggara Barat,Taman Nasional Rinjani,-8.3717083,116.3975816,07-14-2018,01:00 PM,eBird - Stationary Count,60,1,,,1
+S47203635,White-nest Swiftlet,Aerodramus fuciphagus,8259,2,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47221958,White-nest Swiftlet,Aerodramus fuciphagus,8259,10,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-16-2018,09:00 AM,eBird - Traveling Count,30,1,.805,,1
+S47221852,White-nest Swiftlet,Aerodramus fuciphagus,8259,10,ID-NU,Nusa Tenggara Barat,Taman Nasional Rinjani,-8.3717083,116.3975816,07-14-2018,01:00 PM,eBird - Stationary Count,60,1,,,1
+S47203635,Pacific Swift,Apus pacificus,8321,1,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S46997989,House Swift,Apus nipalensis,8334,20,ID-JW,Banten,Jakarta--international airport vicinity,-6.104942,106.6726413,07-05-2018,10:30 AM,eBird - Traveling Count,20,0,8.047,,1,,,"Weak, weak IDs to start"
+S47021971,House Swift,Apus nipalensis,8334,4,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
+S47221852,House Swift,Apus nipalensis,8334,1,ID-NU,Nusa Tenggara Barat,Taman Nasional Rinjani,-8.3717083,116.3975816,07-14-2018,01:00 PM,eBird - Stationary Count,60,1,,,1
 S39335886,swift sp.,Apodidae sp.,8384,1,EC-P,,Milpe--end of the road,.07727,-78.9302295,09-22-2017,11:00 AM,eBird - Traveling Count,120,1,4.828,,3
 S39684405,White-necked Jacobin,Florisuga mellivora,8400,2,EC-P,,Alambi Cloud Forest Lodge,.0293,-78.68095,10-08-2017,02:29 PM,eBird - Traveling Count,45,1,.483,,3
 S39024386,White-necked Jacobin,Florisuga mellivora,8400,4,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-05-2017,03:45 PM,eBird - Stationary Count,15,1,,,3
@@ -3741,6 +3818,7 @@ S40382967,Collared Trogon,Trogon collaris,9418,1,EC-P,,Milpe Bird Sanctuary,.033
 S40382963,Collared Trogon,Trogon collaris,9418,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-08-2017,05:14 PM,eBird - Traveling Count,41,1,1.127,,1
 S40541653,Collared Trogon,Trogon collaris,9418,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-14-2017,08:00 AM,eBird - Stationary Count,135,1,,,1
 S39035993,Masked Trogon,Trogon personatus,9430,1,EC-P,,G+K Feeders,-.0275375,-78.7453651,09-06-2017,06:50 AM,eBird - Traveling Count,420,1,2.414,,2
+S47105224,Bushy-crested Hornbill,Anorrhinus galeritus,9491.563,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,08:00 AM,eBird - Traveling Count,180,1,1.609,,2
 S39039904,Rufous Motmot,Baryphthengus martii,9535,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-06-2017,05:00 PM,eBird - Traveling Count,70,1,.483,,1
 S39056880,Rufous Motmot,Baryphthengus martii,9535,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-07-2017,07:09 AM,eBird - Traveling Count,126,1,.644,,1
 S40029031,Rufous Motmot,Baryphthengus martii,9535,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,10-20-2017,08:34 AM,eBird - Traveling Count,211,1,2.237,,1
@@ -3760,6 +3838,17 @@ S40368014,Broad-billed Motmot,Electron platyrhynchum,9538,1,EC-P,,Milpe Bird San
 S40382967,Broad-billed Motmot,Electron platyrhynchum,9538,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-08-2017,03:42 PM,eBird - Traveling Count,74,1,2.092,,1
 S40382963,Broad-billed Motmot,Electron platyrhynchum,9538,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-08-2017,05:14 PM,eBird - Traveling Count,41,1,1.127,,1
 S39182346,Broad-billed Motmot,Electron platyrhynchum,9538,1,EC-P,,Rio Silanche--general area,.1261084,-79.139439,09-14-2017,07:00 AM,eBird - Traveling Count,240,1,.322,,2
+S47105161,Blue-eared Kingfisher,Alcedo meninting,9571,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47105242,Blue-eared Kingfisher,Alcedo meninting,9571,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,03:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47145448,Blue-eared Kingfisher,Alcedo meninting,9571,1,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47105161,Stork-billed Kingfisher,Pelargopsis capensis,9690,4,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47105224,Stork-billed Kingfisher,Pelargopsis capensis,9690,2,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,08:00 AM,eBird - Traveling Count,180,1,1.609,,2
+S47105242,Stork-billed Kingfisher,Pelargopsis capensis,9690,2,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,03:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47291675,Javan Kingfisher,Halcyon cyanoventris,9738,2,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47203635,Javan Kingfisher,Halcyon cyanoventris,9738,1,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47203635,Sacred Kingfisher,Todiramphus sanctus,9836,1,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47022258,Collared Kingfisher,Todiramphus chloris,9841,1,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47105978,Collared Kingfisher,Todiramphus chloris,9841,1,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
 S32381133,Belted Kingfisher,Megaceryle alcyon,9932,1,US-ME,Androscoggin,Sabattus Pond--Martin Point Park,44.1251572,-70.1063512,11-05-2016,01:57 PM,eBird - Stationary Count,30,1,,,6
 S33887351,Belted Kingfisher,Megaceryle alcyon,9932,1,US-NC,Buncombe,Beaver Lake Bird Sanctuary,35.633465,-82.55752,01-16-2017,01:00 PM,eBird - Traveling Count,60,1,.805,,5
 S30816731,Belted Kingfisher,Megaceryle alcyon,9932,1,CA-NB,Charlotte,Blacks Harbour/Grand Manan Ferry,44.900482,-66.780624,07-16-2016,11:30 AM,eBird - Traveling Count,90,1,3.219,,2,,At BH dock
@@ -3787,6 +3876,7 @@ S39517604,Lanceolated Monklet,Micromonacha lanceolata,10259,3,EC-P,,Milpe Bird S
 S39784858,Lanceolated Monklet,Micromonacha lanceolata,10259,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,10-09-2017,08:33 AM,eBird - Traveling Count,36,1,.998,,1,NY Nest with Young,Two downy fledglings in burrow
 S39826748,Lanceolated Monklet,Micromonacha lanceolata,10259,3,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,10-11-2017,09:30 AM,PriMig - Pri Mig Banding Protocol,115,1,,,1,FY Feeding Young,Continuing burrow with large hatchlings.
 S39941572,Lanceolated Monklet,Micromonacha lanceolata,10259,3,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,10-15-2017,11:36 AM,eBird - Traveling Count,201,1,.837,,1,NY Nest with Young,Continuing adult feeding two nestlings
+S47105106,Red-crowned Barbet,Psilopogon rafflesii,10520,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
 S39182346,Orange-fronted Barbet,Capito squamatus,10574,2,EC-P,,Rio Silanche--general area,.1261084,-79.139439,09-14-2017,07:00 AM,eBird - Traveling Count,240,1,.322,,2
 S39083166,Red-headed Barbet,Eubucco bourcierii,10599,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-08-2017,10:00 AM,eBird - Traveling Count,240,1,.805,,2
 S39093956,Red-headed Barbet,Eubucco bourcierii,10599,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-09-2017,09:00 AM,eBird - Traveling Count,300,1,.805,,1
@@ -3867,6 +3957,7 @@ S25302037,Red-bellied Woodpecker,Melanerpes carolinus,10925,1,US-ME,Cumberland,S
 S26961152,Red-bellied Woodpecker,Melanerpes carolinus,10925,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,01-17-2016,02:00 PM,eBird - Traveling Count,120,1,4.828,,1
 S28146373,Red-bellied Woodpecker,Melanerpes carolinus,10925,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S41324332,Red-bellied Woodpecker,Melanerpes carolinus,10925,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-26-2017,10:30 AM,eBird - Traveling Count,90,1,1.609,,2
+S46792130,Red-bellied Woodpecker,Melanerpes carolinus,10925,2,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S33887569,Red-bellied Woodpecker,Melanerpes carolinus,10925,4,US-TN,Franklin,Perimeter Trail,35.2183165,-85.9186123,01-19-2017,12:00 PM,eBird - Traveling Count,90,1,1.609,,7
 S33887448,Red-bellied Woodpecker,Melanerpes carolinus,10925,1,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,02:00 PM,eBird - Stationary Count,30,1,,,7
 S26508830,Red-bellied Woodpecker,Melanerpes carolinus,10925,1,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,12-29-2015,11:06 AM,eBird - Stationary Count,60,1,,,2,,,<br />Submitted from eBird Android 1.0.1
@@ -3879,6 +3970,7 @@ S31900771,Yellow-bellied Sapsucker,Sphyrapicus varius,10936,2,US-ME,Cumberland,B
 S36841768,Yellow-bellied Sapsucker,Sphyrapicus varius,10936,1,US-ME,Cumberland,Crescent Beach SP,43.5638781,-70.2285522,05-13-2017,01:30 PM,eBird - Traveling Count,120,1,3.219,,1
 S33887569,Yellow-bellied Sapsucker,Sphyrapicus varius,10936,1,US-TN,Franklin,Perimeter Trail,35.2183165,-85.9186123,01-19-2017,12:00 PM,eBird - Traveling Count,90,1,1.609,,7
 S31966330,Yellow-bellied Sapsucker,Sphyrapicus varius,10936,1,US-ME,Hancock,Mt. Desert Island High School,44.3727785,-68.3024955,10-09-2016,12:02 PM,eBird - Traveling Count,45,1,.805,,6
+S47328744,Freckle-breasted Woodpecker,Dendrocopos analis,11077.5,2,ID-JW,Jakarta Raya,Jakarta--Monas,-6.1753835,106.8270803,07-21-2018,12:00 PM,eBird - Traveling Count,60,1,.483,,1
 S35296125,Nuttall's Woodpecker,Picoides nuttallii,11147,2,US-CA,San Mateo,Anza Lagoon,37.5915194,-122.3436856,03-19-2017,06:00 PM,eBird - Traveling Count,75,1,1.609,,1,,Male and female pair calling to one another while foraging
 S35362804,Nuttall's Woodpecker,Picoides nuttallii,11147,2,US-CA,San Mateo,Anza Lagoon,37.5915194,-122.3436856,03-22-2017,05:00 PM,eBird - Traveling Count,60,1,3.219,,1,,,Includes walk down public shore path to beach to the north
 S35319370,Nuttall's Woodpecker,Picoides nuttallii,11147,1,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-20-2017,05:32 PM,eBird - Traveling Count,40,1,.805,,2
@@ -3914,6 +4006,7 @@ S26961152,Downy Woodpecker,Picoides pubescens,11148,2,US-CT,Fairfield,Sherwood I
 S28146373,Downy Woodpecker,Picoides pubescens,11148,2,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,Downy Woodpecker,Picoides pubescens,11148,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
 S41324332,Downy Woodpecker,Picoides pubescens,11148,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-26-2017,10:30 AM,eBird - Traveling Count,90,1,1.609,,2
+S46792130,Downy Woodpecker,Picoides pubescens,11148,2,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S33887569,Downy Woodpecker,Picoides pubescens,11148,3,US-TN,Franklin,Perimeter Trail,35.2183165,-85.9186123,01-19-2017,12:00 PM,eBird - Traveling Count,90,1,1.609,,7
 S33887402,Downy Woodpecker,Picoides pubescens,11148,2,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,11:00 AM,eBird - Stationary Count,60,1,,,7
 S26638711,Downy Woodpecker,Picoides pubescens,11148,2,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,01-03-2016,10:46 AM,eBird - Stationary Count,20,1,,,2,,,<br />Submitted from eBird Android 1.0.1
@@ -3954,6 +4047,7 @@ S32608463,Hairy Woodpecker,Picoides villosus,11164,2,US-ME,Cumberland,Gilsland F
 S32045680,Hairy Woodpecker,Picoides villosus,11164,1,US-ME,Cumberland,"Wharton Point, Brunswick",43.8675956,-69.9933701,10-14-2016,03:07 PM,eBird - Stationary Count,60,1,,,9,,Heard
 S31720744,Hairy Woodpecker,Picoides villosus,11164,1,US-ME,Cumberland,Wolfe's Neck Woods SP,43.8212814,-70.0819397,09-23-2016,01:40 PM,eBird - Traveling Count,132,1,2.414,,6
 S28146373,Hairy Woodpecker,Picoides villosus,11164,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
+S46792130,Hairy Woodpecker,Picoides villosus,11164,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S33887569,Hairy Woodpecker,Picoides villosus,11164,4,US-TN,Franklin,Perimeter Trail,35.2183165,-85.9186123,01-19-2017,12:00 PM,eBird - Traveling Count,90,1,1.609,,7
 S33887448,Hairy Woodpecker,Picoides villosus,11164,1,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,02:00 PM,eBird - Stationary Count,30,1,,,7
 S27845588,Hairy Woodpecker,Picoides villosus,11164,2,US-ME,Franklin,York Hill (private),44.6795376,-70.3748274,02-26-2016,06:35 AM,eBird - Stationary Count,35,1,,,4,,,"Feeder watch. Party size somewhat variable, as people where going in an out of a cabin to watch the birds for short periods of time."
@@ -3984,6 +4078,7 @@ S30362387,Northern Flicker,Colaptes auratus,11308,1,US-ME,Cumberland,Gilsland Fa
 S30499424,Northern Flicker,Colaptes auratus,11308,1,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,07-02-2016,01:59 PM,eBird - Traveling Count,80,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S32608463,Northern Flicker,Colaptes auratus,11308,1,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,11-18-2016,01:44 PM,eBird - Traveling Count,145,1,2.414,,10
 S30010896,Northern Flicker,Colaptes auratus,11308,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Northern Flicker,Colaptes auratus,11308,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S33887448,Northern Flicker,Colaptes auratus,11308,1,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,02:00 PM,eBird - Stationary Count,30,1,,,7
 S26820667,Northern Flicker,Colaptes auratus,11308,1,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,01-10-2016,01:30 PM,eBird - Stationary Count,120,1,,,2
 S38765935,Northern Flicker,Colaptes auratus,11308,1,US-CT,New Haven,Milford backyard,41.1865287,-73.0933594,08-22-2017,12:10 PM,eBird - Stationary Count,14,1,,,1
@@ -4064,6 +4159,8 @@ S33887609,Peregrine Falcon,Falco peregrinus,11582.61,1,US-VA,Rockingham,Driving,
 S30676072,Peregrine Falcon,Falco peregrinus,11582.61,1,US-ME,Sagadahoc,Popham  Beach SP,43.7358483,-69.7985888,07-13-2016,06:42 PM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S31614958,Peregrine Falcon,Falco peregrinus,11582.61,3,US-ME,York,Biddeford Pool,43.4441328,-70.3623676,09-16-2016,01:46 PM,eBird - Traveling Count,90,1,2.414,,6,,,<br />Submitted from eBird Android 1.2.5
 S31825852,Peregrine Falcon,Falco peregrinus,11582.61,1,US-ME,York,Rachel Carson NWR,43.3477594,-70.5491406,09-30-2016,02:14 PM,eBird - Traveling Count,90,1,1.609,,5
+S47105106,Long-tailed Parakeet,Psittacula longicauda,11587.72,4,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
+S47105161,Long-tailed Parakeet,Psittacula longicauda,11587.72,12,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
 S26513922,Monk Parakeet,Myiopsitta monachus,11588.88,X,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,12-29-2015,03:00 PM,eBird - Stationary Count,60,1,,,1
 S40474961,Rose-faced Parrot,Pyrilia pulchra,11589.33,4,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-12-2017,05:33 PM,eBird - Stationary Count,15,1,,,1
 S40803302,Bronze-winged Parrot,Pionus chalcopterus,11589.63,20,EC-P,,G+K Feeders,-.0275375,-78.7453651,11-29-2017,07:34 AM,eBird - Stationary Count,174,1,,,2
@@ -4124,6 +4221,8 @@ S40696836,Maroon-tailed Parakeet,Pyrrhura melanura,11591.14,12,EC-P,,Milpe Bird 
 S40755702,Maroon-tailed Parakeet,Pyrrhura melanura,11591.14,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-26-2017,02:30 PM,eBird - Traveling Count,120,1,1.609,,1
 S40842529,Maroon-tailed Parakeet,Pyrrhura melanura,11591.14,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,12-01-2017,11:17 AM,eBird - Traveling Count,117,1,3.042,,1
 S39354069,Maroon-tailed Parakeet,Pyrrhura melanura,11591.14,10,EC-P,,Pachijal Drive,.0529575,-78.7983227,09-23-2017,02:25 PM,eBird - Traveling Count,240,1,8.047,,2
+S47105161,Black-and-red Broadbill,Cymbirhynchus macrorhynchos,11598.6,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47105242,Black-and-red Broadbill,Cymbirhynchus macrorhynchos,11598.6,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,03:00 PM,eBird - Traveling Count,60,1,1.609,,1
 S39160979,Rufous-rumped Antwren,Euchrepomis callinota,11767.3,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-13-2017,07:00 AM,eBird - Traveling Count,300,1,1.609,,2,,Rufous rump and yellow antwren wing-speckles clear. Foraging with mixed species flock.
 S39353923,Rufous-rumped Antwren,Euchrepomis callinota,11767.3,2,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,09-23-2017,07:00 AM,eBird - Traveling Count,180,1,1.609,,1,,"Pair travelling with mixed flock of tanagers, bush-tanagers, and woodcreeper"
 S40248385,Rufous-rumped Antwren,Euchrepomis callinota,11767.3,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-01-2017,12:45 PM,eBird - Traveling Count,39,1,.805,,1,,Foraging with mixed flock
@@ -4324,8 +4423,10 @@ S39335886,Western Wood-Pewee,Contopus sordidulus,14529,1,EC-P,,Milpe--end of the
 S39354069,Western Wood-Pewee,Contopus sordidulus,14529,2,EC-P,,Pachijal Drive,.0529575,-78.7983227,09-23-2017,02:25 PM,eBird - Traveling Count,240,1,8.047,,2
 S29685045,Eastern Wood-Pewee,Contopus virens,14534,1,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-15-2016,06:56 AM,eBird - Traveling Count,159,1,2.414,,7,,,"Things I didn't see or hear but others may have: Mockingbird, black-throated blue??house wren, chimney swift, northern water thrush?, yellow-rumpled warbler  <br />Submitted from eBird for iOS, version 1.2.0 Build 62"
 S37031372,Eastern Wood-Pewee,Contopus virens,14534,1,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-21-2017,06:58 AM,eBird - Traveling Count,153,1,1.931,,3
+S46792130,Acadian Flycatcher,Empidonax virescens,14574,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S30499424,Willow Flycatcher,Empidonax traillii,14576,1,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,07-02-2016,01:59 PM,eBird - Traveling Count,80,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30010896,Willow Flycatcher,Empidonax traillii,14576,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Willow Flycatcher,Empidonax traillii,14576,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S36902525,Least Flycatcher,Empidonax minimus,14588,1,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-16-2017,06:40 AM,eBird - Traveling Count,160,1,3.219,,10
 S37031372,Least Flycatcher,Empidonax minimus,14588,1,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-21-2017,06:58 AM,eBird - Traveling Count,153,1,1.931,,3
 S31515439,Least Flycatcher,Empidonax minimus,14588,1,US-MA,Worcester,"Tower Hill Botanic Garden, Boylston",42.3611125,-71.7263889,09-02-2016,03:24 PM,eBird - Traveling Count,45,1,1.609,,1,,,<br />Submitted from eBird Android 1.2.5
@@ -4511,6 +4612,19 @@ S40033181,Black-and-white Becard,Pachyramphus albogriseus,15445,1,EC-P,,Milpe Bi
 S40298139,Black-and-white Becard,Pachyramphus albogriseus,15445,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-04-2017,06:15 AM,eBird - Stationary Count,300,1,,,1
 S39307881,Black-and-white Becard,Pachyramphus albogriseus,15445,1,EC-P,,San Tadeo Birdwatching (Feeders),-.0291667,-78.7504077,09-20-2017,03:30 AM,eBird - Stationary Count,30,1,,,3
 S40826985,One-colored Becard,Pachyramphus homochrous,15471,1,EC-P,,Mindo--Vía a las cascadas (Waterfall trail),-.0627651,-78.7742693,11-30-2017,09:29 AM,eBird - Traveling Count,236,1,1.609,,1
+S47221852,Sunda Honeyeater,Lichmera lombokia,15890,2,ID-NU,Nusa Tenggara Barat,Taman Nasional Rinjani,-8.3717083,116.3975816,07-14-2018,01:00 PM,eBird - Stationary Count,60,1,,,1
+S47145448,Indonesian Honeyeater,Lichmera limbata,15897,2,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47162175,Indonesian Honeyeater,Lichmera limbata,15897,4,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47022258,Golden-bellied Gerygone,Gerygone sulphurea,16368,12,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47105161,Golden-bellied Gerygone,Gerygone sulphurea,16368,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47022258,White-breasted Woodswallow,Artamus leucorynchus,16887,4,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47145448,White-breasted Woodswallow,Artamus leucorynchus,16887,2,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47162175,White-breasted Woodswallow,Artamus leucorynchus,16887,6,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47105161,Fiery Minivet,Pericrocotus igneus,16989,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47105161,Scarlet Minivet,Pericrocotus speciosus,17025,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47162175,White-shouldered Triller,Lalage sueurii,17208,5,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47145448,Long-tailed Shrike,Lanius schach,17655,1,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47162175,Long-tailed Shrike,Lanius schach,17655,2,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
 S38223350,Northern Shrike,Lanius borealis,17684.7,5,CA-MB,Churchill and Northern Manitoba,Churchill--Golf Balls,58.7655299,-93.9664078,07-18-2017,04:24 PM,IBA Canada (protocol),45,1,1.609,,2,FL Recently Fledged Young
 S38352762,Northern Shrike,Lanius borealis,17684.7,1,CA-MB,Churchill and Northern Manitoba,Churchill--Golf Balls,58.7655299,-93.9664078,07-25-2017,08:45 AM,IBA Canada (protocol),75,1,3.219,,2
 S38400321,Northern Shrike,Lanius borealis,17684.7,1,CA-MB,Churchill and Northern Manitoba,Churchill--Golf Balls,58.7655299,-93.9664078,07-30-2017,11:29 AM,IBA Canada (protocol),432,1,6.437,,2
@@ -4544,6 +4658,10 @@ S40755702,Red-eyed Vireo,Vireo olivaceus,17850,2,EC-P,,Milpe Bird Sanctuary,.033
 S40826985,Red-eyed Vireo,Vireo olivaceus,17850,2,EC-P,,Mindo--Vía a las cascadas (Waterfall trail),-.0627651,-78.7742693,11-30-2017,09:29 AM,eBird - Traveling Count,236,1,1.609,,1
 S39354069,Red-eyed Vireo,Vireo olivaceus,17850,1,EC-P,,Pachijal Drive,.0529575,-78.7983227,09-23-2017,02:25 PM,eBird - Traveling Count,240,1,8.047,,2
 S39182346,Red-eyed Vireo,Vireo olivaceus,17850,1,EC-P,,Rio Silanche--general area,.1261084,-79.139439,09-14-2017,07:00 AM,eBird - Traveling Count,240,1,.322,,2
+S47022258,Black-naped Oriole,Oriolus chinensis,18016,2,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47105106,Malaysian Pied-Fantail,Rhipidura javanica,18265,4,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
+S47105161,Malaysian Pied-Fantail,Rhipidura javanica,18265,6,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47105224,Malaysian Pied-Fantail,Rhipidura javanica,18265,2,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,08:00 AM,eBird - Traveling Count,180,1,1.609,,2
 S37538705,Gray Jay,Perisoreus canadensis,18722,2,CA-MB,Churchill and Northern Manitoba,Churchill--Burn,58.6104796,-93.8122559,06-11-2017,02:00 PM,IBA Canada (protocol),16,1,.161,,2
 S38561905,Gray Jay,Perisoreus canadensis,18722,X,CA-MB,Churchill and Northern Manitoba,Churchill--Churchill Northern Studies Centre,58.7340939,-93.8174057,06-02-2017,,Historical,,0,,,,,"Single sighting, foraging","CNSC Room 11 Window List, spanning 06/02/17 to 08/09/17. Counts not included"
 S37389876,Gray Jay,Perisoreus canadensis,18722,2,CA-MB,Churchill and Northern Manitoba,Churchill--Golf Balls,58.7655299,-93.9664078,06-04-2017,12:55 PM,IBA Canada (protocol),175,1,4.828,,3
@@ -4623,6 +4741,8 @@ S31825852,Blue Jay,Cyanocitta cristata,18831,3,US-ME,York,Rachel Carson NWR,43.3
 S35296633,California Scrub-Jay,Aphelocoma californica,18840,1,US-CA,Marin,Gabrielson Park,37.8572629,-122.4789333,03-19-2017,02:00 PM,eBird - Traveling Count,120,1,3.219,,1
 S35319370,California Scrub-Jay,Aphelocoma californica,18840,5,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-20-2017,05:32 PM,eBird - Traveling Count,40,1,.805,,2
 S35331829,California Scrub-Jay,Aphelocoma californica,18840,2,US-CA,Santa Clara,US-California-Stanford-680 Lomita Drive - 37.421x-122.171,37.420517,-122.1713676,03-21-2017,11:05 AM,eBird - Traveling Count,20,1,.322,,1
+S47105224,Slender-billed Crow,Corvus enca,19046,3,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,08:00 AM,eBird - Traveling Count,180,1,1.609,,2
+S47105978,Slender-billed Crow,Corvus enca,19046,1,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
 S28008271,American Crow,Corvus brachyrhynchos,19073,200,US-ME,Androscoggin,"Androscoggin Riverlands SP, Turner",44.2611647,-70.1881313,03-06-2016,04:00 PM,eBird - Traveling Count,60,1,1.609,,3
 S32380386,American Crow,Corvus brachyrhynchos,19073,3,US-ME,Androscoggin,Sabattus Pond,44.1283834,-70.0992966,11-05-2016,11:50 AM,eBird - Traveling Count,120,1,3.219,,6
 S32381133,American Crow,Corvus brachyrhynchos,19073,5,US-ME,Androscoggin,Sabattus Pond--Martin Point Park,44.1251572,-70.1063512,11-05-2016,01:57 PM,eBird - Stationary Count,30,1,,,6
@@ -4785,6 +4905,7 @@ S36688260,Fish Crow,Corvus ossifragus,19087,1,US-ME,Cumberland,Brunswick Town Co
 S30816754,Fish Crow,Corvus ossifragus,19087,6,US-ME,Cumberland,Peaks Island,43.6564685,-70.1887436,07-09-2016,12:45 PM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S28463852,Fish Crow,Corvus ossifragus,19087,4,US-CT,Fairfield,Seaside Park,41.1615162,-73.1931067,03-21-2016,09:10 AM,eBird - Traveling Count,43,1,3.219,,1,,,See Ross's goose comment (present again today)<br />Submitted from eBird Android 1.0.2
 S30010896,Fish Crow,Corvus ossifragus,19087,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Fish Crow,Corvus ossifragus,19087,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S28505486,Fish Crow,Corvus ossifragus,19087,4,US-CT,New Haven,Hammonasset Beach SP--Meig's Point Parking Lot/Marshes,41.2522001,-72.5451318,03-23-2016,11:00 AM,eBird - Traveling Count,120,1,3.219,,1,,,<br />Submitted from eBird Android 1.0.3
 S30029439,Fish Crow,Corvus ossifragus,19087,5,US-CT,New Haven,Silver Sands SP,41.2,-73.0666667,06-01-2016,03:11 PM,eBird - Traveling Count,60,1,3.219,,2,,,<br />Submitted from eBird Android 1.2.1
 S28508599,Fish Crow,Corvus ossifragus,19087,2,US-CT,New Haven,West Haven,41.2706985,-72.947052,03-23-2016,01:00 PM,eBird - Stationary Count,60,1,,,1
@@ -4951,6 +5072,7 @@ S40826985,Southern Rough-winged Swallow,Stelgidopteryx ruficollis,19948,16,EC-P,
 S39182346,Southern Rough-winged Swallow,Stelgidopteryx ruficollis,19948,3,EC-P,,Rio Silanche--general area,.1261084,-79.139439,09-14-2017,07:00 AM,eBird - Traveling Count,240,1,.322,,2
 S40791299,Southern Rough-winged Swallow,Stelgidopteryx ruficollis,19948,4,EC-P,,San Tadeo Birdwatching (Feeders),-.0291667,-78.7504077,11-27-2017,05:27 PM,eBird - Stationary Count,39,1,,,1
 S30010896,Purple Martin,Progne subis,19953,20,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Purple Martin,Progne subis,19953,9,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S46100979,Tree Swallow,Tachycineta bicolor,19972,1,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,05-28-2018,09:00 AM,eBird - Stationary Count,30,1,,,1
 S46396745,Tree Swallow,Tachycineta bicolor,19972,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,06-08-2018,09:00 AM,eBird - Stationary Count,60,1,,,2,,,Backyard up the road to the right on the left side of the bay
 S46396295,Tree Swallow,Tachycineta bicolor,19972,2,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,06-08-2018,02:00 PM,eBird - Stationary Count,40,1,,,2
@@ -4977,6 +5099,7 @@ S30499424,Tree Swallow,Tachycineta bicolor,19972,6,US-ME,Cumberland,Gilsland Far
 S30946652,Tree Swallow,Tachycineta bicolor,19972,12,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,08-02-2016,10:00 AM,eBird - Traveling Count,80,1,1.609,,5,,,<br />Submitted from eBird Android 1.2.3
 S30494106,Tree Swallow,Tachycineta bicolor,19972,30,US-ME,Cumberland,Scarborough Marsh--Eastern Trail pannes,43.5668063,-70.3579393,07-02-2016,09:12 AM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30010896,Tree Swallow,Tachycineta bicolor,19972,15,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Tree Swallow,Tachycineta bicolor,19972,22,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S28465146,Tree Swallow,Tachycineta bicolor,19972,1,US-CT,Fairfield,Stratford Point,41.1533577,-73.1033278,03-21-2016,10:45 AM,eBird - Traveling Count,32,1,.805,,1,,,<br />Submitted from eBird Android 1.0.2
 S38624100,Tree Swallow,Tachycineta bicolor,19972,5,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,08-13-2017,10:00 AM,eBird - Stationary Count,60,1,,,2
 S38735451,Tree Swallow,Tachycineta bicolor,19972,2,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,08-20-2017,02:30 PM,eBird - Stationary Count,30,1,,,1
@@ -5001,11 +5124,23 @@ S30362387,Barn Swallow,Hirundo rustica,20037,20,US-ME,Cumberland,Gilsland Farm A
 S30499424,Barn Swallow,Hirundo rustica,20037,12,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,07-02-2016,01:59 PM,eBird - Traveling Count,80,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30946652,Barn Swallow,Hirundo rustica,20037,12,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,08-02-2016,10:00 AM,eBird - Traveling Count,80,1,1.609,,5,,,<br />Submitted from eBird Android 1.2.3
 S38857908,Barn Swallow,Hirundo rustica,20037,2,US-CT,Fairfield,Captain's Cove,41.1576067,-73.2167637,08-27-2017,03:30 PM,eBird - Traveling Count,60,1,1.609,,2
+S46792130,Barn Swallow,Hirundo rustica,20037,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S38624100,Barn Swallow,Hirundo rustica,20037,2,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,08-13-2017,10:00 AM,eBird - Stationary Count,60,1,,,2
 S30029439,Barn Swallow,Hirundo rustica,20037,4,US-CT,New Haven,Silver Sands SP,41.2,-73.0666667,06-01-2016,03:11 PM,eBird - Traveling Count,60,1,3.219,,2,,,<br />Submitted from eBird Android 1.2.1
 S36688396,Barn Swallow,Hirundo rustica,20037,1,US-ME,Sagadahoc,Merrymeeting Bay,43.9755223,-69.8709869,05-09-2017,02:15 PM,eBird - Traveling Count,120,1,8.047,,3
 S30434014,Barn Swallow,Hirundo rustica,20037,2,US-ME,Sagadahoc,"Morse Mtn., Phippsburg",43.7379258,-69.8259687,06-27-2016,11:40 AM,eBird - Traveling Count,300,1,11.265,,1,,,<br />Submitted from eBird Android 1.2.3
 S35313781,Barn Swallow,Hirundo rustica,20037,2,US-CA,San Francisco,Golden Gate Park--Stow Lake,37.7675496,-122.4734026,03-20-2017,04:39 PM,eBird - Traveling Count,72,1,2.414,,2
+S47291675,Pacific Swallow,Hirundo tahitica,20063,4,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47203635,Pacific Swallow,Hirundo tahitica,20063,3,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S46997989,Pacific Swallow,Hirundo tahitica,20063,40,ID-JW,Banten,Jakarta--international airport vicinity,-6.104942,106.6726413,07-05-2018,10:30 AM,eBird - Traveling Count,20,0,8.047,,1,,,"Weak, weak IDs to start"
+S47022258,Pacific Swallow,Hirundo tahitica,20063,2,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47105106,Pacific Swallow,Hirundo tahitica,20063,200,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
+S47105161,Pacific Swallow,Hirundo tahitica,20063,100,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47145448,Pacific Swallow,Hirundo tahitica,20063,100,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47162175,Pacific Swallow,Hirundo tahitica,20063,150,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47105978,Pacific Swallow,Hirundo tahitica,20063,50,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47022258,Striated Swallow,Cecropis striolata,20090,3,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47021971,Striated Swallow,Cecropis striolata,20090,4,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
 S33887351,Carolina Chickadee,Poecile carolinensis,20240,1,US-NC,Buncombe,Beaver Lake Bird Sanctuary,35.633465,-82.55752,01-16-2017,01:00 PM,eBird - Traveling Count,60,1,.805,,5
 S33887250,Carolina Chickadee,Poecile carolinensis,20240,4,US-NC,Buncombe,Tracey's House,35.6556777,-82.3502775,01-16-2017,11:00 AM,eBird - Stationary Count,20,1,,,2
 S33887569,Carolina Chickadee,Poecile carolinensis,20240,12,US-TN,Franklin,Perimeter Trail,35.2183165,-85.9186123,01-19-2017,12:00 PM,eBird - Traveling Count,90,1,1.609,,7
@@ -5337,6 +5472,19 @@ S39307981,White-capped Dipper,Cinclus leucocephalus,21481,1,EC-P,,Mindo Garden L
 S40826967,White-capped Dipper,Cinclus leucocephalus,21481,1,EC-P,,Mindo--Vía a las cascadas (Waterfall trail),-.0627651,-78.7742693,11-29-2017,01:15 PM,eBird - Traveling Count,45,1,4.828,,2
 S40826985,White-capped Dipper,Cinclus leucocephalus,21481,1,EC-P,,Mindo--Vía a las cascadas (Waterfall trail),-.0627651,-78.7742693,11-30-2017,09:29 AM,eBird - Traveling Count,236,1,1.609,,1
 S39354069,White-capped Dipper,Cinclus leucocephalus,21481,2,EC-P,,Pachijal Drive,.0529575,-78.7983227,09-23-2017,02:25 PM,eBird - Traveling Count,240,1,8.047,,2
+S47105161,Puff-backed Bulbul,Pycnonotus eutilotus,21485.159,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47035628,Sooty-headed Bulbul,Pycnonotus aurigaster,21485.255,1,ID-JW,Banten,Jakarta Soekarna Hatta Airport,-6.1266,106.6544,07-07-2018,08:15 AM,eBird - Stationary Count,11,1,,,1
+S47021971,Sooty-headed Bulbul,Pycnonotus aurigaster,21485.255,2,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
+S47145448,Sooty-headed Bulbul,Pycnonotus aurigaster,21485.255,4,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47162175,Sooty-headed Bulbul,Pycnonotus aurigaster,21485.255,4,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47291675,Yellow-vented Bulbul,Pycnonotus goiavier,21485.286,8,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47203635,Yellow-vented Bulbul,Pycnonotus goiavier,21485.286,8,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47145448,Yellow-vented Bulbul,Pycnonotus goiavier,21485.286,12,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47162175,Yellow-vented Bulbul,Pycnonotus goiavier,21485.286,10,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47105978,Yellow-vented Bulbul,Pycnonotus goiavier,21485.286,9,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47105242,Red-eyed Bulbul,Pycnonotus brunneus,21485.316,2,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,03:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47105251,Red-eyed Bulbul,Pycnonotus brunneus,21485.316,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-09-2018,08:30 AM,eBird - Traveling Count,90,1,3.219,,1
+S47105978,Gray-cheeked Bulbul,Alophoixus bres,21485.35,2,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
 S33887250,Golden-crowned Kinglet,Regulus satrapa,21932,3,US-NC,Buncombe,Tracey's House,35.6556777,-82.3502775,01-16-2017,11:00 AM,eBird - Stationary Count,20,1,,,2
 S27083000,Golden-crowned Kinglet,Regulus satrapa,21932,4,US-ME,Cumberland,"Bowdoin College Coastal Studies Center, Harpswell",43.788306,-69.9579549,01-23-2016,02:30 PM,eBird - Traveling Count,90,1,3.219,,3
 S35984498,Golden-crowned Kinglet,Regulus satrapa,21932,3,US-ME,Cumberland,"Bowdoin College Coastal Studies Center, Harpswell",43.788306,-69.9579549,04-15-2017,11:46 AM,eBird - Traveling Count,3,1,3.219,,8,,,No comment
@@ -5361,13 +5509,26 @@ S36240864,Ruby-crowned Kinglet,Regulus calendula,21939,4,US-ME,Cumberland,Brunsw
 S36264604,Ruby-crowned Kinglet,Regulus calendula,21939,3,US-ME,Cumberland,Brunswick Town Commons,43.8881545,-69.9516062,04-25-2017,02:15 PM,eBird - Traveling Count,101,1,3.219,,2
 S45527914,Ruby-crowned Kinglet,Regulus calendula,21939,1,CA-NL,Notre Dame Bay-Lewisporte,Brimstone Head,49.7194773,-54.3026314,05-09-2018,12:00 PM,eBird - Stationary Count,45,1,,,1
 S45527869,Ruby-crowned Kinglet,Regulus calendula,21939,4,CA-NL,Notre Dame Bay-Lewisporte,Twillingate--Lower Head Trail--between lighthouse and lower head,49.6860743,-54.8061562,05-10-2018,09:51 AM,eBird - Traveling Count,80,1,6.437,,1
+S47203635,Zitting Cisticola,Cisticola juncidis,22829,5,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47221958,Zitting Cisticola,Cisticola juncidis,22829,2,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-16-2018,09:00 AM,eBird - Traveling Count,30,1,.805,,1
+S47105161,Ashy Tailorbird,Orthotomus ruficeps,22940,2,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47105224,Ashy Tailorbird,Orthotomus ruficeps,22940,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,08:00 AM,eBird - Traveling Count,180,1,1.609,,2
+S47105251,Ashy Tailorbird,Orthotomus ruficeps,22940,2,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-09-2018,08:30 AM,eBird - Traveling Count,90,1,3.219,,1
+S47221852,Olive-backed Tailorbird,Orthotomus sepium,22949,4,ID-NU,Nusa Tenggara Barat,Taman Nasional Rinjani,-8.3717083,116.3975816,07-14-2018,01:00 PM,eBird - Stationary Count,60,1,,,1
+S47105978,Olive-backed Tailorbird,Orthotomus sepium,22949,1,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47105251,Rufous-tailed Tailorbird,Orthotomus sericeus,22952,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-09-2018,08:30 AM,eBird - Traveling Count,90,1,3.219,,1
 S35344543,Wrentit,Chamaea fasciata,23308,1,US-CA,Santa Clara,Lake Lagunita (SCL Co.),37.4223551,-122.17623,03-21-2017,05:52 PM,eBird - Traveling Count,30,0,1.609,,1
+S47162175,Lemon-bellied White-eye,Zosterops chloris,23377.005,3,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47221852,Lemon-bellied White-eye,Zosterops chloris,23377.005,2,ID-NU,Nusa Tenggara Barat,Taman Nasional Rinjani,-8.3717083,116.3975816,07-14-2018,01:00 PM,eBird - Stationary Count,60,1,,,1
+S47105161,Bold-striped Tit-Babbler,Mixornis bornensis,23377.0068,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47105161,Bornean Blue Flycatcher,Cyornis superbus,23403.0307,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
 S31920315,Eastern Bluebird,Sialia sialis,24482,2,US-ME,Cumberland,Brunswick Town Commons,43.8881545,-69.9516062,10-06-2016,03:04 PM,eBird - Traveling Count,51,1,1.609,,1
 S37031372,Eastern Bluebird,Sialia sialis,24482,1,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-21-2017,06:58 AM,eBird - Traveling Count,153,1,1.931,,3
 S30362387,Eastern Bluebird,Sialia sialis,24482,5,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,06-23-2016,04:15 PM,eBird - Traveling Count,60,1,2.414,,1,,,<br />Submitted from eBird Android 1.2.3
 S30946652,Eastern Bluebird,Sialia sialis,24482,1,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,08-02-2016,10:00 AM,eBird - Traveling Count,80,1,1.609,,5,,,<br />Submitted from eBird Android 1.2.3
 S32608463,Eastern Bluebird,Sialia sialis,24482,6,US-ME,Cumberland,Gilsland Farm Audubon Center,43.7066997,-70.2417581,11-18-2016,01:44 PM,eBird - Traveling Count,145,1,2.414,,10
 S30918216,Eastern Bluebird,Sialia sialis,24482,4,US-ME,Cumberland,Harpswell Apartments,43.9033224,-69.9570787,07-31-2016,11:52 AM,eBird - Stationary Count,30,1,,,4,,,<br />Submitted from eBird Android 1.2.3
+S46792130,Eastern Bluebird,Sialia sialis,24482,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S33887448,Eastern Bluebird,Sialia sialis,24482,1,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,02:00 PM,eBird - Stationary Count,30,1,,,7
 S28609197,Eastern Bluebird,Sialia sialis,24482,1,US-MA,Worcester,South St (Private),42.2030879,-71.6852137,03-27-2016,12:00 PM,eBird - Stationary Count,60,1,,,1,,,<br />Submitted from eBird Android 1.0.3
 S35335285,Western Bluebird,Sialia mexicana,24491,1,US-CA,Santa Clara,Stanford University--Papua New Guinea Sculpture Garden,37.424802,-122.1735799,03-21-2017,01:00 PM,eBird - Stationary Count,60,1,,,1
@@ -5526,6 +5687,7 @@ S38838633,American Robin,Turdus migratorius,24903,1,US-CT,Fairfield,Captain's Co
 S35255191,American Robin,Turdus migratorius,24903,2,US-CT,Fairfield,Fayerweather Apts.,41.153765,-73.219202,03-18-2017,01:34 PM,eBird - Stationary Count,5,1,,,1,F Flyover
 S28146373,American Robin,Turdus migratorius,24903,20,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,American Robin,Turdus migratorius,24903,40,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,American Robin,Turdus migratorius,24903,15,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S33887448,American Robin,Turdus migratorius,24903,6,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,02:00 PM,eBird - Stationary Count,30,1,,,7
 S26508830,American Robin,Turdus migratorius,24903,3,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,12-29-2015,11:06 AM,eBird - Stationary Count,60,1,,,2,,,<br />Submitted from eBird Android 1.0.1
 S38924028,American Robin,Turdus migratorius,24903,3,US-CT,New Haven,Hammonasset Beach SP,41.2619859,-72.5548234,08-31-2017,02:30 PM,eBird - Traveling Count,44,1,1.609,,3,FL Recently Fledged Young
@@ -5593,6 +5755,7 @@ S30816754,Northern Mockingbird,Mimus polyglottos,26464,2,US-ME,Cumberland,Peaks 
 S26961152,Northern Mockingbird,Mimus polyglottos,26464,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,01-17-2016,02:00 PM,eBird - Traveling Count,120,1,4.828,,1
 S28146373,Northern Mockingbird,Mimus polyglottos,26464,5,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,Northern Mockingbird,Mimus polyglottos,26464,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Northern Mockingbird,Mimus polyglottos,26464,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S28465146,Northern Mockingbird,Mimus polyglottos,26464,1,US-CT,Fairfield,Stratford Point,41.1533577,-73.1033278,03-21-2016,10:45 AM,eBird - Traveling Count,32,1,.805,,1,,,<br />Submitted from eBird Android 1.0.2
 S28251329,Northern Mockingbird,Mimus polyglottos,26464,1,US-CT,New Haven,Coastal Center at Milford Point,41.1757855,-73.1002423,03-16-2016,02:55 PM,eBird - Traveling Count,26,1,1.609,,1,,,All duck spp. represented but did not count numerous large rafts beyond bin range<br />Submitted from eBird Android 1.0.2
 S38924028,Northern Mockingbird,Mimus polyglottos,26464,5,US-CT,New Haven,Hammonasset Beach SP,41.2619859,-72.5548234,08-31-2017,02:30 PM,eBird - Traveling Count,44,1,1.609,,3,FL Recently Fledged Young
@@ -5606,6 +5769,9 @@ S35296125,Northern Mockingbird,Mimus polyglottos,26464,2,US-CA,San Mateo,Anza La
 S35362804,Northern Mockingbird,Mimus polyglottos,26464,3,US-CA,San Mateo,Anza Lagoon,37.5915194,-122.3436856,03-22-2017,05:00 PM,eBird - Traveling Count,60,1,3.219,,1,,,Includes walk down public shore path to beach to the north
 S33887174,Northern Mockingbird,Mimus polyglottos,26464,1,US-PA,Schuylkill,Driving,40.7362775,-76.3087255,01-15-2017,12:00 PM,eBird - Casual Observation,0,0,,,2
 S28578376,Northern Mockingbird,Mimus polyglottos,26464,2,US-MA,Worcester,Tuft's Farm Fields,42.2492435,-71.6716933,03-27-2016,11:00 AM,eBird - Traveling Count,40,1,1.609,,3,,,<br />Submitted from eBird Android 1.0.3
+S46792130,Metallic Starling,Aplonis metallica,26469,0,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
+S47221958,Asian Glossy Starling,Aplonis panayensis,26499,1,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-16-2018,09:00 AM,eBird - Traveling Count,30,1,.805,,1
+S47105106,Common Hill Myna,Gracula religiosa,26568,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
 S46327543,European Starling,Sturnus vulgaris,26621,8,CA-NL,Avalon Peninsula-St. John's,NL--Cape St. Mary's,46.823875,-54.1877942,06-05-2018,08:30 AM,eBird - Traveling Count,240,1,3.219,,2
 S41648266,European Starling,Sturnus vulgaris,26621,4,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,01-05-2018,12:32 PM,eBird - Traveling Count,127,1,5.955,,2
 S42041594,European Starling,Sturnus vulgaris,26621,14,CA-NL,Bonavista/Trinity-Clarenville,NL--Salvage,48.6877307,-53.6464548,01-18-2018,10:45 AM,eBird - Stationary Count,10,1,,,1
@@ -5647,6 +5813,7 @@ S26961152,European Starling,Sturnus vulgaris,26621,100,US-CT,Fairfield,Sherwood 
 S28146373,European Starling,Sturnus vulgaris,26621,12,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,European Starling,Sturnus vulgaris,26621,60,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
 S41324332,European Starling,Sturnus vulgaris,26621,5,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-26-2017,10:30 AM,eBird - Traveling Count,90,1,1.609,,2
+S46792130,European Starling,Sturnus vulgaris,26621,12,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S33887569,European Starling,Sturnus vulgaris,26621,4,US-TN,Franklin,Perimeter Trail,35.2183165,-85.9186123,01-19-2017,12:00 PM,eBird - Traveling Count,90,1,1.609,,7
 S33887402,European Starling,Sturnus vulgaris,26621,15,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,11:00 AM,eBird - Stationary Count,60,1,,,7
 S33887448,European Starling,Sturnus vulgaris,26621,4,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,02:00 PM,eBird - Stationary Count,30,1,,,7
@@ -5675,6 +5842,17 @@ S35359778,European Starling,Sturnus vulgaris,26621,30,US-CA,San Mateo,US-Califor
 S33887174,European Starling,Sturnus vulgaris,26621,1000,US-PA,Schuylkill,Driving,40.7362775,-76.3087255,01-15-2017,12:00 PM,eBird - Casual Observation,0,0,,,2
 S28578376,European Starling,Sturnus vulgaris,26621,10,US-MA,Worcester,Tuft's Farm Fields,42.2492435,-71.6716933,03-27-2016,11:00 AM,eBird - Traveling Count,40,1,1.609,,3,,,<br />Submitted from eBird Android 1.0.3
 S31614958,European Starling,Sturnus vulgaris,26621,200,US-ME,York,Biddeford Pool,43.4441328,-70.3623676,09-16-2016,01:46 PM,eBird - Traveling Count,90,1,2.414,,6,,,<br />Submitted from eBird Android 1.2.5
+S47105224,Yellow-breasted Flowerpecker,Prionochilus maculatus,26782,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,08:00 AM,eBird - Traveling Count,180,1,1.609,,2
+S47105106,Crimson-breasted Flowerpecker,Prionochilus percussus,26787,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
+S47105161,Crimson-breasted Flowerpecker,Prionochilus percussus,26787,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-08-2018,05:30 AM,eBird - Stationary Count,120,1,,,1
+S47328744,Scarlet-headed Flowerpecker,Dicaeum trochileum,26955,1,ID-JW,Jakarta Raya,Jakarta--Monas,-6.1753835,106.8270803,07-21-2018,12:00 PM,eBird - Traveling Count,60,1,.483,,1
+S47022258,Plain-throated Sunbird,Anthreptes malacensis,26981,1,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47145448,Plain-throated Sunbird,Anthreptes malacensis,26981,2,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47203635,Plain-throated Sunbird (Brown-throated),Anthreptes malacensis [malacensis Group],26985,1,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47291675,Olive-backed Sunbird,Cinnyris jugularis,27265,2,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47022258,Olive-backed Sunbird,Cinnyris jugularis,27265,1,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47105978,Olive-backed Sunbird,Cinnyris jugularis,27265,5,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1,"C Courtship, Display, or Copulation"
+S47105106,Crimson Sunbird,Aethopyga siparaja,27344,1,ID-KA,Kalimantan Tengah,Taman Nasional Tanjung Puting,-2.9173482,111.9026184,07-07-2018,01:00 PM,eBird - Traveling Count,120,1,4.828,,1
 S46327543,American Pipit,Anthus rubescens,27669,2,CA-NL,Avalon Peninsula-St. John's,NL--Cape St. Mary's,46.823875,-54.1877942,06-05-2018,08:30 AM,eBird - Traveling Count,240,1,3.219,,2
 S38352721,American Pipit,Anthus rubescens,27669,2,CA-MB,Churchill and Northern Manitoba,Churchill--Cape Merry,58.78632,-94.19733,07-24-2017,01:04 PM,IBA Canada (protocol),41,1,.805,,2
 S37433183,American Pipit,Anthus rubescens,27669,4,CA-MB,Churchill and Northern Manitoba,Churchill--Half-way Point,58.7675771,-93.8611794,06-06-2017,01:46 PM,IBA Canada (protocol),65,1,3.219,,2
@@ -5968,6 +6146,7 @@ S30946652,Yellow Warbler,Setophaga petechia,27885,1,US-ME,Cumberland,Gilsland Fa
 S30816754,Yellow Warbler,Setophaga petechia,27885,1,US-ME,Cumberland,Peaks Island,43.6564685,-70.1887436,07-09-2016,12:45 PM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30494106,Yellow Warbler,Setophaga petechia,27885,2,US-ME,Cumberland,Scarborough Marsh--Eastern Trail pannes,43.5668063,-70.3579393,07-02-2016,09:12 AM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S30010896,Yellow Warbler,Setophaga petechia,27885,5,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Yellow Warbler,Setophaga petechia,27885,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S30029439,Yellow Warbler,Setophaga petechia,27885,4,US-CT,New Haven,Silver Sands SP,41.2,-73.0666667,06-01-2016,03:11 PM,eBird - Traveling Count,60,1,3.219,,2,,,<br />Submitted from eBird Android 1.2.1
 S30434014,Yellow Warbler,Setophaga petechia,27885,2,US-ME,Sagadahoc,"Morse Mtn., Phippsburg",43.7379258,-69.8259687,06-27-2016,11:40 AM,eBird - Traveling Count,300,1,11.265,,1,,,<br />Submitted from eBird Android 1.2.3
 S30959038,Yellow Warbler,Setophaga petechia,27885,1,US-ME,York,Stratton Island,43.5046746,-70.3116417,08-03-2016,10:30 AM,eBird - Traveling Count,215,1,1.609,,4,,,<br />Submitted from eBird Android 1.2.3
@@ -6974,6 +7153,7 @@ S28463852,Song Sparrow,Melospiza melodia,29984.39,2,US-CT,Fairfield,Seaside Park
 S28146373,Song Sparrow,Melospiza melodia,29984.39,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,Song Sparrow,Melospiza melodia,29984.39,2,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
 S41324332,Song Sparrow,Melospiza melodia,29984.39,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-26-2017,10:30 AM,eBird - Traveling Count,90,1,1.609,,2
+S46792130,Song Sparrow,Melospiza melodia,29984.39,2,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S26843937,Song Sparrow,Melospiza melodia,29984.39,2,US-CT,Fairfield,Stratford Point,41.1533577,-73.1033278,01-11-2016,01:00 PM,eBird - Traveling Count,60,1,1.609,,1
 S28465146,Song Sparrow,Melospiza melodia,29984.39,14,US-CT,Fairfield,Stratford Point,41.1533577,-73.1033278,03-21-2016,10:45 AM,eBird - Traveling Count,32,1,.805,,1,,,<br />Submitted from eBird Android 1.0.2
 S33887402,Song Sparrow,Melospiza melodia,29984.39,2,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,11:00 AM,eBird - Stationary Count,60,1,,,7
@@ -7087,6 +7267,7 @@ S32045680,Northern Cardinal,Cardinalis cardinalis,30233,1,US-ME,Cumberland,"Whar
 S28146373,Northern Cardinal,Cardinalis cardinalis,30233,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,Northern Cardinal,Cardinalis cardinalis,30233,2,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
 S41324332,Northern Cardinal,Cardinalis cardinalis,30233,2,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-26-2017,10:30 AM,eBird - Traveling Count,90,1,1.609,,2
+S46792130,Northern Cardinal,Cardinalis cardinalis,30233,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S33887402,Northern Cardinal,Cardinalis cardinalis,30233,2,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,11:00 AM,eBird - Stationary Count,60,1,,,7
 S33887448,Northern Cardinal,Cardinalis cardinalis,30233,2,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,02:00 PM,eBird - Stationary Count,30,1,,,7
 S26508830,Northern Cardinal,Cardinalis cardinalis,30233,1,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,12-29-2015,11:06 AM,eBird - Stationary Count,60,1,,,2,,,<br />Submitted from eBird Android 1.0.1
@@ -7132,6 +7313,7 @@ S30946652,Red-winged Blackbird,Agelaius phoeniceus,30339,2,US-ME,Cumberland,Gils
 S30494106,Red-winged Blackbird,Agelaius phoeniceus,30339,20,US-ME,Cumberland,Scarborough Marsh--Eastern Trail pannes,43.5668063,-70.3579393,07-02-2016,09:12 AM,eBird - Traveling Count,120,1,3.219,,3,,,<br />Submitted from eBird Android 1.2.3
 S28146373,Red-winged Blackbird,Agelaius phoeniceus,30339,60,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,Red-winged Blackbird,Agelaius phoeniceus,30339,12,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Red-winged Blackbird,Agelaius phoeniceus,30339,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S28465146,Red-winged Blackbird,Agelaius phoeniceus,30339,3,US-CT,Fairfield,Stratford Point,41.1533577,-73.1033278,03-21-2016,10:45 AM,eBird - Traveling Count,32,1,.805,,1,,,<br />Submitted from eBird Android 1.0.2
 S35296317,Red-winged Blackbird,Agelaius phoeniceus,30339,2,US-CA,Marin,Muir Beach,37.8599891,-122.5762117,03-19-2017,11:00 AM,eBird - Traveling Count,120,1,6.437,,2
 S28505486,Red-winged Blackbird,Agelaius phoeniceus,30339,5,US-CT,New Haven,Hammonasset Beach SP--Meig's Point Parking Lot/Marshes,41.2522001,-72.5451318,03-23-2016,11:00 AM,eBird - Traveling Count,120,1,3.219,,1,,,<br />Submitted from eBird Android 1.0.3
@@ -7150,6 +7332,7 @@ S29685045,Brown-headed Cowbird,Molothrus ater,30380,10,US-ME,Cumberland,Evergree
 S36902525,Brown-headed Cowbird,Molothrus ater,30380,2,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-16-2017,06:40 AM,eBird - Traveling Count,160,1,3.219,,10
 S36957867,Brown-headed Cowbird,Molothrus ater,30380,2,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-18-2017,06:40 AM,eBird - Traveling Count,160,1,3.219,,4
 S37031372,Brown-headed Cowbird,Molothrus ater,30380,1,US-ME,Cumberland,Evergreen Cemetery,43.6818207,-70.3007948,05-21-2017,06:58 AM,eBird - Traveling Count,153,1,1.931,,3
+S46792130,Brown-headed Cowbird,Molothrus ater,30380,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S38735451,Brown-headed Cowbird,Molothrus ater,30380,1,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,08-20-2017,02:30 PM,eBird - Stationary Count,30,1,,,1
 S40544943,Scrub Blackbird,Dives warczewiczi,30411.5,1,EC-P,,Milpe Bird Sanctuary,.033327,-78.868451,11-16-2017,05:00 PM,eBird - Traveling Count,60,1,2.414,,1
 S39039816,Scrub Blackbird,Dives warczewiczi,30411.5,4,EC-P,,Mindo--Road from highway to town (1300-1700m),-.0387096,-78.7685094,09-06-2017,02:00 AM,eBird - Traveling Count,30,1,3.219,,3
@@ -7171,6 +7354,7 @@ S38857908,Common Grackle,Quiscalus quiscula,30421,1,US-CT,Fairfield,Captain's Co
 S28124715,Common Grackle,Quiscalus quiscula,30421,3,US-CT,Fairfield,Fairweather Island,41.1413776,-73.2154154,03-12-2016,04:00 PM,eBird - Stationary Count,41,1,,,1,,,"<br />Submitted from eBird for iOS, version 1.1.5 Build 44"
 S28146373,Common Grackle,Quiscalus quiscula,30421,20,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,03-13-2016,02:48 PM,eBird - Traveling Count,109,1,4.023,,2,,,<br />Submitted from eBird Android 1.0.2
 S30010896,Common Grackle,Quiscalus quiscula,30421,5,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,Common Grackle,Quiscalus quiscula,30421,25,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S28465146,Common Grackle,Quiscalus quiscula,30421,12,US-CT,Fairfield,Stratford Point,41.1533577,-73.1033278,03-21-2016,10:45 AM,eBird - Traveling Count,32,1,.805,,1,,,<br />Submitted from eBird Android 1.0.2
 S28235563,Common Grackle,Quiscalus quiscula,30421,50,US-CT,New Haven,Milford Pt.,41.1754303,-73.1032485,03-15-2016,01:00 PM,eBird - Traveling Count,120,1,2.414,,1,,,"<br />Submitted from eBird for iOS, version 1.1.5 Build 44"
 S28466599,Common Grackle,Quiscalus quiscula,30421,40,US-CT,New Haven,Milford Pt.,41.1754303,-73.1032485,03-21-2016,12:10 PM,eBird - Traveling Count,15,1,.805,,1,,,<br />Submitted from eBird Android 1.0.2
@@ -7260,6 +7444,7 @@ S27197144,House Finch,Haemorhous mexicanus,30866,4,US-ME,Cumberland,"Wharton Poi
 S26476762,House Finch,Haemorhous mexicanus,30866,9,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-27-2015,01:15 PM,eBird - Traveling Count,180,1,4.828,,2
 S30010896,House Finch,Haemorhous mexicanus,30866,3,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
 S41324332,House Finch,Haemorhous mexicanus,30866,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-26-2017,10:30 AM,eBird - Traveling Count,90,1,1.609,,2
+S46792130,House Finch,Haemorhous mexicanus,30866,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S28465146,House Finch,Haemorhous mexicanus,30866,3,US-CT,Fairfield,Stratford Point,41.1533577,-73.1033278,03-21-2016,10:45 AM,eBird - Traveling Count,32,1,.805,,1,,,<br />Submitted from eBird Android 1.0.2
 S33887402,House Finch,Haemorhous mexicanus,30866,3,US-TN,Franklin,Sewanee University Campus,35.1973782,-85.9165192,01-18-2017,11:00 AM,eBird - Stationary Count,60,1,,,7
 S26820667,House Finch,Haemorhous mexicanus,30866,5,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,01-10-2016,01:30 PM,eBird - Stationary Count,120,1,,,2
@@ -7444,6 +7629,7 @@ S26476762,House Sparrow,Passer domesticus,31345,32,US-CT,Fairfield,Sherwood Isla
 S26537430,House Sparrow,Passer domesticus,31345,X,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,12-30-2015,03:30 PM,eBird - Traveling Count,60,1,1.609,,2
 S26961152,House Sparrow,Passer domesticus,31345,30,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,01-17-2016,02:00 PM,eBird - Traveling Count,120,1,4.828,,1
 S30010896,House Sparrow,Passer domesticus,31345,4,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,05-31-2016,12:06 PM,eBird - Traveling Count,109,1,3.219,,1,,,<br />Submitted from eBird Android 1.2.1
+S46792130,House Sparrow,Passer domesticus,31345,1,US-CT,Fairfield,Sherwood Island State Park,41.1157809,-73.3305955,06-25-2018,01:30 PM,eBird - Traveling Count,150,1,4.828,,2,,,"Liam Taylor told me while birding, ""I don't care about birds, I'm just doing ornithology for the money."""
 S28465146,House Sparrow,Passer domesticus,31345,1,US-CT,Fairfield,Stratford Point,41.1533577,-73.1033278,03-21-2016,10:45 AM,eBird - Traveling Count,32,1,.805,,1,,,<br />Submitted from eBird Android 1.0.2
 S26508830,House Sparrow,Passer domesticus,31345,1,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,12-29-2015,11:06 AM,eBird - Stationary Count,60,1,,,2,,,<br />Submitted from eBird Android 1.0.1
 S26638711,House Sparrow,Passer domesticus,31345,1,US-CT,Middlesex,Kate Feeder,41.3613493,-72.493027,01-03-2016,10:46 AM,eBird - Stationary Count,20,1,,,2,,,<br />Submitted from eBird Android 1.0.1
@@ -7467,4 +7653,20 @@ S35335285,House Sparrow,Passer domesticus,31345,2,US-CA,Santa Clara,Stanford Uni
 S33887174,House Sparrow,Passer domesticus,31345,100,US-PA,Schuylkill,Driving,40.7362775,-76.3087255,01-15-2017,12:00 PM,eBird - Casual Observation,0,0,,,2
 S32846668,House Sparrow,Passer domesticus,31345,15,US-ME,York,Biddeford Pool--East Point Sanctuary,43.4470928,-70.3369403,12-03-2016,01:30 PM,eBird - Traveling Count,90,1,1.287,,4
 S40730047,House Sparrow,Passer domesticus,31345,1,EC-P,,San Miguel de Los Bancos--Mirador Rio Blanco,.0222802,-78.8909025,11-25-2017,02:01 PM,eBird - Traveling Count,60,1,.483,,1
+S47306440,Eurasian Tree Sparrow,Passer montanus,31403,12,ID-NU,Bali,Benoa Bay general (no stopping on Jalan Toll),-8.7586121,115.1969504,07-20-2018,04:20 PM,eBird - Traveling Count,20,1,3.219,,1
+S47203635,Eurasian Tree Sparrow,Passer montanus,31403,30,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47221958,Eurasian Tree Sparrow,Passer montanus,31403,10,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-16-2018,09:00 AM,eBird - Traveling Count,30,1,.805,,1
+S47328744,Eurasian Tree Sparrow,Passer montanus,31403,17,ID-JW,Jakarta Raya,Jakarta--Monas,-6.1753835,106.8270803,07-21-2018,12:00 PM,eBird - Traveling Count,60,1,.483,,1
+S47022258,Eurasian Tree Sparrow,Passer montanus,31403,4,ID-JW,Jakarta Raya,Pulau Pari,-5.8585625,106.6196805,07-06-2018,10:00 AM,eBird - Traveling Count,180,1,3.219,,1
+S47021971,Eurasian Tree Sparrow,Passer montanus,31403,20,ID-JW,Jakarta Raya,Pulau Rambut,-5.9742,106.6926,07-06-2018,08:15 AM,eBird - Stationary Count,30,1,,,1
+S47145448,Eurasian Tree Sparrow,Passer montanus,31403,10,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-12-2018,03:15 PM,eBird - Traveling Count,45,1,.805,,1
+S47162175,Eurasian Tree Sparrow,Passer montanus,31403,20,ID-NU,Nusa Tenggara Barat,Gili Trawangan Island,-8.3503292,116.0402155,07-13-2018,11:00 AM,eBird - Traveling Count,45,1,.805,,1
+S47105978,Eurasian Tree Sparrow,Passer montanus,31403,40,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47291675,Javan Munia,Lonchura leucogastroides,32051,10,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47203635,Javan Munia,Lonchura leucogastroides,32051,8,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47221958,Javan Munia,Lonchura leucogastroides,32051,7,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-16-2018,09:00 AM,eBird - Traveling Count,30,1,.805,,1
+S47105978,Javan Munia,Lonchura leucogastroides,32051,30,ID-JW,Yogyakarta,Hyatt Regency,-7.7400349,110.3735277,07-10-2018,12:00 PM,eBird - Traveling Count,60,1,1.609,,1
+S47291675,Scaly-breasted Munia,Lonchura punctulata,32057,20,ID-NU,Bali,Jatiluwih Rice Terraces,-8.3696687,115.1303244,07-19-2018,10:00 AM,eBird - Traveling Count,60,1,1.609,,1
+S47203635,Scaly-breasted Munia,Lonchura punctulata,32057,13,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-15-2018,03:45 PM,eBird - Traveling Count,35,1,1.207,,1
+S47221958,Scaly-breasted Munia,Lonchura punctulata,32057,12,ID-NU,Bali,Ubud--Bali Bird Walk,-8.4946988,115.2601862,07-16-2018,09:00 AM,eBird - Traveling Count,30,1,.805,,1
 S25760648,passerine sp.,Passeriformes sp.,32181,2,US-ME,Sagadahoc,Popham  Beach SP,43.7358483,-69.7985888,11-08-2015,01:15 PM,eBird - Traveling Count,75,1,.644,,4,,Flyby. Likely snow buntings.,"Low tide. Walked from parking lot to island and back, with most time spent near the island. All numbers estimates unless otherwise noted."
