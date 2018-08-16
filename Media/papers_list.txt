@@ -16,3 +16,4 @@ Snow, D. W. 1962. A field study of the Black and White Manakin, <em>Manacus mana
 Ellison, A. M., C. J. LeRoy, K. J. Landsbergen, E. Bosanquet, D. B. Borden, P. J. CaraDonna, K. Cheney, R. Crystal‐Ornelas, A. DeFreece, L. Goralnik, E. Irons, B. G. Merkle, K. E. B. O’Connell, C. A. Penick, L. Rustad, M. Schulze, N. M. Waser, and L. M. Wysong. 2018. Art/Science Collaborations: New Explorations of Ecological Systems, Values, and their Feedbacks. The Bulletin of the Ecological Society of America 99:180–191.
 Warner, M. 2012. Queer and then? The Chronicle of Higher Education.
 Gould, S. J., and R. C. Lewontin. 1979. The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme. Proc. R. Soc. Lond. B 205:581–598.
+Broman, K. W., and K. H. Woo. 2018. Data Organization in Spreadsheets. The American Statistician 72:2–10.
