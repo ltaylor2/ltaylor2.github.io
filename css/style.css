@@ -63,7 +63,7 @@ td.date {
 	color: black;
 	margin-left: 3px;
 	padding-top: .5em;
-	padding-bottom: .1em;
+	padding-bottom: .25em;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: -4px;
@@ -507,7 +507,7 @@ td.date {
 	font-size: 15px;
 	background: white;
 	padding: .5em;
-	padding-bottom: .1em;
+	padding-bottom: .25em;
 	border: 1px solid black;
 	margin-top: 10px;
 }
