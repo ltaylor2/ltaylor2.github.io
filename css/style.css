@@ -62,8 +62,8 @@ td.date {
 	display: inline-block;
 	color: black;
 	margin-left: 3px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: .5em;
+	padding-bottom: .1em;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: -4px;
@@ -71,6 +71,7 @@ td.date {
 	text-decoration: none;
 	background-color: transparent;
 	border: 2px solid white;
+	align-items: middle;
 }
 
 .menu-item-active {
@@ -279,7 +280,6 @@ td.date {
 	background: white;
 	padding: .75em;
 	padding-bottom: .25em;
-	padding-top: auto;
 	margin-top: 2px;
 	margin-bottom: 2px;
 	border: 1px solid black;
@@ -508,7 +508,6 @@ td.date {
 	background: white;
 	padding: .5em;
 	padding-bottom: .1em;
-	padding-top: auto;
 	border: 1px solid black;
 	margin-top: 10px;
 }
