@@ -19,3 +19,5 @@ Gould, S. J., and R. C. Lewontin. 1979. The spandrels of San Marco and the Pangl
 Broman, K. W., and K. H. Woo. 2018. Data Organization in Spreadsheets. The American Statistician 72:2–10.
 Phillips, R. 2015. Theory in Biology: Figure 1 or Figure 7? Trends in Cell Biology 25:723–729.
 Sanchez, A., and J. Gore. 2013. Feedback between Population and Evolutionary Dynamics Determines the Fate of Social Microbial Populations. PLOS Biology 11:e1001547.
+Hutchinson, G. E. 1959. Homage to Santa Rosalia or Why Are There So Many Kinds of Animals? The American Naturalist 93:145–159.
+Hutchinson, G. E. 1948. Circular Causal Systems in Ecology. Annals of the New York Academy of Sciences 50:221–246.
