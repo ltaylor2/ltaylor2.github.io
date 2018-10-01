@@ -26,3 +26,4 @@ Edwards, E. J., D. S. Chatelet, B.-C. Chen, J. Y. Ong, S. Tagane, H. Kanemitsu, 
 Ozbudak, E. M., M. Thattai, H. N. Lim, B. I. Shraiman, and A. van Oudenaarden. 2004. Multistability in the lactose utilization network of Escherichia coli. Nature 427:737–740.
 Dai, L., D. Vorselen, K. S. Korolev, and J. Gore. 2012. Generic Indicators for Loss of Resilience Before a Tipping Point Leading to Population Collapse. Science 336:1175–1177.
 Ishiguro, K. 2017. My Twentieth Century Evening - and Other Small Breakthroughs. Nobel Lecture.
+Robinson, J. D., J. W. Simmons, A. S. Williams, and G. R. Moyer. 2013. Population structure and genetic diversity in the endangered bluemask darter (<em>Etheostoma akatulo<em>). Conservation Genetics 14:79–92.
