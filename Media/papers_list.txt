@@ -27,3 +27,6 @@ Ozbudak, E. M., M. Thattai, H. N. Lim, B. I. Shraiman, and A. van Oudenaarden. 2
 Dai, L., D. Vorselen, K. S. Korolev, and J. Gore. 2012. Generic Indicators for Loss of Resilience Before a Tipping Point Leading to Population Collapse. Science 336:1175–1177.
 Ishiguro, K. 2017. My Twentieth Century Evening - and Other Small Breakthroughs. Nobel Lecture.
 Robinson, J. D., J. W. Simmons, A. S. Williams, and G. R. Moyer. 2013. Population structure and genetic diversity in the endangered bluemask darter (<em>Etheostoma akatulo<em>). Conservation Genetics 14:79–92.
+Layman, S. R., and R. L. Mayden. 2012. Morphological Diversity and Phylogenetics of the Darter Subgenus <em>Doration<em> (Percidae: <em>Etheostoma<em>), with Descriptions of Five New Species. Bulletin of the Alabama Museum of Natural History 30:1–83.
+Bajić, D., J. Vila, Z. Blount, and A. Sanchez. 2018. On the deformability of an empirical fitness landscape by microbial evolution. Proceedings of the National Academy of Sciences:In Press.
+Goldford, J. E., N. Lu, D. Bajic, S. Estrela, M. Tikhonov, A. Sanchez-Gorostiaga, D. Segre, P. Mehta, and A. Sanchez. 2018. Emergent Simplicity in Microbial Community Assembly. Science 361:469–474.
