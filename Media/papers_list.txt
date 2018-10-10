@@ -1,4 +1,4 @@
-Weegman, M. D., T. W. Arnold, R. D. Dawson, D. W. Winkler, and R. G. Clark. 2017. Integrated population models reveal local weather conditions are the key drivers of population dynamics in an aerial insectivore. Oecologia 185:119–130.
+﻿Weegman, M. D., T. W. Arnold, R. D. Dawson, D. W. Winkler, and R. G. Clark. 2017. Integrated population models reveal local weather conditions are the key drivers of population dynamics in an aerial insectivore. Oecologia 185:119–130.
 Koons, D. N., T. W. Arnold, and M. Schaub. 2017. Understanding the demographic drivers of realized population growth rates. Ecological Applications 27:2101–2115.
 Arnold, T. W., R. G. Clark, D. N. Koons, and M. Schaub. 2018. Integrated population models facilitate ecological understanding and improved management decisions. The Journal of Wildlife Management 82:266–274.
 Imlay, T. L., J. M. Flemming, S. Saldanha, N. T. Wheelwright, and M. L. Leonard. 2018. Breeding phenology and performance for four swallows over 57 years: relationships with temperature and precipitation. Ecosphere 9:e02166.
@@ -26,7 +26,7 @@ Edwards, E. J., D. S. Chatelet, B.-C. Chen, J. Y. Ong, S. Tagane, H. Kanemitsu, 
 Ozbudak, E. M., M. Thattai, H. N. Lim, B. I. Shraiman, and A. van Oudenaarden. 2004. Multistability in the lactose utilization network of Escherichia coli. Nature 427:737–740.
 Dai, L., D. Vorselen, K. S. Korolev, and J. Gore. 2012. Generic Indicators for Loss of Resilience Before a Tipping Point Leading to Population Collapse. Science 336:1175–1177.
 Ishiguro, K. 2017. My Twentieth Century Evening - and Other Small Breakthroughs. Nobel Lecture.
-Robinson, J. D., J. W. Simmons, A. S. Williams, and G. R. Moyer. 2013. Population structure and genetic diversity in the endangered bluemask darter (<em>Etheostoma akatulo<em>). Conservation Genetics 14:79–92.
-Layman, S. R., and R. L. Mayden. 2012. Morphological Diversity and Phylogenetics of the Darter Subgenus <em>Doration<em> (Percidae: <em>Etheostoma<em>), with Descriptions of Five New Species. Bulletin of the Alabama Museum of Natural History 30:1–83.
+Robinson, J. D., J. W. Simmons, A. S. Williams, and G. R. Moyer. 2013. Population structure and genetic diversity in the endangered bluemask darter (<em>Etheostoma akatulo</em>). Conservation Genetics 14:79–92.
+Layman, S. R., and R. L. Mayden. 2012. Morphological Diversity and Phylogenetics of the Darter Subgenus <em>Doration</em> (Percidae: <em>Etheostoma</em>), with Descriptions of Five New Species. Bulletin of the Alabama Museum of Natural History 30:1–83.
 Bajić, D., J. Vila, Z. Blount, and A. Sanchez. 2018. On the deformability of an empirical fitness landscape by microbial evolution. Proceedings of the National Academy of Sciences:In Press.
 Goldford, J. E., N. Lu, D. Bajic, S. Estrela, M. Tikhonov, A. Sanchez-Gorostiaga, D. Segre, P. Mehta, and A. Sanchez. 2018. Emergent Simplicity in Microbial Community Assembly. Science 361:469–474.
