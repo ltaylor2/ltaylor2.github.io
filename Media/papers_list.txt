@@ -32,3 +32,5 @@ Bajić, D., J. Vila, Z. Blount, and A. Sanchez. 2018. On the deformability of an
 Goldford, J. E., N. Lu, D. Bajic, S. Estrela, M. Tikhonov, A. Sanchez-Gorostiaga, D. Segre, P. Mehta, and A. Sanchez. 2018. Emergent Simplicity in Microbial Community Assembly. Science 361:469–474.
 Kirkpatrick, M., and M. J. Ryan. 1991. The Evolution of Mating Preferences and the Paradox of the Lek. Nature; London 350:33.
 Davis, A. J., M. B. Hooten, M. L. Phillips, and P. F. Doherty. 2014. An integrated modeling approach to estimating Gunnison sage-grouse population dynamics: combining index and demographic data. Ecology and Evolution 4:4247–4257.
+Vasseur, D. A., and J. W. Fox. 2009. Phase-locking and environmental fluctuations generate synchrony in a predator–prey community. Nature 460:1007–1010.
+Kremer, C. T., S. B. Fey, A. A. Arellano, and D. A. Vasseur. 2018. Gradual plasticity alters population dynamics in variable environments: thermal acclimation in the green alga <em>Chlamydomonas reinhartdii</em>. Proceedings of the Royal Society B: Biological Sciences 285:20171942.
