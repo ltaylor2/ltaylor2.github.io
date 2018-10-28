@@ -1,4 +1,4 @@
-Weegman, M. D., T. W. Arnold, R. D. Dawson, D. W. Winkler, and R. G. Clark. 2017. Integrated population models reveal local weather conditions are the key drivers of population dynamics in an aerial insectivore. Oecologia 185:119–130.
+﻿Weegman, M. D., T. W. Arnold, R. D. Dawson, D. W. Winkler, and R. G. Clark. 2017. Integrated population models reveal local weather conditions are the key drivers of population dynamics in an aerial insectivore. Oecologia 185:119–130.
 Koons, D. N., T. W. Arnold, and M. Schaub. 2017. Understanding the demographic drivers of realized population growth rates. Ecological Applications 27:2101–2115.
 Arnold, T. W., R. G. Clark, D. N. Koons, and M. Schaub. 2018. Integrated population models facilitate ecological understanding and improved management decisions. The Journal of Wildlife Management 82:266–274.
 Imlay, T. L., J. M. Flemming, S. Saldanha, N. T. Wheelwright, and M. L. Leonard. 2018. Breeding phenology and performance for four swallows over 57 years: relationships with temperature and precipitation. Ecosphere 9:e02166.
@@ -34,3 +34,5 @@ Kirkpatrick, M., and M. J. Ryan. 1991. The Evolution of Mating Preferences and t
 Davis, A. J., M. B. Hooten, M. L. Phillips, and P. F. Doherty. 2014. An integrated modeling approach to estimating Gunnison sage-grouse population dynamics: combining index and demographic data. Ecology and Evolution 4:4247–4257.
 Vasseur, D. A., and J. W. Fox. 2009. Phase-locking and environmental fluctuations generate synchrony in a predator–prey community. Nature 460:1007–1010.
 Kremer, C. T., S. B. Fey, A. A. Arellano, and D. A. Vasseur. 2018. Gradual plasticity alters population dynamics in variable environments: thermal acclimation in the green alga <em>Chlamydomonas reinhartdii</em>. Proceedings of the Royal Society B: Biological Sciences 285:20171942.
+Lieberman, E., J.-B. Michel, J. Jackson, T. Tang, and M. A. Nowak. 2007. Quantifying the evolutionary dynamics of language. Nature 449:713–716.
+Prum, R. O. 2010. The Lande–Kirkpatrick mechanism is the null model of evolution by intersexual selection: implications for meaning, honesty, and design in intersexual signals. Evolution 64:3085–3100.
