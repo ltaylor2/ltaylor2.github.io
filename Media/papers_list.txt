@@ -36,3 +36,4 @@ Vasseur, D. A., and J. W. Fox. 2009. Phase-locking and environmental fluctuation
 Kremer, C. T., S. B. Fey, A. A. Arellano, and D. A. Vasseur. 2018. Gradual plasticity alters population dynamics in variable environments: thermal acclimation in the green alga <em>Chlamydomonas reinhartdii</em>. Proceedings of the Royal Society B: Biological Sciences 285:20171942.
 Lieberman, E., J.-B. Michel, J. Jackson, T. Tang, and M. A. Nowak. 2007. Quantifying the evolutionary dynamics of language. Nature 449:713–716.
 Prum, R. O. 2010. The Lande–Kirkpatrick mechanism is the null model of evolution by intersexual selection: implications for meaning, honesty, and design in intersexual signals. Evolution 64:3085–3100.
+Moran, N. A., and T. Jarvik. 2010. Lateral transfer of genes from fungi underlies carotenoid production in aphids. Science 328:624–627.
