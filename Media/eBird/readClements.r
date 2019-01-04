@@ -1,7 +1,7 @@
 # code to fill JSON bird list library files from eBird/clements checklist
 # updated as of v2018
 library(tidyverse)
-full <- read_csv("full.csv") %>%
+full <- read_csv("rawChecklist.csv") %>%
           select(category, common="English name", 
                  scientific="scientific name",
                  order, family) %>%
@@ -25,7 +25,6 @@ condenseList <- function(s) {
 }
 
 of <- full %>% 
-        filter(!is.na(order) & !is.na(family)) %>%
         select(order, family) %>%
         distinct() %>%
         mutate(family=condenseList(family))
@@ -62,7 +61,10 @@ for (r in 1:nrow(d)) {
   common <- d$common[r]
   family <- d$family[r]
   s <- paste(s, "\"", common, "\":\"",
-             family, "\",", sep="")
+             family, "\"", sep="")
+  if (r != nrow(d)) {
+    s <- paste(s, ",", sep="")
+  }
 }
 
 s <- paste("{", s, "}", sep="")
