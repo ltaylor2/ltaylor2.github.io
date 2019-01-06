@@ -6,7 +6,7 @@ function(albumListRaw)
 	var prom_albums = [];
 
 	for (var i = albumList.length; i > 0; i--) {
-		let s = albumList[i-1].split(",")
+		let s = albumList[i-1].split(",");
 		let album = s[0];
 		let url = s[1];
 		if (album != "") {

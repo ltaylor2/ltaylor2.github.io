@@ -21,7 +21,6 @@ body {
 	background-attachment: fixed;
 }
 
-
 h1, h2, h3, h4, h5, h6, p, a, td, li {
 	font-family: "Gill Sans";
 }
@@ -332,6 +331,7 @@ td.date {
 	display: block;
 	margin: auto;
 	width: 500px;
+	height: 500px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -479,6 +479,14 @@ td.date {
 
 #last.cv-header, #last.order-header{
 	border-bottom: 1px solid black;
+}
+
+#projects {
+	list-style-type: none;
+	width: 330px;
+	text-align: center;
+	padding: auto;
+	margin-top: 10px;
 }
 
 #eBird-data {
