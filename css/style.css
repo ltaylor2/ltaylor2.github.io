@@ -482,6 +482,10 @@ td.date {
 }
 
 #projects {
+	background: black;
+}
+
+#projects-list {
 	list-style-type: none;
 	width: 330px;
 	text-align: center;

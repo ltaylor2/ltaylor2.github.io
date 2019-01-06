@@ -16,14 +16,14 @@ function(projectsListRaw)
 	}
 
 	Promise.all(prom_projects).then(function(projectLinks) {
-		let as = document.createElement("ul");
-		as.id = "project-list";
+		let ps = document.createElement("ul");
+		ps.id = "project-list";
 		for (i in projectLinks) {
-			let a = document.createElement("li");
-			a.append(projectLinks[i]);
-			as.append(a);
+			let p = document.createElement("li");
+			p.append(projectLinks[i]);
+			ps.append(p);
 		}
-		$("#projects").append(as);
+		$("#projects").append(ps);
 		$("$projects").css("background", "white");
 	});
 
