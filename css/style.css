@@ -338,9 +338,6 @@ td.date {
 
 .project-cover:hover,
 .project-cover:focus {
-	background-color: gray;
-	color: white;
-	border-color: white;
 	opacity: 0.25;
 	z-index: 1;
 }
