@@ -1,4 +1,4 @@
-﻿Weegman, M. D., T. W. Arnold, R. D. Dawson, D. W. Winkler, and R. G. Clark. 2017. Integrated population models reveal local weather conditions are the key drivers of population dynamics in an aerial insectivore. Oecologia 185:119–130.
+Weegman, M. D., T. W. Arnold, R. D. Dawson, D. W. Winkler, and R. G. Clark. 2017. Integrated population models reveal local weather conditions are the key drivers of population dynamics in an aerial insectivore. Oecologia 185:119–130.
 Koons, D. N., T. W. Arnold, and M. Schaub. 2017. Understanding the demographic drivers of realized population growth rates. Ecological Applications 27:2101–2115.
 Arnold, T. W., R. G. Clark, D. N. Koons, and M. Schaub. 2018. Integrated population models facilitate ecological understanding and improved management decisions. The Journal of Wildlife Management 82:266–274.
 Imlay, T. L., J. M. Flemming, S. Saldanha, N. T. Wheelwright, and M. L. Leonard. 2018. Breeding phenology and performance for four swallows over 57 years: relationships with temperature and precipitation. Ecosphere 9:e02166.
@@ -38,37 +38,23 @@ Lieberman, E., J.-B. Michel, J. Jackson, T. Tang, and M. A. Nowak. 2007. Quantif
 Prum, R. O. 2010. The Lande–Kirkpatrick mechanism is the null model of evolution by intersexual selection: implications for meaning, honesty, and design in intersexual signals. Evolution 64:3085–3100.
 Moran, N. A., and T. Jarvik. 2010. Lateral transfer of genes from fungi underlies carotenoid production in aphids. Science 328:624–627.
 Kockelman, P. 2011. Biosemiosis, Technocognition, and Sociogenesis: Selection and Significance in a Multiverse of Sieving and Serendipity. Current Anthropology 52:711–739.
-
 Kockelman, P. 2010. Enemies, Parasites, and Noise:How to Take Up Residence in a System Without Becoming a Term in It: Enemies, Parasites, and Noise. Journal of Linguistic Anthropology 20:406–421.
-
 Patricelli, G. L., E. A. Hebets, and T. C. Mendelson. 2018. Book review of Prum, R. O. 2018. The evolution of beauty: How Darwin’s forgotten theory of mate choice shapes the animal world—and us (2017), Doubleday, 428 pages, ISBN: 9780385537216.
 Losos, J. B., T. R. Jackman, A. Larson, K. de Queiroz, and L. Rodrı́guez-Schettino. 1998. Contingency and determinism in replicated adaptive radiations of island lizards. Science 279:2115–2118.
-
 Jetz, W., and R. A. Pyron. 2018. The interplay of past diversification and evolutionary isolation with present imperilment across the amphibian tree of life. Nature Ecology & Evolution 2:850–858.
-
 Quintero, I., and W. Jetz. 2018. Global elevational diversity and diversification of birds. Nature 555:246–250.
-
 Wilson, A. M., and W. Jetz. 2016. Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions. PLOS Biology 14:e1002415.
-
 Jetz, W., M. A. McGeoch, R. Guralnick, S. Ferrier, J. Beck, M. J. Costello, M. Fernandez, G. N. Geller, P. Keil, C. Merow, C. Meyer, F. E. Muller, H. M. Pereira, E. C. Regan, D. S. Schmeller, and E. Turak. (n.d.). Essential information for mapping and monitoring of species populations for policy, management, and education:33.
-
 Boersma, P. D., and N. T. Wheelwright. 1979. Egg neglect in the Procellariiformes: reproductive adaptations in the Fork-tailed Storm-Petrel. The Condor 81:157–165.
-
 Hedd, A., I. L. Pollet, R. A. Mauck, C. M. Burke, M. L. Mallory, L. A. M. Tranquilla, W. A. Montevecchi, G. J. Robertson, R. A. Ronconi, and D. Shutler. 2018. Foraging areas, offshore habitat use, and colony overlap by incubating Leach’s storm-petrels Oceanodroma leucorhoa in the Northwest Atlantic. PloS one 13:e0194389.
-
 Huntington, C. E., R. G. Butler, and R. A. Mauck. 1996. Leach’s Storm-Petrel (<em>Oceanodroma leucorhoa</em>). The Birds of North America Online.
-
 Montevecchi, W. A., I. R. Kirkham, D. D. Roby, and K. L. Brink. 1983. Size, organic composition, and energy content of Leach’s storm-petrel (<em>Oceanodroma leucorhoa</em>) eggs with reference to position in the precocial–altricial spectrum and breeding ecology. Canadian Journal of Zoology 61:1457–1463.
-
 Montevecchi, W. A., V. L. Birt-Friesen, and D. K. Cairns. 1992. Reproductive energetics and prey harvest of Leach’s storm-petrels in the northwest Atlantic. Ecology 73:823–832.
-
 Pollet, I. L., R. A. Ronconi, I. D. Jonsen, M. L. Leonard, P. D. Taylor, and D. Shutler. 2014. Foraging movements of Leach’s storm-petrels Oceanodroma leucorhoa during incubation. Journal of Avian Biology 45:305–314.
-
 Ricklefs, R. E., and W. A. Schew. 1994. Foraging stochasticity and lipid accumulation by nestling petrels. Functional Ecology:159–170.
-
 Ricklefs, R. E. 1983. Some considerations on the reproductive energetics of pelagic seabirds. Studies in Avian Biology 8:84–94.
-
 Ricklefs, R. E., D. D. Roby, and J. B. Williams. 1986. Daily Energy expenditure by Adult Leach’s Storm-Petrels during the Nesting Cycle. Physiological Zoology 59:649–660.
-
 Ricklefs, R. E., S. C. White, and J. Cullen. 1980. Energetics of postnatal growth in Leach’s Storm-Petrel. The Auk 97:566–575.
-
+Gloria-Soria, A., D. Ayala, A. Bheecarry, O. Calderon-Arguedas, D. D. Chadee, M. Chiappero, M. Coetzee, K. B. Elahee, I. Fernandez-Salas, H. A. Kamal, B. Kamgang, E. I. M. Khater, L. D. Kramer, V. Kramer, A. Lopez-Solis, J. Lutomiah, A. Martins, M. V. Micieli, C. Paupy, A. Ponlawat, N. Rahola, S. B. Rasheed, J. B. Richardson, A. A. Saleh, R. M. Sanchez-Casas, G. Seixas, C. A. Sousa, W. J. Tabachnick, A. Troyo, and J. R. Powell. 2016. Global genetic diversity of <i>Aedes aegypti</i>. Molecular Ecology 25:5377–5395.
+Powell, J. R., A. Gloria-Soria, and P. Kotsakiozi. 2018. Recent History of <i>Aedes aegypti</i>: Vector Genomics and Epidemiology Records. BioScience 68:854–860.
+Powell, J. R., and W. J. Tabachnick. 2014. Genetic shifting: a novel approach for controlling vector-borne diseases. Trends in Parasitology 30:282–288.
