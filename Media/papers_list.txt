@@ -55,6 +55,11 @@ Ricklefs, R. E., and W. A. Schew. 1994. Foraging stochasticity and lipid accumul
 Ricklefs, R. E. 1983. Some considerations on the reproductive energetics of pelagic seabirds. Studies in Avian Biology 8:84–94.
 Ricklefs, R. E., D. D. Roby, and J. B. Williams. 1986. Daily Energy expenditure by Adult Leach’s Storm-Petrels during the Nesting Cycle. Physiological Zoology 59:649–660.
 Ricklefs, R. E., S. C. White, and J. Cullen. 1980. Energetics of postnatal growth in Leach’s Storm-Petrel. The Auk 97:566–575.
-Gloria-Soria, A., D. Ayala, A. Bheecarry, O. Calderon-Arguedas, D. D. Chadee, M. Chiappero, M. Coetzee, K. B. Elahee, I. Fernandez-Salas, H. A. Kamal, B. Kamgang, E. I. M. Khater, L. D. Kramer, V. Kramer, A. Lopez-Solis, J. Lutomiah, A. Martins, M. V. Micieli, C. Paupy, A. Ponlawat, N. Rahola, S. B. Rasheed, J. B. Richardson, A. A. Saleh, R. M. Sanchez-Casas, G. Seixas, C. A. Sousa, W. J. Tabachnick, A. Troyo, and J. R. Powell. 2016. Global genetic diversity of <i>Aedes aegypti</i>. Molecular Ecology 25:5377–5395.
-Powell, J. R., A. Gloria-Soria, and P. Kotsakiozi. 2018. Recent History of <i>Aedes aegypti</i>: Vector Genomics and Epidemiology Records. BioScience 68:854–860.
+Gloria-Soria, A., D. Ayala, A. Bheecarry, O. Calderon-Arguedas, D. D. Chadee, M. Chiappero, M. Coetzee, K. B. Elahee, I. Fernandez-Salas, H. A. Kamal, B. Kamgang, E. I. M. Khater, L. D. Kramer, V. Kramer, A. Lopez-Solis, J. Lutomiah, A. Martins, M. V. Micieli, C. Paupy, A. Ponlawat, N. Rahola, S. B. Rasheed, J. B. Richardson, A. A. Saleh, R. M. Sanchez-Casas, G. Seixas, C. A. Sousa, W. J. Tabachnick, A. Troyo, and J. R. Powell. 2016. Global genetic diversity of <em>Aedes aegypti</em>. Molecular Ecology 25:5377–5395.
+Powell, J. R., A. Gloria-Soria, and P. Kotsakiozi. 2018. Recent History of <em>Aedes aegypti</em>: Vector Genomics and Epidemiology Records. BioScience 68:854–860.
 Powell, J. R., and W. J. Tabachnick. 2014. Genetic shifting: a novel approach for controlling vector-borne diseases. Trends in Parasitology 30:282–288.
+Scholes, E. 2008a. Courtship ethology of Wahnes’ parotia <em>Parotia wahnesi</em> (Aves: Paradisaeidae). Journal of Ethology 26:79–91.
+Scholes, E. 2008b. Structure and composition of the courtship phenotype in the bird of paradise Parotia lawesii (Aves: Paradisaeidae). Zoology 111:260–278.
+Scholes III, E. 2006. Courtship ethology of Carola’s Parotia (<em>Parotia carolae</em>). The Auk 123:967–990.
+Scholes Iii, E. 2008. Evolution of the courtship phenotype in the bird of paradise genus <em>Parotia</em> (Aves: Paradisaeidae): homology, phylogeny, and modularity. Biological Journal of the Linnean Society 94:491–504.
+
