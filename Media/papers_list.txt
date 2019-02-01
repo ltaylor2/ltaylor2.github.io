@@ -50,7 +50,7 @@ Hedd, A., I. L. Pollet, R. A. Mauck, C. M. Burke, M. L. Mallory, L. A. M. Tranqu
 Huntington, C. E., R. G. Butler, and R. A. Mauck. 1996. Leach’s Storm-Petrel (<em>Oceanodroma leucorhoa</em>). The Birds of North America Online.
 Montevecchi, W. A., I. R. Kirkham, D. D. Roby, and K. L. Brink. 1983. Size, organic composition, and energy content of Leach’s storm-petrel (<em>Oceanodroma leucorhoa</em>) eggs with reference to position in the precocial–altricial spectrum and breeding ecology. Canadian Journal of Zoology 61:1457–1463.
 Montevecchi, W. A., V. L. Birt-Friesen, and D. K. Cairns. 1992. Reproductive energetics and prey harvest of Leach’s storm-petrels in the northwest Atlantic. Ecology 73:823–832.
-Pollet, I. L., R. A. Ronconi, I. D. Jonsen, M. L. Leonard, P. D. Taylor, and D. Shutler. 2014. Foraging movements of Leach’s storm-petrels Oceanodroma leucorhoa during incubation. Journal of Avian Biology 45:305–314.
+Pollet, I. L., R. A. Ronconi, I. D. Jonsen, M. L. Leonard, P. D. Taylor, and D. Shutler. 2014. Foraging movements of Leach’s storm-petrels <em>Oceanodroma leucorhoa</em> during incubation. Journal of Avian Biology 45:305–314.
 Ricklefs, R. E., and W. A. Schew. 1994. Foraging stochasticity and lipid accumulation by nestling petrels. Functional Ecology:159–170.
 Ricklefs, R. E. 1983. Some considerations on the reproductive energetics of pelagic seabirds. Studies in Avian Biology 8:84–94.
 Ricklefs, R. E., D. D. Roby, and J. B. Williams. 1986. Daily Energy expenditure by Adult Leach’s Storm-Petrels during the Nesting Cycle. Physiological Zoology 59:649–660.
@@ -62,4 +62,8 @@ Scholes, E. 2008a. Courtship ethology of Wahnes’ parotia <em>Parotia wahnesi</
 Scholes, E. 2008b. Structure and composition of the courtship phenotype in the bird of paradise Parotia lawesii (Aves: Paradisaeidae). Zoology 111:260–278.
 Scholes III, E. 2006. Courtship ethology of Carola’s Parotia (<em>Parotia carolae</em>). The Auk 123:967–990.
 Scholes Iii, E. 2008. Evolution of the courtship phenotype in the bird of paradise genus <em>Parotia</em> (Aves: Paradisaeidae): homology, phylogeny, and modularity. Biological Journal of the Linnean Society 94:491–504.
-
+Bonduriansky, R., and S. F. Chenoweth. 2009. Intralocus sexual conflict. Trends in ecology & evolution 24:280–288.
+Kokko, H., A. Chaturvedi, D. Croll, M. C. Fischer, F. Guillaume, S. Karrenberg, B. Kerr, G. Rolshausen, and J. Stapley. 2017. Can evolution supply what ecology demands? Trends in ecology & evolution 32:187–197.
+Mokkonen, M., E. Koskela, T. Procyshyn, and B. Crespi. 2018. Socio-Reproductive Conflicts and the Father’s Curse Dilemma. The American Naturalist 192:250-262.
+Eliason, C. M. 2018. How do complex animal signals evolve? PLOS Biology 16:e3000093.
+Ligon, R. A., C. D. Diaz, J. L. Morano, J. Troscianko, M. Stevens, A. Moskeland, T. G. Laman, and E. Scholes III. 2018. Evolution of correlated complexity in the radically different courtship signals of birds-of-paradise. PLOS Biology 16:e2006962.
