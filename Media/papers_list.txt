@@ -67,3 +67,10 @@ Kokko, H., A. Chaturvedi, D. Croll, M. C. Fischer, F. Guillaume, S. Karrenberg, 
 Mokkonen, M., E. Koskela, T. Procyshyn, and B. Crespi. 2018. Socio-Reproductive Conflicts and the Father’s Curse Dilemma. The American Naturalist 192:250-262.
 Eliason, C. M. 2018. How do complex animal signals evolve? PLOS Biology 16:e3000093.
 Ligon, R. A., C. D. Diaz, J. L. Morano, J. Troscianko, M. Stevens, A. Moskeland, T. G. Laman, and E. Scholes III. 2018. Evolution of correlated complexity in the radically different courtship signals of birds-of-paradise. PLOS Biology 16:e2006962.
+Staver, A. C., S. Archibald, and S. Levin. 2011. Tree cover in sub-Saharan Africa: Rainfall and ﬁre constrain forest and savanna as alternative stable states. Ecology 92:10.
+Staver, A. C. 2018. Prediction and scale in savanna ecosystems. New Phytologist 219:52–57.
+Prum, R. O., and L. Samuelson. 2012. The Hairy–Downy Game: A model of interspecific social dominance mimicry. Journal of Theoretical Biology 313:42–60.
+Prum, R. O. 2014. Interspecific social dominance mimicry in birds: Social Mimicry in Birds. Zoological Journal of the Linnean Society 172:910–941.
+Prum, R. O., and L. Samuelson. 2016. Mimicry Cycles, Traps, and Chains: The Coevolution of Toucan and Kiskadee Mimicry. The American Naturalist 187:753–764.
+Wilson, H. R. 1990. Physiological requirements of the developing embryo: temperature and turning. Avian incubation.:145–156.
+Haftorn, S. 1988. Incubating Female Passerines Do Not Let the Egg Temperature Fall below the “Physiological Zero Temperature” during Their Absences from the Nest. Ornis Scandinavica (Scandinavian Journal of Ornithology) 19:97–110.
