@@ -74,3 +74,6 @@ Prum, R. O. 2014. Interspecific social dominance mimicry in birds: Social Mimicr
 Prum, R. O., and L. Samuelson. 2016. Mimicry Cycles, Traps, and Chains: The Coevolution of Toucan and Kiskadee Mimicry. The American Naturalist 187:753–764.
 Wilson, H. R. 1990. Physiological requirements of the developing embryo: temperature and turning. Avian incubation.:145–156.
 Haftorn, S. 1988. Incubating Female Passerines Do Not Let the Egg Temperature Fall below the “Physiological Zero Temperature” during Their Absences from the Nest. Ornis Scandinavica (Scandinavian Journal of Ornithology) 19:97–110.
+Fry, S., and B. Challacombe. 2019. Both sides of the scalpel: the patient and the surgeon view. Nature Reviews Urology:1.
+Gupta, K., J. Afzal, J. D. Maziarz, A. Hamidzadeh, C. Liang, E. M. Erkenbrack, H. Nam, J.-D. Haeger, C. Pfarrer, T. Hoang, T. Ott, T. Spencer, M. Pavlicev, D. Antczak, A. Levchenko, and G. P. Wagner. 2019. The Evolution of Placental Invasion and Cancer Metastasis are Causally Linked. bioRxiv:528646.
+Liang, C., J. M. Musser, A. Cloutier, R. O. Prum, and G. P. Wagner. 2018. Pervasive Correlated Evolution in Gene Expression Shapes Cell and Tissue Type Transcriptomes. Genome Biology and Evolution 10:538–552.
