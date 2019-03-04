@@ -77,3 +77,10 @@ Haftorn, S. 1988. Incubating Female Passerines Do Not Let the Egg Temperature Fa
 Fry, S., and B. Challacombe. 2019. Both sides of the scalpel: the patient and the surgeon view. Nature Reviews Urology:1.
 Gupta, K., J. Afzal, J. D. Maziarz, A. Hamidzadeh, C. Liang, E. M. Erkenbrack, H. Nam, J.-D. Haeger, C. Pfarrer, T. Hoang, T. Ott, T. Spencer, M. Pavlicev, D. Antczak, A. Levchenko, and G. P. Wagner. 2019. The Evolution of Placental Invasion and Cancer Metastasis are Causally Linked. bioRxiv:528646.
 Liang, C., J. M. Musser, A. Cloutier, R. O. Prum, and G. P. Wagner. 2018. Pervasive Correlated Evolution in Gene Expression Shapes Cell and Tissue Type Transcriptomes. Genome Biology and Evolution 10:538–552.
+Dowling, D. K., and L. W. Simmons. 2009. Reactive oxygen species as universal constraints in life-history evolution. Proceedings of the Royal Society B: Biological Sciences 276:1737–1745.
+Ricklefs, R. E., and M. Wikelski. 2002. The physiology/life-history nexus. Trends in Ecology & Evolution 17:462–468.
+Devine, J. A., P. J. Wright, H. E. Pardoe, and M. Heino. 2012. Comparing rates of contemporary evolution in life-history traits for exploited fish stocks. Canadian Journal of Fisheries and Aquatic Sciences 69:1105–1120.
+Siegel, J., M. Adkison, and M. McPhee. 2018. Changing maturation reaction norms and the effects of growth history in Alaskan Chinook salmon. Marine Ecology Progress Series 595:187–202.
+Martin, T. E. 2015. Age-related mortality explains life history strategies of tropical and temperate songbirds. Science 349:966–970.
+Kindsvater, H. K., and S. P. Otto. 2014. The Evolution of Offspring Size across Life-History Stages. The American Naturalist 184:543–555.
+Marshall, D. J., A. K. Pettersen, and H. Cameron. 2018. A global synthesis of offspring size variation, its eco-evolutionary causes and consequences. Functional Ecology 32:1436–1446.
