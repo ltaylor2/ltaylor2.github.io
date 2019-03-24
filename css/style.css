@@ -337,7 +337,7 @@ td.date {
 
 .project-cover:hover,
 .project-cover:focus {
-	opacity: 0.25;
+	opacity: 0.1;
 	z-index: 1;
 }
 
