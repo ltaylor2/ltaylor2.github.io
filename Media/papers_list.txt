@@ -95,3 +95,6 @@ Gremer, J. R., and D. L. Venable. 2014. Bet hedging in desert winter annual plan
 Gaillard, J.-M., and J.-F. Lemaître. 2017. The Williams’ legacy: A critical reappraisal of his nine predictions about the evolution of senescence: THE WILLIAMS’ LEGACY. Evolution 71:2768–2785.
 Williams, G. C. 1957. Pleiotropy, Natural Selection, and the Evolution of Senescence. Evolution 11:398–411.
 Ashmole, N. P. 2008. THE REGULATION OF NUMBERS OF TROPICAL OCEANIC BIRDS. Ibis 103b:458–473.
+Metz, J. A., R. M. Nisbet, and S. A. Geritz. 1992. How should we define ‘fitness’ for general ecological scenarios? Trends in Ecology & Evolution 7:198–202.
+Austad, S. N., and J. M. Hoffman. 2018. Is antagonistic pleiotropy ubiquitous in aging biology? Evolution, Medicine, and Public Health 2018:287–294.
+
