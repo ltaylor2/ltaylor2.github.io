@@ -97,4 +97,8 @@ Williams, G. C. 1957. Pleiotropy, Natural Selection, and the Evolution of Senesc
 Ashmole, N. P. 2008. THE REGULATION OF NUMBERS OF TROPICAL OCEANIC BIRDS. Ibis 103b:458–473.
 Metz, J. A., R. M. Nisbet, and S. A. Geritz. 1992. How should we define ‘fitness’ for general ecological scenarios? Trends in Ecology & Evolution 7:198–202.
 Austad, S. N., and J. M. Hoffman. 2018. Is antagonistic pleiotropy ubiquitous in aging biology? Evolution, Medicine, and Public Health 2018:287–294.
-
+Charnov, E. L., R. L. Los-den Hartogh, W. T. Jones, and J. Van den Assem. 1981. Sex ratio evolution in a variable environment. Nature 289:27.
+Benvenuto, C., I. Coscia, J. Chopelet, M. Sala-Bozano, and S. Mariani. 2017. Ecological and evolutionary consequences of alternative sex-change pathways in fish. Scientific reports 7:9084.
+Komdeur, J., M. J. Magrath, and S. Krackow. 2002. Pre-ovulation control of hatchling sex ratio in the Seychelles warbler. Proceedings of the Royal Society of London. Series B: Biological Sciences 269:1067–1072.
+Trivers, R. L., and D. E. Willard. 1973. Natural selection of parental ability to vary the sex ratio of offspring. Science 179:90–92.
+Schindler, S., J.-M. Gaillard, A. Grüning, P. Neuhaus, L. W. Traill, S. Tuljapurkar, and T. Coulson. 2015. Sex-specific demography and generalization of the Trivers–Willard theory. Nature 526:249.
