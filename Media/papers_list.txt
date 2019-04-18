@@ -102,3 +102,9 @@ Benvenuto, C., I. Coscia, J. Chopelet, M. Sala-Bozano, and S. Mariani. 2017. Eco
 Komdeur, J., M. J. Magrath, and S. Krackow. 2002. Pre-ovulation control of hatchling sex ratio in the Seychelles warbler. Proceedings of the Royal Society of London. Series B: Biological Sciences 269:1067–1072.
 Trivers, R. L., and D. E. Willard. 1973. Natural selection of parental ability to vary the sex ratio of offspring. Science 179:90–92.
 Schindler, S., J.-M. Gaillard, A. Grüning, P. Neuhaus, L. W. Traill, S. Tuljapurkar, and T. Coulson. 2015. Sex-specific demography and generalization of the Trivers–Willard theory. Nature 526:249.
+Koziowski, J., and J. Weiner. 1997. Interspecific Allometries Are by-Products of Body Size Optimization. The American Naturalist 149:352–380.
+Hawkes, K., J. F. O’Connell, N. G. B. Jones, H. Alvarez, and E. L. Charnov. 1998. Grandmothering, menopause, and the evolution of human life histories. Proceedings of the National Academy of Sciences 95:1336–1339.
+Nettle, D., and W. E. Frankenhuis. 2019. The evolution of life history theory: Bibliometric analysis of an interdisciplinary research area. preprint, Evolutionary Biology.
+Brown, L. J., and R. Sear. 2017. Local environmental quality positively predicts breastfeeding in the UK’s Millennium Cohort Study. Evolution, Medicine, and Public Health 2017:120–135.
+Reznick, D. N., R. D. Bassar, J. Travis, and F. Helen Rodd. 2012. LIFE-HISTORY EVOLUTION IN GUPPIES VIII: THE DEMOGRAPHICS OF DENSITY REGULATION IN GUPPIES (POECILIA RETICULATA): LIFE-HISTORY EVOLUTION IN GUPPIES VIII. Evolution 66:2903–2915.
+Kokko, H., and A. López-Sepulcre. 2007. The ecogenetic link between demography and evolution: can we bridge the gap between theory and data? Ecology Letters 10:773–782.
