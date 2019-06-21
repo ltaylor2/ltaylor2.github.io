@@ -325,35 +325,6 @@ td.date {
 	height: 200px;
 }
 
-.project-cover {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 500px;
-	height: 500px;
-	border: 2px solid black;
-	z-index: 2;
-}
-
-.project-cover:hover,
-.project-cover:focus {
-	opacity: 0.1;
-	z-index: 1;
-}
-
-.project-cover-title {
-	position: absolute;
-	top: 1em;
-	left: 1em;
-	right: 1em;
-	font-size: 25px;
-	background-color: transparent;
-	color: black;
-	margin: auto;
-	padding: auto;
-	width: 300px;
-}
-
 #title-bar {
 	list-style-type: none;
 	width: 875px;
@@ -472,31 +443,6 @@ td.date {
 
 #last.cv-header, #last.order-header{
 	border-bottom: 1px solid black;
-}
-
-#projects {
-	background: black;
-	width: 500px;
-	margin: auto;
-}
-
-#project-list {
-	display: inline-block;
-	align-content: center;
-	list-style-type: none;
-	width: 500px;
-	text-align: center;
-	padding: 0px;
-	margin: 0px;
-	background: none;
-}
-
-#project-list>li {
-	position: relative;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	height: 500px;
-	width: 500px;
 }
 
 #eBird-data {
