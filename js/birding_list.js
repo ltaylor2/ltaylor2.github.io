@@ -57,26 +57,26 @@ Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(functi
 	let rows = obsData.split("\n");
 	
 	let colNames = {"id":0, 
-					"common":1, 
-					"scientific":2,
-					"order":3, 
-					"count":4, 
-					"state":5, 
-					"country":6,
-					"location":7,
-					"latitude":8,
-					"longitude":9,
-					"date":10,
-					"time":11, 
-					"protocol":12, 
-					"duration":13, 
-					"allReported":14, 
-					"distance":15, 
-					"area":16,
-					"numObservers":17, 
-					"breedingCode":18, 
-					"spComments":19, 
-					"clComments":20};
+			"common":1, 
+			"scientific":2,
+			"order":3, 
+			"count":4, 
+			"state":5, 
+			"country":6,
+			"location":7,
+			"latitude":8,
+			"longitude":9,
+			"date":10,
+			"time":11, 
+			"protocol":12, 
+			"duration":13, 
+			"allReported":14, 
+			"distance":15, 
+			"area":16,
+			"numObservers":17, 
+			"breedingCode":18, 
+			"spComments":19, 
+			"clComments":20};
 
 	var scientificByCommon = {};
 	var counts = {};
@@ -195,7 +195,7 @@ function makeSpeciesButtons(families, locations, scientificByCommon, hasImgList)
 				let common = values[1];
 				let family = values[2];
 				let spB = makeSpButton(common, locations[common],
-									   scientificByCommon[common], imgLink);
+						       scientificByCommon[common], imgLink);
 				return spB;
 			}));
 		}
