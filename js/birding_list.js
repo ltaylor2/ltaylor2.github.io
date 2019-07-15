@@ -340,7 +340,6 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 	var noS = true;
 	for (f in familiesByOrder[order]) {
 		let family = familiesByOrder[order][f];
-		console.log(family);
 		familyHeader = document.createElement("button");
 		familyHeader.innerText = family;
 

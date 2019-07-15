@@ -1,5 +1,6 @@
 # code to fill JSON bird list library files from eBird/clements checklist
 # updated as of v2018
+
 library(tidyverse)
 full <- read_csv("rawChecklist.csv") %>%
           select(category, common="English name", 
