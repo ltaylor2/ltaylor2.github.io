@@ -277,7 +277,10 @@ td.date {
 	font-family: "Gill Sans";
 	font-size: 15px;
 	background: white;
-	padding: .75em;
+	padding-top: 1em;
+	padding-bottom: .75em;
+	padding-left: .75em;
+	padding-right: .75em;
 	margin-top: 2px;
 	margin-bottom: 2px;
 	border: 1px solid black;
@@ -639,7 +642,7 @@ td.date {
 
 #music {
 	position: relative;
-	width: 330px;
+	width: 300px;
 	height: 280px;
 	margin: auto;
 	border: 1px solid black;
@@ -654,7 +657,7 @@ td.date {
 
 #album-list {
 	list-style-type: none;
-	width: 330px;
+	width: 300px;
 	text-align: center;
 	padding: auto;
 	margin-top: 10px;
@@ -672,25 +675,28 @@ td.date {
 #books {
 	position: relative;
 	width: 330px;
-	height: 280px;
+	height: 296px;
 	margin: auto;
 	margin-top: 0;
-	margin-bottom: 30px;
+	margin-bottom: 0;
 	border: 1px solid black;
+	padding: auto;
 	overflow-y: scroll;
-	display: block;
+	display: inline-block;
 	background: lightgray;
 }
 
 #books::-webkit-scrollbar {
-	display: none;
+	display: block;
+	padding:auto;
 }
 
 #book-list {
 	list-style-type: none;
-	width: 200px;
-	text-align: center;
-	padding: auto;
+	width: 40%;
+    	text-align: center;
+    	padding: 30%;
+    	padding-top: 0;
 }
 
 #semiotics-content {
