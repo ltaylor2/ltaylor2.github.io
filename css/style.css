@@ -682,7 +682,7 @@ td.date {
 	border: 1px solid black;
 	padding: auto;
 	overflow-y: scroll;
-	display: inline-block;
+	display: block;
 	background: lightgray;
 }
 
