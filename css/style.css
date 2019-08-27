@@ -61,7 +61,7 @@ td.date {
 	display: inline-block;
 	color: black;
 	margin-left: 3px;
-	padding-top: .5em;
+	padding-top: .8em;
 	padding-bottom: .5em;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -594,7 +594,7 @@ td.date {
 }
 
 #papers-header {
-	font-size: 30px;
+	font-size: 25px;
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -625,12 +625,12 @@ td.date {
 	display: inline;
 	top: 150px;
 	right: 0;
-	width: 40%;
+	width: 45%;
 	margin-right: 10%;
 }
 
 #music-header {
-	font-size: 30px;
+	font-size: 25px;
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -661,7 +661,7 @@ td.date {
 }
 
 #books-header {
-	font-size: 30px;
+	font-size: 25px;
 	display: block;
 	margin: 0;
 	margin-top: 30px;
@@ -671,7 +671,7 @@ td.date {
 
 #books {
 	position: relative;
-	width: 220px;
+	width: 330px;
 	height: 280px;
 	margin: auto;
 	margin-top: 0;
