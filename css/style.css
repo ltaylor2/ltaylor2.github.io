@@ -357,12 +357,11 @@ td.date {
 
 #title {
 	font-family: "Gill Sans";
-	color: black;
-	float: left;
-	font-weight: bold;
-	font-size: 24px;
-	padding: auto;
-	overflow: hidden;
+   	color: black;
+   	float: left;
+    	font-weight: bold;
+    	font-size: 24px;
+    	margin: 1%;
 }
 
 #subtitle {
@@ -371,14 +370,12 @@ td.date {
 	float: left;
 	font-weight: bold;
 	font-size: 12px;
-	padding-top: auto;
-	padding-bottom: auto;
-	padding-left: 5px;
-	padding-right: 32px;
-	margin: 0px;
-	overflow: hidden;
+	padding-left: 0px;
+    	padding-right: 32px;
+   	margin: 1%;
+    	margin-left: 0;
+    	overflow: hidden;
 }
-
 #about-info {
 	font-size: 18px;
 	padding-top: 10px;
