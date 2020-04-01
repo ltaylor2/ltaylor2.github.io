@@ -1,125 +1,15 @@
-Weegman, M. D., T. W. Arnold, R. D. Dawson, D. W. Winkler, and R. G. Clark. 2017. Integrated population models reveal local weather conditions are the key drivers of population dynamics in an aerial insectivore. Oecologia 185:119–130.
-Koons, D. N., T. W. Arnold, and M. Schaub. 2017. Understanding the demographic drivers of realized population growth rates. Ecological Applications 27:2101–2115.
-Arnold, T. W., R. G. Clark, D. N. Koons, and M. Schaub. 2018. Integrated population models facilitate ecological understanding and improved management decisions. The Journal of Wildlife Management 82:266–274.
-Imlay, T. L., J. M. Flemming, S. Saldanha, N. T. Wheelwright, and M. L. Leonard. 2018. Breeding phenology and performance for four swallows over 57 years: relationships with temperature and precipitation. Ecosphere 9:e02166.
-Knight, S. M., D. Bradley, R. G. Clark, E. Gow, M. Bélisle, L. Berzins, T. Blake, E. S. Bridge, L. Burke, R. D. Dawson, P. O. Dunn, D. Garant, G. L. Holroyd, D. J. T. Hussell, O. Lansdorp, Andrew Laughlin, Marty L. Leonard, F. Pelletier, D. Shutler, L. Siefferman, C. M. Taylor, H. E. Trefry, C. M. Vleck, D. Vleck, D. W. Winkler, L. A. Whittingham, and D. R. Norris. 2018. Constructing and evaluating a continent-wide migratory songbird network across the annual cycle. Ecological Monographs In press.
-Nowak, M. A., C. E. Tarnita, and E. O. Wilson. 2010. The evolution of eusociality. Nature 466:1057.
-Abbot, P., J. Abe, J. Alcock, S. Alizon, J. A. Alpedrinha, M. Andersson, J.-B. Andre, M. Van Baalen, F. Balloux, and S. Balshine. 2011. Inclusive fitness theory and eusociality. Nature 471:E1.
-Nowak, M. A., C. E. Tarnita, and E. O. Wilson. 2011. Nowak et al. reply. Nature 471:E9–E10.
-Nowak, M. A., A. McAvoy, B. Allen, and E. O. Wilson. 2017. The general form of Hamilton’s rule makes no predictions and cannot be tested empirically. Proceedings of the National Academy of Sciences 114:5665–5670.
-Nabi, I. 1980. An evolutionary interpretation of the English sonnet (First annual Piltdown Lecture on Man and Nature). Science and Nature:70.
-Gould, S. J., and E. S. Vrba. 1982. Exaptation—a missing term in the science of form. Paleobiology 8:4–15.
-Ohlson, J. I., J. Fjeldsa, and P. G. Ericson. 2013. Molecular phylogeny of the manakins (Aves: Passeriformes: Pipridae), with a new classification and the description of a new genus. Molecular phylogenetics and evolution 69:796–804.
-Walther, B. A. 2003. Why canopy access is essential to understand canopy birds: four examples from the Surumoni Crane Project. Ornitologia Neotropical 15:41–52.
-Snow, D. 1961. The displays of the manakins <em>Pipra pipra</em> and <em>Tyranneutes virescens</em>. Ibis 103:110–113.
-Snow, D. W. 1962. A field study of the Black and White Manakin, <em>Manacus manacus</em>, in Trinidad. WI Zoologica 47:67–104.
-Ellison, A. M., C. J. LeRoy, K. J. Landsbergen, E. Bosanquet, D. B. Borden, P. J. CaraDonna, K. Cheney, R. Crystal‐Ornelas, A. DeFreece, L. Goralnik, E. Irons, B. G. Merkle, K. E. B. O’Connell, C. A. Penick, L. Rustad, M. Schulze, N. M. Waser, and L. M. Wysong. 2018. Art/Science Collaborations: New Explorations of Ecological Systems, Values, and their Feedbacks. The Bulletin of the Ecological Society of America 99:180–191.
-Warner, M. 2012. Queer and then? The Chronicle of Higher Education.
-Gould, S. J., and R. C. Lewontin. 1979. The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme. Proc. R. Soc. Lond. B 205:581–598.
-Broman, K. W., and K. H. Woo. 2018. Data Organization in Spreadsheets. The American Statistician 72:2–10.
-Phillips, R. 2015. Theory in Biology: Figure 1 or Figure 7? Trends in Cell Biology 25:723–729.
-Sanchez, A., and J. Gore. 2013. Feedback between Population and Evolutionary Dynamics Determines the Fate of Social Microbial Populations. PLOS Biology 11:e1001547.
-Hutchinson, G. E. 1959. Homage to Santa Rosalia or Why Are There So Many Kinds of Animals? The American Naturalist 93:145–159.
-Hutchinson, G. E. 1948. Circular Causal Systems in Ecology. Annals of the New York Academy of Sciences 50:221–246.
-Edwards, E. J., and M. J. Donoghue. 2006. Pereskia and the Origin of the Cactus Life-Form. The American Naturalist 167.
-Edwards, E. J., D. S. Chatelet, B.-C. Chen, J. Y. Ong, S. Tagane, H. Kanemitsu, K. Tagawa, K. Teramoto, B. Park, K.-F. Chung, J.-M. Hu, T. Yahara, and M. J. Donoghue. 2017. Convergence, Consilience, and the Evolution of Temperate Deciduous Forests. The American Naturalist 190:S87–S104.
-Ozbudak, E. M., M. Thattai, H. N. Lim, B. I. Shraiman, and A. van Oudenaarden. 2004. Multistability in the lactose utilization network of Escherichia coli. Nature 427:737–740.
-Dai, L., D. Vorselen, K. S. Korolev, and J. Gore. 2012. Generic Indicators for Loss of Resilience Before a Tipping Point Leading to Population Collapse. Science 336:1175–1177.
-Ishiguro, K. 2017. My Twentieth Century Evening - and Other Small Breakthroughs. Nobel Lecture.
-Robinson, J. D., J. W. Simmons, A. S. Williams, and G. R. Moyer. 2013. Population structure and genetic diversity in the endangered bluemask darter (<em>Etheostoma akatulo</em>). Conservation Genetics 14:79–92.
-Layman, S. R., and R. L. Mayden. 2012. Morphological Diversity and Phylogenetics of the Darter Subgenus <em>Doration</em> (Percidae: <em>Etheostoma</em>), with Descriptions of Five New Species. Bulletin of the Alabama Museum of Natural History 30:1–83.
-Bajić, D., J. Vila, Z. Blount, and A. Sanchez. 2018. On the deformability of an empirical fitness landscape by microbial evolution. Proceedings of the National Academy of Sciences:In Press.
-Goldford, J. E., N. Lu, D. Bajic, S. Estrela, M. Tikhonov, A. Sanchez-Gorostiaga, D. Segre, P. Mehta, and A. Sanchez. 2018. Emergent Simplicity in Microbial Community Assembly. Science 361:469–474.
-Kirkpatrick, M., and M. J. Ryan. 1991. The Evolution of Mating Preferences and the Paradox of the Lek. Nature; London 350:33.
-Davis, A. J., M. B. Hooten, M. L. Phillips, and P. F. Doherty. 2014. An integrated modeling approach to estimating Gunnison sage-grouse population dynamics: combining index and demographic data. Ecology and Evolution 4:4247–4257.
-Vasseur, D. A., and J. W. Fox. 2009. Phase-locking and environmental fluctuations generate synchrony in a predator–prey community. Nature 460:1007–1010.
-Kremer, C. T., S. B. Fey, A. A. Arellano, and D. A. Vasseur. 2018. Gradual plasticity alters population dynamics in variable environments: thermal acclimation in the green alga <em>Chlamydomonas reinhartdii</em>. Proceedings of the Royal Society B: Biological Sciences 285:20171942.
-Lieberman, E., J.-B. Michel, J. Jackson, T. Tang, and M. A. Nowak. 2007. Quantifying the evolutionary dynamics of language. Nature 449:713–716.
-Prum, R. O. 2010. The Lande–Kirkpatrick mechanism is the null model of evolution by intersexual selection: implications for meaning, honesty, and design in intersexual signals. Evolution 64:3085–3100.
-Moran, N. A., and T. Jarvik. 2010. Lateral transfer of genes from fungi underlies carotenoid production in aphids. Science 328:624–627.
+Ricklefs, R. E., D. D. Roby, and J. B. Williams. 1986. Daily Energy expenditure by Adult Leach’s Storm-Petrels during the Nesting Cycle. Physiological Zoology 59:649–660.
+Williams, G. C. 1957. Pleiotropy, Natural Selection, and the Evolution of Senescence. Evolution 11:398–411.
+Ashmole, N. P. 1963. The regulation of numbers of tropical oceanic birds. Ibis 103b:458–473.
+Hawkins, G. L., G. E. Hill, and A. Mercadante. 2012. Delayed plumage maturation and delayed reproductive investment in birds. Biological Reviews 87:257–274.
+Kockelman, P. 2011. Biosemiosis, Technocognition, and Sociogenesis: Selection and Significance in a Multiverse of Sieving and Serendipity. Current Anthropology 52:711–739.
 Kockelman, P. 2011. Biosemiosis, Technocognition, and Sociogenesis: Selection and Significance in a Multiverse of Sieving and Serendipity. Current Anthropology 52:711–739.
 Kockelman, P. 2010. Enemies, Parasites, and Noise:How to Take Up Residence in a System Without Becoming a Term in It: Enemies, Parasites, and Noise. Journal of Linguistic Anthropology 20:406–421.
-Patricelli, G. L., E. A. Hebets, and T. C. Mendelson. 2018. Book review of Prum, R. O. 2018. The evolution of beauty: How Darwin’s forgotten theory of mate choice shapes the animal world—and us (2017), Doubleday, 428 pages, ISBN: 9780385537216.
-Losos, J. B., T. R. Jackman, A. Larson, K. de Queiroz, and L. Rodrı́guez-Schettino. 1998. Contingency and determinism in replicated adaptive radiations of island lizards. Science 279:2115–2118.
-Jetz, W., and R. A. Pyron. 2018. The interplay of past diversification and evolutionary isolation with present imperilment across the amphibian tree of life. Nature Ecology & Evolution 2:850–858.
-Quintero, I., and W. Jetz. 2018. Global elevational diversity and diversification of birds. Nature 555:246–250.
-Wilson, A. M., and W. Jetz. 2016. Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions. PLOS Biology 14:e1002415.
-Jetz, W., M. A. McGeoch, R. Guralnick, S. Ferrier, J. Beck, M. J. Costello, M. Fernandez, G. N. Geller, P. Keil, C. Merow, C. Meyer, F. E. Muller, H. M. Pereira, E. C. Regan, D. S. Schmeller, and E. Turak. (n.d.). Essential information for mapping and monitoring of species populations for policy, management, and education:33.
-Boersma, P. D., and N. T. Wheelwright. 1979. Egg neglect in the Procellariiformes: reproductive adaptations in the Fork-tailed Storm-Petrel. The Condor 81:157–165.
-Hedd, A., I. L. Pollet, R. A. Mauck, C. M. Burke, M. L. Mallory, L. A. M. Tranquilla, W. A. Montevecchi, G. J. Robertson, R. A. Ronconi, and D. Shutler. 2018. Foraging areas, offshore habitat use, and colony overlap by incubating Leach’s storm-petrels Oceanodroma leucorhoa in the Northwest Atlantic. PloS one 13:e0194389.
-Huntington, C. E., R. G. Butler, and R. A. Mauck. 1996. Leach’s Storm-Petrel (<em>Oceanodroma leucorhoa</em>). The Birds of North America Online.
-Montevecchi, W. A., I. R. Kirkham, D. D. Roby, and K. L. Brink. 1983. Size, organic composition, and energy content of Leach’s storm-petrel (<em>Oceanodroma leucorhoa</em>) eggs with reference to position in the precocial–altricial spectrum and breeding ecology. Canadian Journal of Zoology 61:1457–1463.
-Montevecchi, W. A., V. L. Birt-Friesen, and D. K. Cairns. 1992. Reproductive energetics and prey harvest of Leach’s storm-petrels in the northwest Atlantic. Ecology 73:823–832.
-Pollet, I. L., R. A. Ronconi, I. D. Jonsen, M. L. Leonard, P. D. Taylor, and D. Shutler. 2014. Foraging movements of Leach’s storm-petrels <em>Oceanodroma leucorhoa</em> during incubation. Journal of Avian Biology 45:305–314.
-Ricklefs, R. E., and W. A. Schew. 1994. Foraging stochasticity and lipid accumulation by nestling petrels. Functional Ecology:159–170.
-Ricklefs, R. E. 1983. Some considerations on the reproductive energetics of pelagic seabirds. Studies in Avian Biology 8:84–94.
-Ricklefs, R. E., D. D. Roby, and J. B. Williams. 1986. Daily Energy expenditure by Adult Leach’s Storm-Petrels during the Nesting Cycle. Physiological Zoology 59:649–660.
-Ricklefs, R. E., S. C. White, and J. Cullen. 1980. Energetics of postnatal growth in Leach’s Storm-Petrel. The Auk 97:566–575.
-Gloria-Soria, A., D. Ayala, A. Bheecarry, O. Calderon-Arguedas, D. D. Chadee, M. Chiappero, M. Coetzee, K. B. Elahee, I. Fernandez-Salas, H. A. Kamal, B. Kamgang, E. I. M. Khater, L. D. Kramer, V. Kramer, A. Lopez-Solis, J. Lutomiah, A. Martins, M. V. Micieli, C. Paupy, A. Ponlawat, N. Rahola, S. B. Rasheed, J. B. Richardson, A. A. Saleh, R. M. Sanchez-Casas, G. Seixas, C. A. Sousa, W. J. Tabachnick, A. Troyo, and J. R. Powell. 2016. Global genetic diversity of <em>Aedes aegypti</em>. Molecular Ecology 25:5377–5395.
-Powell, J. R., A. Gloria-Soria, and P. Kotsakiozi. 2018. Recent History of <em>Aedes aegypti</em>: Vector Genomics and Epidemiology Records. BioScience 68:854–860.
-Powell, J. R., and W. J. Tabachnick. 2014. Genetic shifting: a novel approach for controlling vector-borne diseases. Trends in Parasitology 30:282–288.
-Scholes, E. 2008a. Courtship ethology of Wahnes’ parotia <em>Parotia wahnesi</em> (Aves: Paradisaeidae). Journal of Ethology 26:79–91.
-Scholes, E. 2008b. Structure and composition of the courtship phenotype in the bird of paradise Parotia lawesii (Aves: Paradisaeidae). Zoology 111:260–278.
-Scholes III, E. 2006. Courtship ethology of Carola’s Parotia (<em>Parotia carolae</em>). The Auk 123:967–990.
-Scholes Iii, E. 2008. Evolution of the courtship phenotype in the bird of paradise genus <em>Parotia</em> (Aves: Paradisaeidae): homology, phylogeny, and modularity. Biological Journal of the Linnean Society 94:491–504.
-Bonduriansky, R., and S. F. Chenoweth. 2009. Intralocus sexual conflict. Trends in ecology & evolution 24:280–288.
-Kokko, H., A. Chaturvedi, D. Croll, M. C. Fischer, F. Guillaume, S. Karrenberg, B. Kerr, G. Rolshausen, and J. Stapley. 2017. Can evolution supply what ecology demands? Trends in ecology & evolution 32:187–197.
-Mokkonen, M., E. Koskela, T. Procyshyn, and B. Crespi. 2018. Socio-Reproductive Conflicts and the Father’s Curse Dilemma. The American Naturalist 192:250-262.
-Eliason, C. M. 2018. How do complex animal signals evolve? PLOS Biology 16:e3000093.
-Ligon, R. A., C. D. Diaz, J. L. Morano, J. Troscianko, M. Stevens, A. Moskeland, T. G. Laman, and E. Scholes III. 2018. Evolution of correlated complexity in the radically different courtship signals of birds-of-paradise. PLOS Biology 16:e2006962.
-Staver, A. C., S. Archibald, and S. Levin. 2011. Tree cover in sub-Saharan Africa: Rainfall and ﬁre constrain forest and savanna as alternative stable states. Ecology 92:10.
-Staver, A. C. 2018. Prediction and scale in savanna ecosystems. New Phytologist 219:52–57.
-Prum, R. O., and L. Samuelson. 2012. The Hairy–Downy Game: A model of interspecific social dominance mimicry. Journal of Theoretical Biology 313:42–60.
-Prum, R. O. 2014. Interspecific social dominance mimicry in birds: Social Mimicry in Birds. Zoological Journal of the Linnean Society 172:910–941.
-Prum, R. O., and L. Samuelson. 2016. Mimicry Cycles, Traps, and Chains: The Coevolution of Toucan and Kiskadee Mimicry. The American Naturalist 187:753–764.
-Wilson, H. R. 1990. Physiological requirements of the developing embryo: temperature and turning. Avian incubation.:145–156.
-Haftorn, S. 1988. Incubating Female Passerines Do Not Let the Egg Temperature Fall below the “Physiological Zero Temperature” during Their Absences from the Nest. Ornis Scandinavica (Scandinavian Journal of Ornithology) 19:97–110.
-Fry, S., and B. Challacombe. 2019. Both sides of the scalpel: the patient and the surgeon view. Nature Reviews Urology:1.
-Gupta, K., J. Afzal, J. D. Maziarz, A. Hamidzadeh, C. Liang, E. M. Erkenbrack, H. Nam, J.-D. Haeger, C. Pfarrer, T. Hoang, T. Ott, T. Spencer, M. Pavlicev, D. Antczak, A. Levchenko, and G. P. Wagner. 2019. The Evolution of Placental Invasion and Cancer Metastasis are Causally Linked. bioRxiv:528646.
-Liang, C., J. M. Musser, A. Cloutier, R. O. Prum, and G. P. Wagner. 2018. Pervasive Correlated Evolution in Gene Expression Shapes Cell and Tissue Type Transcriptomes. Genome Biology and Evolution 10:538–552.
-Dowling, D. K., and L. W. Simmons. 2009. Reactive oxygen species as universal constraints in life-history evolution. Proceedings of the Royal Society B: Biological Sciences 276:1737–1745.
-Ricklefs, R. E., and M. Wikelski. 2002. The physiology/life-history nexus. Trends in Ecology & Evolution 17:462–468.
-Devine, J. A., P. J. Wright, H. E. Pardoe, and M. Heino. 2012. Comparing rates of contemporary evolution in life-history traits for exploited fish stocks. Canadian Journal of Fisheries and Aquatic Sciences 69:1105–1120.
-Siegel, J., M. Adkison, and M. McPhee. 2018. Changing maturation reaction norms and the effects of growth history in Alaskan Chinook salmon. Marine Ecology Progress Series 595:187–202.
-Martin, T. E. 2015. Age-related mortality explains life history strategies of tropical and temperate songbirds. Science 349:966–970.
-Kindsvater, H. K., and S. P. Otto. 2014. The Evolution of Offspring Size across Life-History Stages. The American Naturalist 184:543–555.
-Marshall, D. J., A. K. Pettersen, and H. Cameron. 2018. A global synthesis of offspring size variation, its eco-evolutionary causes and consequences. Functional Ecology 32:1436–1446.
-Stearns, S. C. 2000. Daniel Bernoulli (1738): evolution and economics under risk. Journal of Biosciences 25:221–228.
-Byars, S. G., Q. Q. Huang, L.-A. Gray, A. Bakshi, S. Ripatti, G. Abraham, S. C. Stearns, and M. Inouye. 2017. Genetic loci associated with coronary artery disease harbor evidence of selection and antagonistic pleiotropy. PLOS Genetics 13:e1006328.
-Corbett, S., A. Courtiol, V. Lummaa, J. Moorad, and S. Stearns. 2018. The transition to modernity and chronic disease: mismatch and natural selection. Nature Reviews Genetics 19:419–430.
-Bernoulli, D. 1954. Exposition of a New Theory on the Measurement of Risk. Econometrica 22:23.
-Hawkins, G. L., G. E. Hill, and A. Mercadante. 2012. Delayed plumage maturation and delayed reproductive investment in birds. Biological Reviews 87:257–274.
-Austad, S. N., and J. M. Hoffman. 2018. Is antagonistic pleiotropy ubiquitous in aging biology? Evolution, Medicine, and Public Health 2018:287–294.
-Van Dooren, T. J. M., and I. Varela-Lasheras. 2018. Embryonal life histories: Desiccation plasticity and diapause in the Argentinean pearlfish Austrolebias bellottii. Ecology and Evolution 8:11246–11260.
-Gremer, J. R., and D. L. Venable. 2014. Bet hedging in desert winter annual plants: optimal germination strategies in a variable environment. Ecology Letters 17:380–387.
-Gaillard, J.-M., and J.-F. Lemaître. 2017. The Williams’ legacy: A critical reappraisal of his nine predictions about the evolution of senescence: THE WILLIAMS’ LEGACY. Evolution 71:2768–2785.
-Williams, G. C. 1957. Pleiotropy, Natural Selection, and the Evolution of Senescence. Evolution 11:398–411.
-Ashmole, N. P. 2008. THE REGULATION OF NUMBERS OF TROPICAL OCEANIC BIRDS. Ibis 103b:458–473.
-Metz, J. A., R. M. Nisbet, and S. A. Geritz. 1992. How should we define ‘fitness’ for general ecological scenarios? Trends in Ecology & Evolution 7:198–202.
-Austad, S. N., and J. M. Hoffman. 2018. Is antagonistic pleiotropy ubiquitous in aging biology? Evolution, Medicine, and Public Health 2018:287–294.
-Charnov, E. L., R. L. Los-den Hartogh, W. T. Jones, and J. Van den Assem. 1981. Sex ratio evolution in a variable environment. Nature 289:27.
-Benvenuto, C., I. Coscia, J. Chopelet, M. Sala-Bozano, and S. Mariani. 2017. Ecological and evolutionary consequences of alternative sex-change pathways in fish. Scientific reports 7:9084.
-Komdeur, J., M. J. Magrath, and S. Krackow. 2002. Pre-ovulation control of hatchling sex ratio in the Seychelles warbler. Proceedings of the Royal Society of London. Series B: Biological Sciences 269:1067–1072.
-Trivers, R. L., and D. E. Willard. 1973. Natural selection of parental ability to vary the sex ratio of offspring. Science 179:90–92.
-Schindler, S., J.-M. Gaillard, A. Grüning, P. Neuhaus, L. W. Traill, S. Tuljapurkar, and T. Coulson. 2015. Sex-specific demography and generalization of the Trivers–Willard theory. Nature 526:249.
-Koziowski, J., and J. Weiner. 1997. Interspecific Allometries Are by-Products of Body Size Optimization. The American Naturalist 149:352–380.
-Hawkes, K., J. F. O’Connell, N. G. B. Jones, H. Alvarez, and E. L. Charnov. 1998. Grandmothering, menopause, and the evolution of human life histories. Proceedings of the National Academy of Sciences 95:1336–1339.
-Nettle, D., and W. E. Frankenhuis. 2019. The evolution of life history theory: Bibliometric analysis of an interdisciplinary research area. preprint, Evolutionary Biology.
-Brown, L. J., and R. Sear. 2017. Local environmental quality positively predicts breastfeeding in the UK’s Millennium Cohort Study. Evolution, Medicine, and Public Health 2017:120–135.
-Reznick, D. N., R. D. Bassar, J. Travis, and F. Helen Rodd. 2012. LIFE-HISTORY EVOLUTION IN GUPPIES VIII: THE DEMOGRAPHICS OF DENSITY REGULATION IN GUPPIES (POECILIA RETICULATA): LIFE-HISTORY EVOLUTION IN GUPPIES VIII. Evolution 66:2903–2915.
-Kokko, H., and A. López-Sepulcre. 2007. The ecogenetic link between demography and evolution: can we bridge the gap between theory and data? Ecology Letters 10:773–782.
-Kockelman, P. 2013. The anthropology of an equation: Sieves, spam filters, agentive algorithms, and ontologies of transformation. HAU: Journal of Ethnographic Theory 3:33–61.
-Deleuze, G., and R. Krauss. 1983. Plato and the Simulacrum. October 27:45.
-Leach, A. G., J. S. Sedinger, T. V. Riecke, A. W. Van Dellen, D. H. Ward, and W. S. Boyd. 2019. Brood Size Affects Future Reproduction in a Long-Lived Bird with Precocial Young. The American Naturalist 193:458–471.
-Hauerwas, S. 1995. Preaching as Though We Had Enemies. First Things 53.
-van Noordwijk, A. J., and G. de Jong. 1986. Acquisition and Allocation of Resources: Their Influence on Variation in Life History Tactics. The American Naturalist 128:137–142.
-Stearns, S. C., and J. C. Koella. 1986. The evolution of phenotypic plasticity in life-history traits: predictions of reaction norms for age and size at maturity. Evolution 40:893–913.
-Williams, G. C. 1966. Natural Selection, the Costs of Reproduction, and a Refinement of Lack’s Principle. The American Naturalist 100:687–690.
-Desprez, M., O. Gimenez, C. R. McMahon, M. A. Hindell, and R. G. Harcourt. 2018. Optimizing lifetime reproductive output: Intermittent breeding as a tactic for females in a long-lived, multiparous mammal. Journal of Animal Ecology 87:199–211.
-Stearns, S. C., and T. J. Kawecki. 1994. Fitness sensitivity and the canalization of life-history traits. Evolution 48:1438–1450.
 Reznick, D., L. Nunney, and A. Tessier. 2000. Big houses, big cars, superfleas and the costs of reproduction. Trends in Ecology & Evolution 15:421–425.
-Milot, E., F. M. Mayer, D. H. Nussey, M. Boisvert, F. Pelletier, and D. Reale. 2011. Evidence for evolution in response to natural selection in a contemporary human population. Proceedings of the National Academy of Sciences 108:17040–17045.
-Walsh, J., B. T. Griffin, G. Clarke, and N. P. Hyland. 2018. Drug-gut microbiota interactions: implications for neuropharmacology: Drug-Gut Microbiota Interactions. British Journal of Pharmacology 175:4415–4429.
-Hey, J. 2011. Regarding the Confusion between the Population Concept and Mayr’s “Population Thinking.” The Quarterly Review of Biology 86:253–264.
-Schulman, C. I., N. Namias, J. Doherty, R. J. Manning, P. Li, A. Elhaddad, D. Lasko, J. Amortegui, C. J. Dy, L. Dlugasch, G. Baracco, and S. M. Cohn. 2005. The Effect of Antipyretic Therapy upon Outcomes in Critically Ill Patients: A Randomized, Prospective Study. Surgical Infections 6:369–375.
-Janoff, A. S., L. T. Boni, M. C. Popescu, S. R. Minchey, P. R. Cullis, T. D. Madden, T. Taraschi, S. M. Gruner, E. Shyamsunder, and M. W. Tate. 1988. Unusual lipid structures selectively reduce the toxicity of amphotericin B. Proceedings of the National Academy of Sciences 85:6122–6126.
+Prum, R. O. 2010. The Lande–Kirkpatrick mechanism is the null model of evolution by intersexual selection: implications for meaning, honesty, and design in intersexual signals. Evolution 64:3085–3100.
+Lande, R. 1981. Models of speciation by sexual selection on polygenic traits. Proceedings of the National Academy of Sciences 78:3721–3725.
+Uyeda, J. C., R. Zenil-Ferguson, and M. W. Pennell. 2018. Rethinking phylogenetic comparative methods. Systematic Biology 67:1091–1109.
+Tinbergen, N. 1963. On aims and methods of ethology. Zeitschrift für tierpsychologie 20:410–433.
+McDonald, D. B. 1993. Delayed Plumage Maturation and Orderly Queues for Status: A Manakin Mannequin Experiment. Ethology 94:31–45.
+Doucet, S. M., D. B. McDonald, M. S. Foster, and R. P. Clay. 2007. Plumage development and molt in Long-tailed Manakins (Chiroxiphia linearis): variation according to sex and age. The Auk 124:29–43.
+Haraway, D. 1988. Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective. Feminist Studies 14:575–599.
