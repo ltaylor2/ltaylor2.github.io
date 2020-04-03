@@ -25,7 +25,7 @@ function(papersListRaw)
 	for (var i = papersList.length; i > 0; i--) {
 		let paper = papersList[i];
 		if (paper && paper != "") {
-			p = arrangeLink(paper);
+			let p = arrangeLink(paper);
 			// let p = document.createElement("p");
 			// p.classList.add("citation");
 			// p.innerHTML = paper;
