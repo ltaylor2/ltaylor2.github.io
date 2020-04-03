@@ -1,7 +1,7 @@
 $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/papers_list.txt",
 function(papersListRaw) 
 {
-
+	var fs = require('fs');
 	var paperFiles = fs.readdirSync("./Media/Papers/");
 
 	findPaperLink = function(author, year) {
