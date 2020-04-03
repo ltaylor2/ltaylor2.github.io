@@ -15,9 +15,10 @@ function(papersListRaw)
 		a.innerHTML = year;
 
 		let p = document.createElement("p");
+		p.classList.add("citation");
 		p.innerHTML = citation.substring(0, citation.indexOf(year)) + a + citation.substring(citation.indexOf(year) + year.length - 1);
 
-		return a;
+		return p;
 	}
 
 	var papersList = papersListRaw.split("\n");
