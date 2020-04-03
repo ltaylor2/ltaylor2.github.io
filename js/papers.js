@@ -1,6 +1,13 @@
 $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/papers_list.txt",
 function(papersListRaw) 
 {
+	
+	arrangeLink = function(citation) {
+		let firstAuthor = citation.split(',')[0];
+		let year = citation.match(/^\d+|\d+\b|\d+(?=\w)/g)[1];
+
+	}
+
 	var papersList = papersListRaw.split("\n");
 
 	for (var i = papersList.length; i > 0; i--) {
