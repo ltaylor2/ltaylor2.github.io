@@ -10,8 +10,12 @@ function(papersListRaw)
 
 		let a = document.createElement("a");
 		a.href = filePath;
-		a.classList.add("citation");
-		a.innerHTML = citation;
+		a.classList.add("link");
+		a.target = "_blank";
+		a.innerHTML = year;
+
+		let p = document.createElement("p");
+		p.innerHTML = citation.substring(0, citation.indexOf(year)) + a + citation.substring(citation.indexOf(year) + year.length - 1);
 
 		return a;
 	}
