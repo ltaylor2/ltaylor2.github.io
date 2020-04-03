@@ -6,10 +6,10 @@ function(papersListRaw)
 		let firstAuthor = citation.split(',')[0];
 		let year = citation.match(/^\d+|\d+\b|\d+(?=\w)/g)[0];
 
-		filePath = findPaperLink(firstAuthor, year);
+		let filePath = "./Media/Papers/" + firstAuthor + " " + year + ".pdf";
 
 		let a = document.createElement("a");
-		a.href = "./Media/Papers/" + firstAuthor + " " + year + ".pdf";
+		a.href = filePath;
 		a.classList.add("citation");
 		a.innerHTML = citation;
 
