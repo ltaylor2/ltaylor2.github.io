@@ -89,6 +89,11 @@ td.date {
 	padding-left: 2em;
 }
 
+.link {
+	color: rgba(73, 56, 41, 1);
+	font-weight: bold;
+}
+
 .cv-header {
 	font-family: "Gill Sans";
 	font-size: 20px;
