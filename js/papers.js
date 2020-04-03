@@ -1,28 +1,6 @@
 $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/papers_list.txt",
 function(papersListRaw) 
 {
-	var fs = require('fs');
-	var paperFiles = fs.readdirSync("./Media/Papers/");
-
-	findPaperLink = function(author, year) {
-
-		var firstMatches = [];
-		for (var i=0; i<paperFiles.length; i++) {
-			if (paperFiles[i].match(author))
-				firstMatches.push(i);
-		}	
-
-		var jointMatches = [];
-		for (var j=0; j<firstMatches.length; j++) {
-			if (paperFiles[firstMatches[j]].match(year)) {
-				jointMatches.push(firstMatches[j]);
-			}
-		}
-
-		paperFile = paperFiles[jointMatches[0]];
-
-		return "./Media/Papers/" + paperFile;
-	}
 
 	arrangeLink = function(citation) {
 		let firstAuthor = citation.split(',')[0];
@@ -31,7 +9,7 @@ function(papersListRaw)
 		filePath = findPaperLink(firstAuthor, year);
 
 		let a = document.createElement("a");
-		a.href = filePath;
+		a.href = "./Media/Papers/" + firstAuthor + " " + year + ".pdf";
 		a.classList.add("citation");
 		a.innerHTML = citation;
 
