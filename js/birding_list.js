@@ -63,7 +63,7 @@ Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(functi
 					"count":4, 
 					"state":5, 
 					"county":6,
-					"locationID":7
+					"locationID":7,
 					"location":8,
 					"latitude":9,
 					"longitude":10,
