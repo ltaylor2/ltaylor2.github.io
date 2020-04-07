@@ -62,21 +62,23 @@ Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(functi
 					"order":3, 
 					"count":4, 
 					"state":5, 
-					"country":6,
-					"location":7,
-					"latitude":8,
-					"longitude":9,
-					"date":10,
-					"time":11, 
-					"protocol":12, 
-					"duration":13, 
-					"allReported":14, 
-					"distance":15, 
-					"area":16,
-					"numObservers":17, 
-					"breedingCode":18, 
-					"spComments":19, 
-					"clComments":20};
+					"county":6,
+					"locationID":7
+					"location":8,
+					"latitude":9,
+					"longitude":10,
+					"date":11,
+					"time":12, 
+					"protocol":13, 
+					"duration":14, 
+					"allReported":15, 
+					"distance":16, 
+					"area":17,
+					"numObservers":18, 
+					"breedingCode":19, 
+					"spComments":20, 
+					"clComments":21,
+					"mlNumber":22};
 
 	var scientificByCommon = {};
 	var counts = {};
@@ -108,6 +110,8 @@ Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(functi
 			counts[common] += count;
 			locations[common].push(location);
 		}
+
+		console.log(locations)
 	}
 
 	// extracting has-image list from GitHub API metadata
@@ -225,8 +229,6 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	  		var lat = parseFloat(latlons[l][0]);
 	  		var lon = parseFloat(latlons[l][1]);
 	  		
-	  		console.log(lat);
-
 	  		if (isNaN(lon) || isNaN(lat)) { continue; }
 	  		
 	  		var coord = ol.proj.fromLonLat([lon, lat]);
