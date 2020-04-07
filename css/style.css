@@ -104,8 +104,8 @@ td.date {
     padding-top: 8px;
     padding-bottom: 4px;
     border: none;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
     color: black;
     background: white;
 }
@@ -325,10 +325,10 @@ td.date {
 }
 
 .book-cover {
-	display: inline;
+	display: inline-block;
 	float: left;
-	border: 3px solid black;
-	margin: 4px;
+	border: 2px solid black;
+	margin: 2px;
 	width: 60px;
 	height: 100px;
 }
@@ -341,7 +341,7 @@ td.date {
 	padding-bottom: 12px;
 	padding-left: 12px;
 	padding-right: 12px;
-	border: 0px solid black;
+	border: 2px solid black;
 	background: white;
 	overflow: hidden;
 	z-index: 3;
