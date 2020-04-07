@@ -170,6 +170,7 @@ Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(functi
 		fT.style.background = "white";
 	});
 
+	map.getView();
 });
 
 
@@ -218,7 +219,6 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	}
 
 	spButton.addEventListener("click", function() {
-		map.getView();
 		let common = this.innerText;
 	  	map.removeLayer(heatMapLayer);
 		let heatData = new ol.source.Vector();
