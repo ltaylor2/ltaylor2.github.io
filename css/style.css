@@ -320,8 +320,8 @@ td.date {
 	float: left;
 	border: 2px solid black;
 	margin: 2px;
-	width: 100px;
-	height: 100px;
+	width: 60px;
+	height: 60px;
 }
 
 .book-cover {
@@ -329,8 +329,8 @@ td.date {
 	float: left;
 	border: 2px solid black;
 	margin: 2px;
-	width: 100px;
-	height: 160px;
+	width: 60px;
+	height: 100px;
 }
 
 #title-bar {
