@@ -239,8 +239,9 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	  	heatMapLayer = new ol.layer.Heatmap({
 	  		source: heatData,
 	  		opacity: 0.5,
-	  		visible: true
 	  	});
+
+	  	console.log(heatData);
 
 	  	map.addLayer(heatMapLayer);
 
