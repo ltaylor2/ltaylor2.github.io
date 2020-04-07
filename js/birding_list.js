@@ -385,8 +385,6 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 			  	rightColumn.style.visibility = "visible";
 			  	rightColumn.style.zIndex = "2";
 
-	  		  	map.getView().centerOn([0,0], [1,1], [0,0])
-
 			  	let backgroundList = document.getElementById("order-list");
 			  	backgroundList.style.display = "none";
 
