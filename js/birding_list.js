@@ -170,7 +170,7 @@ Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(functi
 		fT.style.background = "white";
 	});
 
-	map.getView();
+  	map.getView().centerOn([-76.3, 38], [1,1], [0,0])
 });
 
 
