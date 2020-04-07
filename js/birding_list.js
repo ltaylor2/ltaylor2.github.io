@@ -239,10 +239,10 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	  	heatMapLayer = new ol.layer.Heatmap({
 	  		source: heatData,
 	  		opacity: 0.5,
+	  		visible: true
 	  	});
 
 	  	map.addLayer(heatMapLayer);
-	  	map.getView().centerOn(centerCoord, [1,1], [0,0]);
 
 	  	let label = document.getElementById("species-labelBox");
 	  	$(label).empty();
