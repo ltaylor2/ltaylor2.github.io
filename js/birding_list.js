@@ -110,8 +110,6 @@ Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(functi
 			counts[common] += count;
 			locations[common].push(location);
 		}
-
-		console.log(locations)
 	}
 
 	// extracting has-image list from GitHub API metadata
