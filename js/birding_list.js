@@ -224,6 +224,9 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	  	for (var l = 0; l < latlons.length; l++) {
 	  		var lat = parseFloat(latlons[l][0]);
 	  		var lon = parseFloat(latlons[l][1]);
+	  		
+	  		console.log(lat);
+
 	  		if (isNaN(lon) || isNaN(lat)) { continue; }
 	  		
 	  		var coord = ol.proj.fromLonLat([lon, lat]);
@@ -240,8 +243,6 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	  		source: heatData,
 	  		opacity: 0.5,
 	  	});
-
-	  	console.log(heatData);
 
 	  	map.addLayer(heatMapLayer);
 
