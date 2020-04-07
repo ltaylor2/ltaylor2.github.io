@@ -16,5 +16,8 @@ var map = new ol.Map({
 	})
 });
 
-heatMapLayer = new ol.layer.Heatmap();
+heatMapLayer = new ol.layer.Heatmap() ({
+	visible: false;
+});
+
 map.addLayer(heatMapLayer);
