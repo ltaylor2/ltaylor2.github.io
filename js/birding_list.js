@@ -169,8 +169,6 @@ Promise.all([prom_Obs, prom_Orders, prom_Families, prom_hasImgList]).then(functi
 		fT.innerText = familyTotal;
 		fT.style.background = "white";
 	});
-
-  	map.getView().centerOn([-76.3, 38], [1,1], [0,0])
 });
 
 
@@ -387,6 +385,8 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 			  	rightColumn.style.visibility = "visible";
 			  	rightColumn.style.zIndex = "2";
 
+	  		  	map.getView().centerOn([0,0], [1,1], [0,0])
+
 			  	let backgroundList = document.getElementById("order-list");
 			  	backgroundList.style.display = "none";
 
@@ -400,7 +400,6 @@ function makeFamilyList(order, familiesByOrder, families, spButtonsByFamily, ove
 		}
 		fL.append(familyHeader);
 	}
-	// TODO need to return noSightings value in array?
 	return {familyList: fL, noSightings: noS};
 }
 
