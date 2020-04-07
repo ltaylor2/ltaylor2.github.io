@@ -244,8 +244,6 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	  	map.addLayer(heatMapLayer);
 	  	map.getView().centerOn(centerCoord, [1,1], [0,0]);
 
-	  	console.log(centerCoord);
-
 	  	let label = document.getElementById("species-labelBox");
 	  	$(label).empty();
 
