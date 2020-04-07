@@ -218,6 +218,7 @@ function makeSpButton(common, latlons, scientific, imgLink)
 	}
 
 	spButton.addEventListener("click", function() {
+		map.getView();
 		let common = this.innerText;
 	  	map.removeLayer(heatMapLayer);
 		let heatData = new ol.source.Vector();
