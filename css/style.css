@@ -116,7 +116,7 @@ td.date {
 }
 
 .cv-header.#last {
-	border-bottom: 1px solid black;
+	border-bottom: 0px solid black;
 }
 
 .cv-header-active {
@@ -195,7 +195,7 @@ td.date {
     border: none;
     border-top: 1px solid black;
     border-bottom: none;
-    color: lightgray;
+    color: gray;
     background: white;
 }
 
@@ -329,8 +329,8 @@ td.date {
 	float: left;
 	border: 6px solid black;
 	margin: 4px;
-	width: 125px;
-	height: 200px;
+	width: 60px;
+	height: 100px;
 }
 
 #title-bar {
@@ -352,8 +352,8 @@ td.date {
 	width: 100%;
 	top: 0;
 	left: 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 0px solid black;
+	border-bottom: 0px solid black;
 	padding-top: 16px;
 	padding-bottom: 16px;
 	z-index: 3;
