@@ -316,10 +316,10 @@ td.date {
 }
 
 .album-art {
-	display: inline;
+	display: inline-block;
 	float: left;
-	border: 6px solid black;
-	margin: 4px;
+	border: 2px solid black;
+	margin: 2px;
 	width: 100px;
 	height: 100px;
 }
