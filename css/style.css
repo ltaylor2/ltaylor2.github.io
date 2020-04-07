@@ -195,7 +195,7 @@ td.date {
     border: none;
     border-top: 1px solid black;
     border-bottom: none;
-    color: gray;
+    color: lightgray;
     background: white;
 }
 
@@ -327,7 +327,7 @@ td.date {
 .book-cover {
 	display: inline;
 	float: left;
-	border: 6px solid black;
+	border: 3px solid black;
 	margin: 4px;
 	width: 60px;
 	height: 100px;
@@ -341,7 +341,7 @@ td.date {
 	padding-bottom: 12px;
 	padding-left: 12px;
 	padding-right: 12px;
-	border: 2px solid black;
+	border: 0px solid black;
 	background: white;
 	overflow: hidden;
 	z-index: 3;
@@ -352,8 +352,8 @@ td.date {
 	width: 100%;
 	top: 0;
 	left: 0;
-	border-top: 0px solid black;
-	border-bottom: 0px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	padding-top: 16px;
 	padding-bottom: 16px;
 	z-index: 3;
@@ -690,15 +690,15 @@ td.date {
 
 #books::-webkit-scrollbar {
 	display: block;
-	padding:auto;
+	padding: auto;
 }
 
 #book-list {
 	list-style-type: none;
 	width: 40%;
-    	text-align: center;
-    	padding: 30%;
-    	padding-top: 0;
+    text-align: center;
+    padding: 10%;
+    padding-top: 0;
 }
 
 #semiotics-content {
