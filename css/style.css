@@ -429,15 +429,14 @@ td.date {
 }
 
 #cv-full {
-	border: 1px solid black;
-	width: 90%;
+	width: 80%;
 	height: 600px;
 	max-width: 1500px;
 	margin-top: 150px;
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-top: 10px;
-	padding-bottom: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 0;
+	padding-bottom: 0;
 	background: white;
 }
 
