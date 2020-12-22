@@ -16,7 +16,9 @@ function(papersListRaw)
 
 		let p = document.createElement("p");
 		p.classList.add("citation");
-		p.innerHTML = citation.substring(0, citation.indexOf(year)) + a.outerHTML + citation.substring(citation.indexOf(year) + year.length);
+    if (!citation.includes("</a>")) {
+  	   p.innerHTML = citation.substring(0, citation.indexOf(year)) + a.outerHTML + citation.substring(citation.indexOf(year) + year.length);
+    }
 
 		return p;
 	}
