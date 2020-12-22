@@ -3,6 +3,14 @@ function(papersListRaw)
 {
 
 	arrangeLink = function(citation) {
+    let p = document.createElement("p");
+
+    if (citation.includes("</a>")) {
+      	p.classList.add("citation");
+		    p.innerHTML = citation;
+		    return p;
+    }
+
 		let firstAuthor = citation.split(',')[0];
 		let year = citation.match(/^\d+|\d+\b|\d+(?=\w)/g)[0];
 
@@ -14,11 +22,8 @@ function(papersListRaw)
 		a.target = "_blank";
 		a.innerHTML = year;
 
-		let p = document.createElement("p");
 		p.classList.add("citation");
-    if (!citation.includes("</a>")) {
-  	   p.innerHTML = citation.substring(0, citation.indexOf(year)) + a.outerHTML + citation.substring(citation.indexOf(year) + year.length);
-    }
+		p.innerHTML = citation.substring(0, citation.indexOf(year)) + a.outerHTML + citation.substring(citation.indexOf(year) + year.length);
 
 		return p;
 	}
