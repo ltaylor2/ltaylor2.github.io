@@ -1,5 +1,5 @@
 $.get("https://raw.githubusercontent.com/ltaylor2/ltaylor2.github.io/master/Media/papers_list.txt",
-function(papersListRaw) 
+function(papersListRaw)
 {
 
 	arrangeLink = function(citation) {
@@ -23,7 +23,7 @@ function(papersListRaw)
 
 	var papersList = papersListRaw.split("\n");
 
-	for (var i = papersList.length; i > 0; i--) {
+	for (var i = papersList.length; i >= 0; i--) {
 		let paper = papersList[i];
 		if (paper && paper != "") {
 			let p = arrangeLink(paper);
