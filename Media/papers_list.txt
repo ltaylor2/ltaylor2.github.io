@@ -19,5 +19,5 @@ Graves, J. L. 2019. African Americans in evolutionary science: where we have bee
 Prum, R. O., and J. Dyck. 2003. A hierarchical model of plumage: morphology, development, and evolution. Journal of Experimental Zoology Part B: Molecular and Developmental Evolution 298:73–90.
 Fink, W. L. 1982. The conceptual relationship between ontogeny and phylogeny. Paleobiology 8:254–264.
 Stearns, S. C. 1982. The role of development in the evolution of life histories. Pages 237–258 Evolution and Development. Springer.
-Villavicencio, K. C. <a href=https://www.nytimes.com/2020/11/07/opinion/sunday/immigration-trump-biden-election.html>2020</a>. Stephen Miller Will Have Some Free Time Soon. The New York Times.
+Villavicencio, K. C. <a href="https://www.nytimes.com/2020/11/07/opinion/sunday/immigration-trump-biden-election.html">2020</a>. Stephen Miller Will Have Some Free Time Soon. The New York Times.
 Barad, K. 2010. Quantum entanglements and hauntological relations of inheritance: Dis/continuities, spacetime enfoldings, and justice-to-come. Derrida Today 3:240–268.
