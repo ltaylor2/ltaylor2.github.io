@@ -223,7 +223,7 @@ td.date {
 	list-style-type: none;
 	padding-left: 0;
 }
- 
+
 .species {
 	font-family: "Gill Sans";
 	font-size: 15px;
@@ -338,7 +338,7 @@ td.date {
 #about-name {
 	font-size: 30px;
 	text-transform: uppercase;
-	text-align: center;	
+	text-align: center;
 	margin: 0;
 	padding-top: 10px;
 	padding-bottom: 1px;
@@ -498,7 +498,7 @@ td.date {
   	display: inline-block;
   	vertical-align: bottom;
   	font-size: 18px;
-  	-webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+  	-webkit-animation: ellipsis steps(4,end) 900ms infinite;
   	animation: ellipsis steps(4,end) 900ms infinite;
   	content: "\2026";
   	width: 0px;
@@ -506,17 +506,17 @@ td.date {
 
 @keyframes ellipsis {
   to {
-    width: 1.25em;    
+    width: 1.25em;
   }
 }
 
 @-webkit-keyframes ellipsis {
   to {
-    width: 1.25em;    
+    width: 1.25em;
   }
 }
 
-#photo-legend { 
+#photo-legend {
 	background: rgba(124, 191, 134, 0.5);
 	border: 1px solid black;
 	padding-top: 3px;
@@ -547,7 +547,7 @@ td.date {
 	display: block;
 	border: 1px solid black;
 	overflow-y: scroll;
-	height: 638px;
+	height: 578px;
 	margin-bottom: 30px;
 	background: lightgray;
 }
@@ -575,13 +575,13 @@ td.date {
 	display: block;
 	margin: 0;
 	padding: 0;
-	text-align: center;	
+	text-align: center;
 }
 
 #music {
 	position: relative;
 	width: 330px;
-	height: 280px;
+	height: 220px;
 	margin: auto;
 	border: 1px solid black;
 	overflow-y: scroll;
